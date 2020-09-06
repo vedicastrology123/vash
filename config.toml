@@ -1,4 +1,6 @@
-baseURL = "http://localhost:1313"
+#baseURL = "http://localhost:1313"
+baseURL = "https://epic-khorana-cccd33.netlify.app/"
+
 languageCode = "en-us"
 title = "Vedic Astrology"
 theme="casper"
