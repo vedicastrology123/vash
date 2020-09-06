@@ -1,0 +1,102 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "Vedic Astrology"
+theme="casper"
+paginate = 5
+#DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "Copyright 2014 stevehora.com - All rights reserved - "
+canonifyurls = true
+
+[params]
+  description = "Steve Hora"
+  terms = "Terms, Privacy"
+  refund = "Refund Policy"
+  information = "Your Destiny Your Success"
+  cover = "/images/planets.gif" # Homepage cover
+  logo = "/images/shrichakra.png"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  author = "Steve Hora"
+  #authorlocation = "SFO, USA"
+  #authorwebsite = "https://stevehora.com"
+  #authorbio= "Vedic Astrology Expert"
+  googleAnalyticsUserID = "UA-1341906-9"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  #RSSLink = "http://feeds.feedburner.com/..."
+  facebookName = 'vedicastrology123'
+  twitterName = '@AstrologyOrbit'
+  #instagramName = 'https://www.facebook.com/vedicastrology123'
+  #pinterestName = 'https://www.facebook.com/vedicastrology123'
+  linkedinName = 'steve-hora-vedic-astrologer'
+  email = 'steve@stevehora.com'
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+  mobile = "[Telegram Chat](/articles/telegram/)"
+  #mobile1 = "[Chat group](https://chat?Hdj8MZOaSFnKlX43JBebvN)"
+
+
+  [params.social]
+    twitter = "your_twitter"
+
+[permalinks]
+    post = '/:year/:month/:slug/' # Wordpress style
+# Define the default author
+[author]
+    name = "Jonn Doe"
+    bio = "The most uninteresting man in the world."
+    location = "Normal, IL"
+    website = "http://example.com"
+    thumbnail = "/avatars/john.png"
+#[params]
+    # Social links on the homepage
+
+    ampElements = ["amp-accordion","amp-analytics", "amp-sidebar"] # AMP elements loaded on every page
+    themeColor = "green" # Browser bar color
+
+
+# Where can we share?
+#[params.share]
+#    twitter = true
+    #gplus = true
+    #pinterest = true
+    #facebook = true
+	#linkedin = true
+	
+[[menu.main]]
+    name = 'Home'
+    weight = 7
+    url = '/'
+
+[[menu.main]]
+    name = 'Free Vedic Chart'
+    weight = 6
+    url = '/vedic-chart/'
+
+[[menu.main]]
+    name = 'Steve Hora'
+    weight = 5
+    url = '/steve-hora/'
+
+[[menu.main]]
+    name = 'Articles'
+    weight = 4
+    url = '/articles/'
+	
+[[menu.main]]
+    name = 'About Us'
+    weight = 3
+    url = '/about/'	
+	
+[[menu.main]]
+    name = 'Contact Us'
+    weight = 2
+    url = '/contact/'	
+	
+#[[menu.main]]
+#    name = 'Search'
+#    weight = 1
+#    url = '/search/'
