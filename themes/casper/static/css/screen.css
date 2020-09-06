@@ -625,7 +625,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: url(https://vedicastrology-amp.netlify.app/images/planets.jpg) blue;
+    background: url(../images/planets.jpg) blue;
 	background-repeat: no-repeat;
 	background-size: cover;
     margin-bottom: 0;
