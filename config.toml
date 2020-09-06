@@ -16,6 +16,7 @@ canonifyurls = true
   logo = "/images/shrichakra.png"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   author = "Steve Hora"
+  authorname = "Steve Hora"
   #authorlocation = "SFO, USA"
   #authorwebsite = "https://stevehora.com"
   #authorbio= "Vedic Astrology Expert"
