@@ -1,34 +1,42 @@
-<<<<<<< HEAD
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-=======
-#baseURL = "http://localhost:1313"
-baseURL = "https://vedicastrology-amp.netlify.app/"
+baseURL = "http://localhost:1313"
+#baseURL = "https://vedicastrology-amp.netlify.app/"
 
 languageCode = "en-us"
 title = "Vedic Astrology"
-theme="casper"
+theme="steve"
 paginate = 5
-#DisqusShortname = "YOUR_SHORT_NAME_HERE"
-Copyright = "Copyright 2014 stevehora.com - All rights reserved - "
 canonifyurls = true
 
+[permalinks]
+    post = '/:year/:month/:slug/' # Wordpress style
+	
+# Define the default author
+[author]
+    name = "Steve Hora"
+    bio = "Vedic Astrologer"
+    location = "SFO, USA"
+    website = "https://stevehora.com"
+    thumbnail = "/stevehora.bmp"
+	
 [params]
+  copyright = "Copyright 2014 stevehora.com - All rights reserved - "
   description = "Steve Hora"
   terms = "Terms, Privacy"
   refund = "Refund Policy"
   information = "Your Destiny Your Success"
   cover = "/images/planets.gif" # Homepage cover
-  logo = "/images/shrichakra.png"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  logo = "images/shrichakra9.png"
+  metadescription = "Hora Vedic Astrology by Steve Hora"
   author = "Steve Hora"
   authorname = "Steve Hora"
   #authorlocation = "SFO, USA"
   #authorwebsite = "https://stevehora.com"
   #authorbio= "Vedic Astrology Expert"
-  googleAnalyticsUserID = "UA-1341906-9"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+
+  mobile = "[Telegram Chat](/articles/telegram/)"
+  #mobile1 = "[Chat group](https://chat?Hdj8MZOaSFnKlX43JBebvN)"
+
+  # Social links on the homepage
   #RSSLink = "http://feeds.feedburner.com/..."
   facebookName = 'vedicastrology123'
   twitterName = '@AstrologyOrbit'
@@ -36,57 +44,40 @@ canonifyurls = true
   #pinterestName = 'https://www.facebook.com/vedicastrology123'
   linkedinName = 'steve-hora-vedic-astrologer'
   email = 'steve@stevehora.com'
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  
-  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
-  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
-  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
-  hjsStyle = "default"
-  mobile = "[Telegram Chat](/articles/telegram/)"
-  #mobile1 = "[Chat group](https://chat?Hdj8MZOaSFnKlX43JBebvN)"
-
-
-  [params.social]
-    twitter = "your_twitter"
-
-[permalinks]
-    post = '/:year/:month/:slug/' # Wordpress style
-# Define the default author
-[author]
-    name = "Jonn Doe"
-    bio = "The most uninteresting man in the world."
-    location = "Normal, IL"
-    website = "http://example.com"
-    thumbnail = "/avatars/john.png"
-#[params]
-    # Social links on the homepage
-
     ampElements = ["amp-accordion","amp-analytics", "amp-sidebar"] # AMP elements loaded on every page
     themeColor = "green" # Browser bar color
-
+    googleanalytics = "UA-1341906-9"
 
 # Where can we share?
-#[params.share]
-#    twitter = true
-    #gplus = true
-    #pinterest = true
-    #facebook = true
-	#linkedin = true
-	
+[params.share]
+    twitter = true
+    pinterest = false
+    facebook = true
+	linkedin = true
+	email = true
+
+[params.favicon]
+    manifest = "manifest.json"
+    basename = "favicon"
+    ms_tilecolor = "#FFFFFF"
+    icon = [16, 32, 96, 192]
+    apple_touch = [57, 60, 72, 76, 114, 120, 144, 152, 180]
+    ms = [144]
+    ms_config = "browserconfig.xml"
+
 [[menu.main]]
     name = 'Home'
-    weight = 7
+    weight = 1
     url = '/'
 
 [[menu.main]]
     name = 'Free Vedic Chart'
-    weight = 6
+    weight = 2
     url = '/vedic-chart/'
 
 [[menu.main]]
     name = 'Steve Hora'
-    weight = 5
+    weight = 3
     url = '/steve-hora/'
 
 [[menu.main]]
@@ -96,16 +87,15 @@ canonifyurls = true
 	
 [[menu.main]]
     name = 'About Us'
-    weight = 3
+    weight = 5
     url = '/about/'	
 	
 [[menu.main]]
     name = 'Contact Us'
-    weight = 2
+    weight = 6
     url = '/contact/'	
 	
 #[[menu.main]]
 #    name = 'Search'
-#    weight = 1
+#    weight = 7
 #    url = '/search/'
->>>>>>> 8557a1add1d50c6fed6e5d39ae5ca3f7847a6aac

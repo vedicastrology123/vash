@@ -7,10 +7,11 @@ author: Steve Hora
 description : "Optimize your life using Vedic Astrology. Know your karma from your birth chart and enjoy your good karma and remedy the bad ones."
 type: "post"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

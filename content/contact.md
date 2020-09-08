@@ -7,12 +7,13 @@ image: "images/success.jpg"
 author: Steve Hora
 type: "main"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 path:
   - "https://stevehora.com/contact/"
-tags:
-  - "Predictions"
-  - "Steve Hora"
 keywords:
   - "Vedic Astrology"
 ---

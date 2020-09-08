@@ -7,10 +7,11 @@ author: Shri Maha Tripura Sundari
 description : "Hora Vedic Astrology by Steve - Hora Most Valuable Writer on Quora, Mantra Yantra Tantra Shri Chakra."
 type: "post"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 email: "steve@stevehora.com"
 social:
   - icon : "ti-star" # themify icon pack : https://themify.me/themify-icons

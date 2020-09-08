@@ -9,10 +9,11 @@ type: "main"
 path:
   - "https://stevehora.com/about/"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Steve Hora Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 keywords:
   - "Vedic Astrology"
   - "Marriage"

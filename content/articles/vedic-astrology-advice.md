@@ -6,13 +6,13 @@ author: Shri Maha Tripura Sundari
 description : "Steve Hora - Vedic Astrology  Jyotish Steve Hora Natal Mundane Astrology Horoscope Reading Predictions"
 type: "main"
 categories: 
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
   - "Steve Hora"
 path:
   - "https://stevehora.com/steve-hora/"  
-tags:
-  - "Mundane Astrology"
-  - "Steve Hora Vedic"
-  - "Sundari"
 keywords:
   - "Vedic Astrology"
   - "Jyotish"

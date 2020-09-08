@@ -7,10 +7,12 @@ author: Steve Hora
 description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Tamil Nadi"
 type: "featured"
 categories: 
-  - "Birth Chart"
+  - "Vedic Astrology"
+  - "Nadi Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

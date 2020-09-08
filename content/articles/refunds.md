@@ -6,10 +6,11 @@ image: images/vaashicon.png
 author: Steve Hora
 description : "Refund Policy - Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Privacy and Terms"
 categories: 
-  - "Refund Policy"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

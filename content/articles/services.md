@@ -9,10 +9,11 @@ description : "Services - Hora Vedic Astrology by Steve - Hora Wealth Natal Mund
 path:
   - "https://stevehora.com/articles/services/"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Steve Hora Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 keywords:
   - "Vedic Astrology"
   - "Marriage"

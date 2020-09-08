@@ -7,11 +7,11 @@ author: Steve Hora
 description : "Vedic Astrology Jyotish Steve Hora Natal Mundane Astrology Horoscope Reading Predictions"
 type: "post"
 categories: 
-  - "Mundane Astrology"
-  - "Stocks Analysis"  
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

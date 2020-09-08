@@ -11,8 +11,9 @@ type: "post"
 categories: 
   - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 keywords:
   - "Hora"
   - "Vedic Astrology"

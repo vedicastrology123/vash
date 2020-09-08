@@ -7,9 +7,11 @@ author: Steve Hora
 description : "Q2A - Vedic Astrology on Quora as Most Valuable Writer Questio and Answers on Vedic Astrology"
 type: "post"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
 tags:
+  - "Birth Chart Predictions"
   - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

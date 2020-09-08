@@ -1,0 +1,20 @@
+{
+  "name": "Vedic Astrology Birth Chart Predictions from Steve Hora",
+  "short_name": "vedic-astrology",
+  "description": "Vedic Astrology Birth Chart Predictions from Steve Hora",
+  "lang": "en-us",
+  "start_url": "/",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "images/vaashicon.png",
+      "sizes": "37x40"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/valaai.png",
+      "sizes": "96x96"
+    }
+  ]
+}

@@ -11,12 +11,13 @@ description : Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horos
 
 type: "featured"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 path:
   - "https://stevehora.com/articles/brave-india/"  
-tags:
-  - "Predictions"
-  - "Astrology"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 keywords:

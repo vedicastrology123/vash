@@ -7,12 +7,13 @@ image: "images/success.jpg"
 author: "Steve Hora"
 type: "main"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 path:
   - "https://stevehora.com/calculate-your-vedic-astrology-chart/"
-tags:
-  - "Predictions"
-  - "Steve Hora Astrology"
 keywords:
   - "Vedic Astrology Birth Chart"
   - "Marriage"

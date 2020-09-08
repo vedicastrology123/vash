@@ -6,10 +6,11 @@ image: "images/vaashicon.png"
 author: Steve Hora
 description : "Testimonials - Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Timing in Dasha"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Testimonials"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

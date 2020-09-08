@@ -1,7 +1,0 @@
-<b style="color:#E9967A;">Trending Articles</b>
-{{ range first 6 (shuffle (where (where .Site.RegularPages "Type" "post") ".Title" "!=" .Title )) }}
-<li>
-<a href="{{.Permalink}}">{{ .Params.Descslug }}</a>
-</li>
-{{end}}
-</ul>

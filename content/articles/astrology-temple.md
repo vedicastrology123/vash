@@ -7,12 +7,13 @@ author: Steve Hora
 description : "Inscriptions"
 type: "post"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 path:
   - "https://stevehora.com/articles/astrology-temple/"
-tags:
-  - "Predictions"
-  - "Astrology"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 keywords:

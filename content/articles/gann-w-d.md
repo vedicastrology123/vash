@@ -7,9 +7,12 @@ author: Steve Hora
 description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions W.D.Gann Stock Analysis"
 type: "featured"
 categories: 
-  - "Stocks Analysis"
+  - "Vedic Astrology"
 tags:
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
+  - "Stocks Analysis"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

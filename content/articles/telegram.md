@@ -7,10 +7,11 @@ author: Steve Hora
 description : "Chat with us for Vedic Astrology Advice"
 type: "post"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

@@ -7,10 +7,12 @@ author: Steve Hora
 description : "Matrimony matching with Horoscope Compatibility for Marriage Vedic Astrology"
 type: "post"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Marriage matching"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

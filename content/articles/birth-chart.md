@@ -7,10 +7,11 @@ author: Steve Hora
 description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope How to Read Lagna Birth chart"
 type: "post"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 path:
   - "https://stevehora.com/articles/birth-chart/"

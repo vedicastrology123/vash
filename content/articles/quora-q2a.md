@@ -7,9 +7,11 @@ author: Steve Hora
 description : "Q2A Question and Answer - Vedic Astrology Advice by Steve Hora Jyotish Free advice on Quora as Most Valuable Writer - Series 1"
 type: "post"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
 tags:
+  - "Birth Chart Predictions"
   - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

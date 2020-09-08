@@ -8,12 +8,13 @@ description : "How to predict with Ashtakavarga?."
 type: "post"
 descslug: "What is Ashtakavarga?"
 categories: 
-  - "Horoscope"
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 path:
   - "https://stevehora.com/articles/ashtakavarga/"
-tags:
-  - "Predictions"
-  - "Astrology"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 keywords:

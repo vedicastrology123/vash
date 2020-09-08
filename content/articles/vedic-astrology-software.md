@@ -10,9 +10,11 @@ image: images/vaashicon.png
 description : Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Your Jyotish
 type: "post"
 categories: 
-  - "Mundane Astrology"
+  - "Vedic Astrology"
 tags:
-  - "Predictions"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

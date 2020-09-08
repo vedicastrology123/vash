@@ -1,0 +1,10 @@
+
+User-agent: *
+Disallow: /404/
+
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /keywords/
+
+# sitemap
+Sitemap: https://stevehora.com/sitemap.xml

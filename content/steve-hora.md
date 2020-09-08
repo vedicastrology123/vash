@@ -7,12 +7,13 @@ description : "Expert Vedic Astrologer in Birth Chart and Mundane Predictions"
 information: "Expert Vedic Astrologer"
 type: "main"
 categories: 
+  - "Vedic Astrology"
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
   - "Steve Hora"
 path:
   - "https://stevehora.com/steve-hora/"  
-tags:
-  - "Mundane Astrology"
-  - "Steve Hora Vedic"
 keywords:
   - "Vedic Astrology"
   - "Jyotish"

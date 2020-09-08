@@ -1,0 +1,9 @@
+</div>
+<div class="site-footer">
+  <a href="/articles/terms/">{{.Site.Params.terms}}</a> and <a href="/articles/refund/" title="Policies">{{.Site.Params.refund}}</a>.
+  Copyright © {{ if eq now.Year 2018 }}2018{{ else }}2014-{{ now.Year }}{{ end }} - All Rights Reserved - <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+</div>
+
+{{ partial "amp/google-analytics" . }}
+</body>
+</html>

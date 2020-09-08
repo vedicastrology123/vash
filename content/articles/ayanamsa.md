@@ -7,10 +7,11 @@ author: Steve Hora
 description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Ayanamsas used"
 type: "featured"
 categories: 
-  - "Fundamentals"
-  - "Ayanamsas"  
+  - "Vedic Astrology"
 tags:
-  - "Astrology"
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest
 path:
