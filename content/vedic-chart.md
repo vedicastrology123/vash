@@ -1,0 +1,92 @@
+---
+title: "Free Vedic Chart"
+date: "2019-05-14T14:46:10+06:00"
+description: "Vedic Horoscope"
+information: "Expert Vedic Astrologer"
+image: "images/success.jpg"
+author: "Steve Hora"
+type: "main"
+categories: 
+  - "Horoscope"
+path:
+  - "https://stevehora.com/calculate-your-vedic-astrology-chart/"
+tags:
+  - "Predictions"
+  - "Steve Hora Astrology"
+keywords:
+  - "Vedic Astrology Birth Chart"
+  - "Marriage"
+  - "Marriage Compatibility"
+  - "Jyotish"
+  - "Accurate"
+  - "Predictions"
+  - "Nakshatra"
+  - "Technique"
+  - "Tamil"
+  - "Nadi"
+  - "Grantha"
+  - "Solutions"
+  - "Life"
+  - "Problems"
+  - "Sidereal"
+  - "Vimshottari"
+  - "Dasha"
+  - "Parasara"
+  - "System"
+  - "Timing"
+  - "Samaya"
+  - "Amsa"
+  - "Kaala"
+  - "Shri Chakra"
+  - "Meditation"
+  - "Remedies"
+  - "Mantra"
+  - "Yantra"
+  - "Tantra"
+  - "Prasna Marga"  
+---
+
+**Birth chart or Horoscope**
+
+Birth chart is based on your accurate Date of Birth, Time and Place of Birth.
+
+If you want **a very detailed and professional** birth chart, reach at  steve at stevehora dot com .
+
+It will look like below.
+
+![A sample Vedic Astrology Birth Chart](/images/birth-chart.png)
+
+A **pdf version** of your birth chart, can also be made available.
+
+Here are some **basic technical details** of a vedic horoscope.
+
+Vedic horoscope is made according to **True Lahiri Ayanamsa (Chitra paksha) (Precession of Equinox)**,
+using **Sidereal** solar years of 360, and **Vimshottari Dasha** Timing system.
+
+To predict life events, your birth horoscope will be read as per **Parasara system** and Timing
+using Vimshottari Dasha system and Samaya Amsa or Kaala timing technique.
+
+To know more about how our Astrologers read a birth chart, [read this blog, ](/articles/birth-chart/)
+ 
+#### Know more from books
+
+Vedic Astrology is a vast subject with different techniques. To know more about [Vedic Astrology books. ](/articles/vedic-astrology-books/)
+
+##### For Marriage Compatibility
+
+For **[Marriage - Horoscope and Nakshatra matching](/articles/marriage-compatibility/)** of to be Bridegroom and to be Groom,  steve at stevehora dot com .
+
+##### Accurate Predictions
+
+Accurate Vedic Horoscope Predictions using a Mundane Predictions technique from Tamil Nadi Grantha or Palm Leaf reading,
+the Timing and Predictions are accurately given.
+
+Get predictions and solutions from Our Astrologers for your life problems.
+
+We respect the privacy of yours and DO NOT DISCLOSE any private information to anyone.
+
+##### Shri Chakra Meditation for horoscope remedies
+Personalized Shri Chakra as per your horoscope. Personalized mantra, yantra and tantra as per Vedic traditions.
+
+##### Prasna Marga
+Get questions answered according to the time of the question.

@@ -1,0 +1,25 @@
+<div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        {{ $currentNode := . }}
+        {{with .Site.Menus.main}}
+        {{ range sort . "Weight" "desc"}}
+            {{.Pre}}
+            <li class="nav-opened{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .)}} nav-current{{end}}" role="presentation">
+            	<a href="{{.URL}}">{{.Name}}</a>
+            </li>
+        {{end}}
+        {{end}}
+		</br>
+		<li><a style="color:#E9967A;" href="mailto:steve@stevehora.com?subject=Vedic%20Astrology&body=Hi%20Steve%20Hora%2C%0D%0A%0D%0APlease%20reply%20to%20my%20below%20query.%0D%0A%0D%0AQuery%20%3A%0D%0A%0D%0ARegards%0D%0A">steve@stevehora.com</a></li>
+		<li>{{ .Site.Params.mobile | markdownify }}</li>
+		
+		<li><a href="https://www.quora.com/profile/Steve-Hora" target="_blank">Steve Hora - Quora</a></li>
+		</br>
+		
+	{{ partial "allposts.html" . }}
+</div>
+<span class="nav-cover"></span>
