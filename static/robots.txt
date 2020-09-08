@@ -7,4 +7,4 @@ Disallow: /tags/
 Disallow: /keywords/
 
 # sitemap
-Sitemap: https://stevehora.com/sitemap.xml
+#Sitemap: https://stevehora.com/sitemap.xml

@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313"
-#baseURL = "https://vedicastrology-amp.netlify.app/"
+#baseURL = "http://localhost:1313"
+baseURL = "https://vedicastrology-amp.netlify.app/"
 
 languageCode = "en-us"
 title = "Vedic Astrology"
