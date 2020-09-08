@@ -5,8 +5,8 @@
             "vars": {
                 "account": "{{ $.Site.Params.googleAnalytics }}"
             },
-            <!-- "triggers": {{ .Site.Data.analytics.triggers }} -->
-			"triggers": { "trackPageview": { "on": "visible", "request": "pageview" } }
+            "triggers": {{ .Site.Data.analytics.triggers }}
+			<!-- "triggers": { "trackPageview": { "on": "visible", "request": "pageview" } } -->
         }
     </script>
 </amp-analytics>
