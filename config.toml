@@ -51,7 +51,7 @@ canonifyurls = true
 # Where can we share?
 [params.share]
     twitter = true
-    pinterest = false
+    #pinterest = false
     facebook = true
 	linkedin = true
 	email = true
