@@ -1,32 +1,57 @@
+<style amp-custom>
+  :root {
+    --color-primary: #005AF0;
+    --color-text-light: #fff;
+  }
+  /* a custom sharing icon */
+  amp-social-share.custom-style {
+    background-color: #008080;
+    background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/social/1x_web/ic_share_white_48dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  /* blue icons with rounded corners  */
+  amp-social-share.rounded {
+    border-radius: 50%;
+    background-size: 60%;
+    color: var(--color-text-light);
+    background-color: var(--color-primary);
+  }
+</style>
+
 <div class="social">
 {{ with .twitter }}
-<amp-social-share type="twitter"
-  width="60"
-  height="44"> </amp-social-share>
+<amp-social-share class="rounded" type="twitter"
+  width="48"
+  height="48">
+</amp-social-share>
 {{ end }}
 <!-- {{ with .gplus }}
     <amp-social-share type="gplus"
-                      width="60"
-                      height="44"></amp-social-share>
+                      width="48"
+                      height="48"></amp-social-share>
 {{ end }}
- -->{{ with .email }}
-    <amp-social-share type="email"
-                      width="60"
-                      height="44"></amp-social-share>
-{{ end }}
+ -->
 <!-- {{ with .pinterest }}
     <amp-social-share type="pinterest"
-                      width="60"
-                      height="44"></amp-social-share>
+                      width="48"
+                      height="48"></amp-social-share>
 {{ end }}
- -->{{ with .linkedin }}
-<amp-social-share type="linkedin"
-                  width="60"
-                  height="44"></amp-social-share>
-{{ end }}
+ -->
 {{ with .facebook }}
-    <amp-social-share type="facebook"
-                      width="60"
-                      height="44"></amp-social-share>
+    <amp-social-share class="rounded" type="facebook"
+                      width="48"
+                      height="48"></amp-social-share>
+{{ end }}
+{{ with .linkedin }}
+<amp-social-share class="rounded" type="linkedin"
+                  width="48"
+                  height="48"></amp-social-share>
+{{ end }}
+{{ with .email }}
+    <amp-social-share class="rounded" type="email"
+                      width="48"
+                      height="48"></amp-social-share>
 {{ end }}
 </div>

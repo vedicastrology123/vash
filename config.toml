@@ -24,7 +24,8 @@ canonifyurls = true
   terms = "Terms, Privacy"
   refund = "Refund Policy"
   information = "Your Destiny Your Success"
-  cover = "/images/planets.gif" # Homepage cover
+  cover = "/images/plan.gif" # Homepage cover
+  #https://kapwi.ng/c/32p9SwRr
   logo = "images/shrichakra9.png"
   metadescription = "Hora Vedic Astrology by Steve Hora"
   author = "Steve Hora"
@@ -32,6 +33,7 @@ canonifyurls = true
   #authorlocation = "SFO, USA"
   #authorwebsite = "https://stevehora.com"
   #authorbio= "Vedic Astrology Expert"
+  address = "Chennai, India and SFO, USA"
 
   mobile = "[Telegram Chat](/articles/telegram/)"
   #mobile1 = "[Chat group](https://chat?Hdj8MZOaSFnKlX43JBebvN)"
@@ -44,17 +46,20 @@ canonifyurls = true
   #pinterestName = 'https://www.facebook.com/vedicastrology123'
   linkedinName = 'steve-hora-vedic-astrologer'
   email = 'steve@stevehora.com'
-    ampElements = ["amp-accordion","amp-analytics", "amp-sidebar"] # AMP elements loaded on every page
-    themeColor = "green" # Browser bar color
-    googleanalytics = "UA-1341906-9"
+  
+  themeColor = "green" # Browser bar color
+  googleanalytics = "UA-1341906-9"
+  ampElements = ["amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe"] # AMP elements loaded on every page
 
-# Where can we share?
-[params.share]
+  [params.amp]
+	elements = ["amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe"] # AMP elements loaded on every page
+
+  [params.share]
     twitter = true
-    #pinterest = false
+    gplus = false
+    pinterest = false
     facebook = true
 	linkedin = true
-	email = true
 
 [params.favicon]
     manifest = "manifest.json"

@@ -2,8 +2,8 @@
 
 {{if .Params.image}}
     <header class="main-header post-head">
-    <amp-image
-       src="{{.Params.image}}"
+    <amp-img
+       src="{{ .Params.image }}"
     >
     <nav class="main-nav overlay clearfix">
 {{else}}
@@ -32,17 +32,17 @@
 		{{ partial "post_meta" .}}
 	</section>
  -->
+    <!-- {{ partial "author.html" . }} -->
+	</br>
+    {{ partial "social/share.html" . }}
+ 
   <footer class="post-footer">
-
 
     {{if .Site.Params.logo}}
     <figure class="author-image">
         <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
     </figure>
     {{end}}
-
-    <!-- {{ partial "author.html" . }} -->
-    {{ partial "social/share.html" . }}
   </footer>
 </article>
 

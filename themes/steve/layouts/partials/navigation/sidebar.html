@@ -1,6 +1,12 @@
+<style amp-custom>
+  amp-sidebar {
+	width: 100px;
+	background: url(../images/success.jpg) magenta;
+  }
+</style>
 <amp-sidebar id="sidebar" layout="nodisplay" side="right">
     <h3 class="nav-title">Menu</h3>
-    <a href="/" class="nav-close" on="tap:sidebar.close" role="button" tabindex="1">
+    <a href="#" class="nav-close" on="tap:sidebar.close" role="button" tabindex="1">
         <span class="hidden">Close</span>
     </a>
     <ul>
@@ -12,21 +18,26 @@
                 <a href="{{.URL}}">{{.Name}}</a>
             </li>
         {{end}}
+			<nav toolbar="(max-width: 767px)" toolbar-target="target-element">
+			<li><input style="height:20px; width:225px; font-size:10pt;" placeholder="Search..." />
+			</li>
         <amp-accordion>
         {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             <section>
-                <h3 class="nav-section">
+                <strong class="nav-section">
                     <i class="fa fa-caret-down section-open" aria-hidden="true"></i>
                     <i class="fa fa-caret-right section-close" aria-hidden="true"></i>
-                    {{ $taxonomyname | title }}
-                </h3>
+                    {{ $taxonomyname | title | humanize }}
+                </strong>
                 <div>
                 {{ range $key, $value := $taxonomy }}
-                    <li class="nav-opened" role="presentation"><a href="/{{ $taxonomyname | urlize }}/{{ $key | urlize }}">{{ $key }}</a></li>
+                    <li class="nav-opened" role="presentation"><a href="/{{ $taxonomyname | urlize }}/{{ $key | urlize }}">{{ $key | humanize }}</a></li>
                 {{ end }}
                 </div>
             </section>
         {{ end }}
         </amp-accordion>
     </ul>
+  </nav>
+
 </amp-sidebar>
