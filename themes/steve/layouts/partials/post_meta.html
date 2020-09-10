@@ -24,7 +24,7 @@ on
         {{ if gt $index 0 }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
     {{ end }}
 {{end}}
-<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+<!-- <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
     {{ .Date.Format "2 January 2006" }}
-</time>
+</time> -->
 {{ end }}

@@ -104,10 +104,3 @@ Proceeding from the center, you will find the following
 Om Tat Sat.
 
 Astrology secret carving in a Hindu temple on youtube youtu.be/D1Ifepa_O-I .
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="Does Hinduism incorporates Vedic Astrology?" answer=1 choices="Yes,No, Don't Know" correctAnswer="Yes, Hinduism does use Astrology extensively">}}
-
-{{% /quiz %}}

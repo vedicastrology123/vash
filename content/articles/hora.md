@@ -71,12 +71,4 @@ So DO NOT follow Hora as told by Hindu Calendar or any Astrologer.
 
 The only sequence which is correct is by following sunrise time.
 
-## Quiz
-
-{{% quiz test_quiz3%}}
-
-{{< item question="What is Hora in Vedic Astrology?" answer=3 choices="Wealth chart,Hour in Sanskrit,Both" correctAnswer="Wealth is read from Hora birth chart in Vedic Astrology. The English word Hour came from the Sanskrit word Hora.">}}
-
-{{% /quiz %}}
-
 **[Click here, to enrich your knowledge in Vedic Astrology with questions and answers.](/articles/faq/)**

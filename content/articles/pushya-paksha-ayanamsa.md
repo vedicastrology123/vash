@@ -66,11 +66,3 @@ Q2A on Quora : What is your opinion of the astrologer PVR Narasimha Rao, his sof
 * Mantra Yantra and Tantra
 * Mudras
 * Kundalini and Birth Chart
-
-## Question and Answers
-
-{{% quiz test_quiz%}}
-
-{{< item question="Which is Ayanamsa in scientific terms?" answer=2 choices="Earth Rotation,Precession of Equinox,None" correctAnswer="Precession of Equinox" >}}
-
-{{% /quiz %}}

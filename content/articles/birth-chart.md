@@ -121,11 +121,3 @@ Profit or gain, income, all kinds of receipts, acquisition, gain, desire, passio
 
 Twelfth House
 House of disappearance, bondage, loss, negation, bed, sin, poverty, penury, loss, decline, misery, left eye, leg, defect.
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="How to calculate a vedic astrology birth chart?" answer=1 choices="Astrology Software,Astronomy, Don't Know" correctAnswer="Using an Astrology software, one can calculate a vedic astrology birth chart.">}}
-
-{{% /quiz %}}
-

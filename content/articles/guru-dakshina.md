@@ -37,10 +37,3 @@ Steve
 Note : Guru Dakshina is given as a respect to the ancient Gurus who had spent their lifetime to propagate this divine vedic astrology knowledge to us. This would entitle you for divine blessings from Grahas, Gurus and me for accrual of good karma.
 
 You can write to us to know more about Vedic Astrology.
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="Are there Telegram channels on Vedic Astrology?" answer=1 choices="Yes,No,Do not know" correctAnswer="There are Telegram channels on Vedic Astrology.">}}
-
-{{% /quiz %}}

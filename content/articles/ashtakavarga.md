@@ -91,10 +91,3 @@ Gochara can be read, with the bindus of the house, graha transiting it.
 It cannot tell the event that will happen.
 
 It cannot tell the time of the event based on the chart, namely using [Vimshottari Dasha](https://en.wikipedia.org/wiki/Dasha_(astrology)) or any other.
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="Ashtakavarga is useful in?" answer=3 choices="Horoscope Prediction,Transit,Both" correctAnswer="Both in Horoscope and Transit Predictions">}}
-
-{{% /quiz %}}

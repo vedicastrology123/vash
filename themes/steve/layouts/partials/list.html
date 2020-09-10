@@ -1,12 +1,13 @@
 <article class="post type-{{ .Type }}">
     <header class="post-header">
-        <!-- <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></h2> -->
+        <strong class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></strong>
     </header>
     <section class="post-excerpt">
         {{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-            <p class="excerpt">{{ .Params.excerpt  | plainify }} <a class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
+            </br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
         {{else}}
             <p class="summary">{{ .Summary | plainify }}
+			</br>
                 {{ if .Truncated }}
                     <a class="read-more" href="{{.RelPermalink}}">Read More…</a>
                 {{end}}

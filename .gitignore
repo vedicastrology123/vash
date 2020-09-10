@@ -1,2 +1,9 @@
 new 1.txt
 LICENSE
+node_modules/
+public/
+layouts/
+.bin/
+archetypes/
+package.json
+package-lock.json

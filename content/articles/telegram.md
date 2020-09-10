@@ -36,13 +36,6 @@ To get {{< targetblank "Vedic Astrology Advice from a Jyotish" "https://www.t.me
 
 {{< targetblank "Stay tuned on Vedic Astrology telegram channel" "https://www.t.me/stevehorachannel" >}}.
 
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="Are there Telegram channels on Vedic Astrology?" answer=1 choices="Yes,No,Do not know" correctAnswer="There are Telegram channels on Vedic Astrology.">}}
-
-{{% /quiz %}}
-
 ### Question and Answer in Vedic Astrology
 
 You can write to us to know more about Vedic Astrology.

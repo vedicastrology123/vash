@@ -1,10 +1,7 @@
 {{ partial "structure/header.html" . }}
 
 {{if .Params.image}}
-    <header class="main-header post-head">
-    <amp-img
-       src="{{ .Params.image }}"
-    >
+    <header class="main-header post-head post-cover">
     <nav class="main-nav overlay clearfix">
 {{else}}
     <header class="main-header post-head no-cover">
@@ -12,16 +9,27 @@
 {{end}}
 {{ partial "navbar.html" . }}
   </nav>
+  
+  
+      <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{.Title}}</h1>
+            <h2 class="page-description">
+                {{if .Params.description}}
+                    {{.Params.description}}
+                {{end}}
+            </h2>
+        </div>
+    </div>
+
 </header>
-
-
 
 <main class="content" role="main">
 
   <article class="post type-{{ .Type }}">
 
     <header class="post-header">
-        <h1 class="post-title">{{.Title | title}}</h1>
+        <!-- <h1 class="post-title">{{.Title | title}}</h1> -->
         <!-- <small>{{.Page.Description}}</small> -->
     </header>
 

@@ -42,27 +42,7 @@ There are 16 divisional charts which are used for prediction purposes of various
 
 [Read more on Hora for wealth predictions](/articles/hora-wealth/).
 
-**Quiz**
-
-{{% quiz test_quiz3%}}
-
-{{< item question="What is Hora in Vedic Astrology?" answer=3 choices="Wealth chart,Hour in Sanskrit,Both" correctAnswer="Wealth is read from Hora birth chart in Vedic Astrology. The English word Hour came from the Sanskrit word Hora.">}}
-
-{{% /quiz %}}
-
-{{% quiz test_quiz2%}}
-
-{{< item question="Which sign is followed in western astrology?" answer=2 choices="Moon,Sun,None" correctAnswer="Sun sign is followed in western Astrology.">}}
-
-{{% /quiz %}}
-
-{{% quiz test_quiz1%}}
-
-{{< item question="Which sign is followed in vedic astrology?" answer=1 choices="Moon,Sun,None" correctAnswer="Moon sign is followed in Vedic Astrology.">}}
-
-{{% /quiz %}}
-
-[Click here, for more Questions and Answers on Vedic Astrology.](/articles/faq/)
+[Click here, for Questions and Answers on Vedic Astrology.](/articles/faq/)
 
 #### Planets and Houses - Birth Chart Predictions
 

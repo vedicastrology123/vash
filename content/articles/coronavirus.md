@@ -70,10 +70,3 @@ When in Aquarius, Mars will again try to harm Saturn (People of the world), but 
 [Rat Metal Chinese Year 2020 predictions](/articles/new-world-order/)
 
 [Astrological predictions on China](/articles/china/)
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="Are there Telegram channels on Vedic Astrology?" answer=1 choices="Yes,No,Do not know" correctAnswer="There are Telegram channels on Vedic Astrology.">}}
-
-{{% /quiz %}}

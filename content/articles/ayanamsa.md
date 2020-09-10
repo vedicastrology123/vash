@@ -88,15 +88,3 @@ and Polaris actual degree away from NCP now (40 arcminute or 0.736 degree away),
 [More on Axial Precession](https://owd.tcnj.edu/~pfeiffer/AST261/AST261Chap4,Preces.pdf)
 
 If these two (Axial Tilt and NCP-Polaris Tilt) changes are taken into account, according to that Birth Year, it will make the aynamasa accurate in seconds. For that I need astronomical data, funds and my energy and time. Already I am too old.
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="What is Ayanamsa?" answer=1 choices="Precession of Equinox,Earth Movement, Don't Know" correctAnswer="Ayanamsa is Precession of Equinox.">}}
-
-{{% /quiz %}}
-
-{{% quiz test_quiz2%}}
-{{< item question="Did Ancient Hindu Seers knew about Precession of Equinox or Ayanamsa?" answer=1 choices="Yes,No, Don't Know" correctAnswer="Ancient Hindu Seers knew about Precession of Equinox.">}}
-
-{{% /quiz %}}

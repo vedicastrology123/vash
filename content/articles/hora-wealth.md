@@ -55,12 +55,4 @@ Based on ownership of the planets and its Hora placement, predictions are given 
 
 Famous horoscope like Dhoni, has Mars powerful and in Sun Hora. This made him a famous cricketer and made him earn his wealth.
 
-**Quiz**
-
-{{% quiz test_quiz3%}}
-
-{{< item question="What is Hora in Vedic Astrology?" answer=3 choices="Wealth chart,Hour in Sanskrit,Both" correctAnswer="Wealth is read from Hora birth chart in Vedic Astrology. The English word Hour came from the Sanskrit word Hora.">}}
-
-{{% /quiz %}}
-
 **[Click here, to enrich your knowledge in Vedic Astrology with questions and answers.](/articles/faq/)**

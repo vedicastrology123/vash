@@ -1,9 +1,5 @@
-<!-- <div class="col-lg-4"> -->
-<ul class="all-posts">
-<strong>Trending Articles</strong>
-{{ range first 6 (shuffle (where (where .Site.RegularPages "Type" "post") ".Title" "!=" .Title )) }}
-<li>
-<a href="{{.Permalink}}"><i>{{ .Params.Descslug }}</i></a>
+{{ range first 3 (shuffle (where (where .Site.RegularPages "Type" "post") ".Title" "!=" .Title )) }}
+<li class="footer-item">
+<a href="{{.Permalink}}">{{ .Params.Descslug }}</a>
 </li>
 {{end}}
-</ul>

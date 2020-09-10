@@ -21,7 +21,10 @@
 			<nav toolbar="(max-width: 767px)" toolbar-target="target-element">
 			<li><input style="height:20px; width:225px; font-size:10pt;" placeholder="Search..." />
 			</li>
-        <amp-accordion>
+			<strong>Trending Articles</strong>
+			{{ partial "allposts.html" . }}
+
+	        <amp-accordion>
         {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             <section>
                 <strong class="nav-section">
@@ -39,5 +42,4 @@
         </amp-accordion>
     </ul>
   </nav>
-
 </amp-sidebar>

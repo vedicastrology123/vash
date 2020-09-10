@@ -7,7 +7,7 @@
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -20,6 +20,9 @@
 }
 .main-header.list-cover {
     background-image: url('{{ relURL (.Params.cover) }}');
+}
+.main-header.post-cover {
+    background-image: url('{{ relURL (.Params.image) }}');
 }
 
 .main-header .inner {
@@ -260,14 +263,13 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
     line-height: 1.7em;
 }
 
 .read-more {
     font-size: 0.8em;
     text-decoration: none;
-    font-style: italic;
+    font-style: normal;
 }
 
 .post-meta {

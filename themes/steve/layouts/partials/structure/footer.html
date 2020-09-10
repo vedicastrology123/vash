@@ -1,9 +1,9 @@
 </div>
  <style amp-custom="">
 footer {
-			background-color: darkslategray;
+			background-color: #0563ff;
 			color: #fff;
-			padding: 65px;
+			padding: 0px;
 		}
 		footer a {
     		color: #fff;
@@ -31,7 +31,8 @@ footer {
 		}
 		.footer-item ul li {
 			list-style: none;
-			margin-bottom: 2px;
+			list-style-type:none;
+			margin-bottom: 5px;
 			font-size: 14px;
 		}
 		footer .social {
@@ -111,51 +112,48 @@ footer {
 				margin-left: 0px;
 				margin-bottom: 10px;
 			}
-			footer h2 {
-				font-size: 110%;
-			}
 </style>
 
 <footer>
-		<div class="content content-width">
 			<div class="footer-menu">
-				<div class="footer-item">
-	                {{ partial "allposts.html" . }}
-				</div>
-				<div class="footer-item">
-					<strong>Address</strong>
-						<ul>
-							<li><strong>{{.Site.Params.address | markdownify }}</strong></li>
-							<li>							
-								<amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.452331960607!2d-122.03936708485166!3d37.59151207979329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959ce51571f7%3A0xf4738bb291f57f1e!2sAlvarado-Niles%20Rd%2C%20California%2C%20USA!5e0!3m2!1sen!2sin!4v1598962316804!5m2!1sen!2sin" width="200" height="200" frameborder="0" sandbox="allow-scripts allow-same-origin"></amp-iframe>
-							</li>
+				<div class="site-footer">
+						<ul class="footer-item">
+						<strong>Trending Articles</strong>
+							{{ partial "allposts.html" . }}
 						</ul>
 				</div>
-				<div class="footer-item">
-					<strong>Contact Info</strong>
+				<div class="site-footer">
 						<ul>
-							<li>{{ .Site.Params.mobile | markdownify }}</li>
+							<strong>Contact Info</strong>
 							<li><a href="mailto:steve@stevehora.com?subject=Vedic%20Astrology&body=Hi%20Steve%20Hora%2C%0D%0A%0D%0APlease%20reply%20to%20my%20below%20query.%0D%0A%0D%0AQuery%20%3A%0D%0A%0D%0ARegards%0D%0A">steve@stevehora.com</a></li>
-							</br>
-							<strong><a href="https://stevehora.com/articles/services/">Services Offered</a></strong>
-								<li>Birth Chart Predictions.</li>
-								<li>Marriage and Love compatibility and Matching.</li>
-								<li>Prasna Marga.</li>
-								<li>Mundane Predictions - Stock Market Analysis.</li>
+							<li>{{ .Site.Params.mobile | markdownify }}</li>
+							<li><strong>{{.Site.Params.address | markdownify }}</strong></li>
+							
+								<amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.452331960607!2d-122.03936708485166!3d37.59151207979329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959ce51571f7%3A0xf4738bb291f57f1e!2sAlvarado-Niles%20Rd%2C%20California%2C%20USA!5e0!3m2!1sen!2sin!4v1598962316804!5m2!1sen!2sin" width="200" height="200" frameborder="0" sandbox="allow-scripts allow-same-origin"></amp-iframe>
+							
+						</ul>
+				</div>
+				<div class="site-footer">
+						<ul>
+							<strong>Services Offered</strong>
+							<li><a href="https://stevehora.com/articles/services/">Birth Chart Predictions.</a></li>
+							<li>Marriage and Love compatibility and Matching.</li>
+							<li>Prasna Marga.</li>
+							<li>Mundane Predictions - Stock Market Analysis.</li>
 								</br>
-						<li><i><strong><a href="https://stevehora.com/articles/testimonials/">Top Reviews</a></strong></i></br></li>
-						<li><i><a href='https://www.quora.com/profile/Steve-Hora'><i>Steve Hora on Quora</i></a></li>
+							<strong>Top Reviews</strong>
+								<li><a href="https://stevehora.com/articles/testimonials/">Testimonials</a></li>
+								<li><a href='https://www.quora.com/profile/Steve-Hora'>Steve Hora on Quora</a></li>
 						</ul>			  
 				</div>
 			</div>
-			<div class="social">
+			<div class="footer-item social">
 				{{ partial "social/home.html" . }}
 			</div>
-			<div class="meta-content">
+			<div class="footer-item meta-content">
 				<a href="/articles/terms/">{{.Site.Params.terms}}</a> and <a href="/articles/refund/" title="Policies">{{.Site.Params.refund}}</a>.
 				<p>Copyright &#169; {{ if eq now.Year 2018 }}2018{{ else }}2014-{{ now.Year }}{{ end }} - stevehora.com - All Rights Reserved.</p>
 			</div>
-		</div>
 
 </footer>
 

@@ -47,10 +47,3 @@ But the fallacy of Vimshottari is, a set of 9 nakshatras covers only 4 houses, s
 That said, progressing Chandra s position through all nakshatras and crossing of BB, is a tricky calculation (pure math). No logic here, like many astrologers role out.
 
 This way the transit and fixed karma indicated by Tribhagi Vimshottari dasha, can be predicted for events of life.
-
-## Quiz
-
-{{% quiz test_quiz1%}}
-{{< item question="What is Bhrigu Bindu used for?" answer=1 choices="Predictions,It is a Mantra, Don't Know" correctAnswer="Bhrigu Bindu is used in prediction from a horoscope.">}}
-
-{{% /quiz %}}
