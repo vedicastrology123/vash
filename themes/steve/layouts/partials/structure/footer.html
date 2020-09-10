@@ -1,7 +1,7 @@
 </div>
  <style amp-custom="">
-footer {
-			background-color: #0563ff;
+		footer {
+			background-color: #0a183d;
 			color: #fff;
 			padding: 0px;
 		}
@@ -29,10 +29,11 @@ footer {
 			margin-top: 5px;
 			padding: 0px;
 		}
-		.footer-item ul li {
+		.footer-item li {
 			list-style: none;
 			list-style-type:none;
 			margin-bottom: 5px;
+			margin-left: 10px;
 			font-size: 14px;
 		}
 		footer .social {
@@ -45,7 +46,7 @@ footer {
 			margin-top: 10px;
 			padding: 0px;
 		}
-		footer .social ul li {
+		footer .social li {
 			list-style: none;
 			margin-right: 10px;
 		}
@@ -55,6 +56,7 @@ footer {
 		}
 		footer .meta-content {
 			font-size: 10px;
+			color:white;
 			text-align: center;
 		}
 		footer .meta-content a {
@@ -117,13 +119,13 @@ footer {
 <footer>
 			<div class="footer-menu">
 				<div class="site-footer">
-						<ul class="footer-item">
+						<ul style="list-style-type:none;" class="footer-item">
 						<strong>Trending Articles</strong>
 							{{ partial "allposts.html" . }}
 						</ul>
 				</div>
 				<div class="site-footer">
-						<ul>
+						<ul style="list-style-type:none;" class="footer-item">
 							<strong>Contact Info</strong>
 							<li><a href="mailto:steve@stevehora.com?subject=Vedic%20Astrology&body=Hi%20Steve%20Hora%2C%0D%0A%0D%0APlease%20reply%20to%20my%20below%20query.%0D%0A%0D%0AQuery%20%3A%0D%0A%0D%0ARegards%0D%0A">steve@stevehora.com</a></li>
 							<li>{{ .Site.Params.mobile | markdownify }}</li>
@@ -134,12 +136,12 @@ footer {
 						</ul>
 				</div>
 				<div class="site-footer">
-						<ul>
+						<ul style="list-style-type:none;" class="footer-item">
 							<strong>Services Offered</strong>
-							<li><a href="https://stevehora.com/articles/services/">Birth Chart Predictions.</a></li>
-							<li>Marriage and Love compatibility and Matching.</li>
-							<li>Prasna Marga.</li>
-							<li>Mundane Predictions - Stock Market Analysis.</li>
+							<li><a href="https://forms.gle/kLeDb2oBBUFWB6P49" target="_blank">Birth Chart Predictions.</a></li>
+							<li><a href="https://stevehora.com/articles/services/">Marriage and Love compatibility and Matching.</a></li>
+							<li><a href="https://stevehora.com/contact/">Prasna Marga.</a></li>
+							<li><a href="https://stevehora.com/articles/gann-w-d/">Mundane Predictions - Stock Market Analysis.</a></li>
 								</br>
 							<strong>Top Reviews</strong>
 								<li><a href="https://stevehora.com/articles/testimonials/">Testimonials</a></li>
@@ -150,11 +152,10 @@ footer {
 			<div class="footer-item social">
 				{{ partial "social/home.html" . }}
 			</div>
-			<div class="footer-item meta-content">
+			<div class="meta-content">
 				<a href="/articles/terms/">{{.Site.Params.terms}}</a> and <a href="/articles/refund/" title="Policies">{{.Site.Params.refund}}</a>.
 				<p>Copyright &#169; {{ if eq now.Year 2018 }}2018{{ else }}2014-{{ now.Year }}{{ end }} - stevehora.com - All Rights Reserved.</p>
 			</div>
-
 </footer>
 
 {{ partial "amp/google-analytics" . }}
