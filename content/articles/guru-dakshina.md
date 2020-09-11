@@ -2,9 +2,9 @@
 title: "Guru Dakshina"
 descslug: "What is Guru Dakshina?"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Guru Dakshina"
+description : "What is Guru Dakshina?"
 categories: 
   - "Vedic Astrology"
 tags:

@@ -3,8 +3,8 @@ title: "FAQ"
 descslug: "Question and Answers in Vedic Astrology"
 date: 2020-04-07T12:52:36+06:00
 author: Steve Hora
-image: "images/vaashicon.png"
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions What Is A Graha"
+image: "images/success.jpg"
+description : "Question and Answers in Vedic Astrology"
 type: "post"
 categories: 
   - "Vedic Astrology"

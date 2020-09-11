@@ -2,9 +2,9 @@
 title: "Quora Q2A"
 descslug: "Quora question and answers"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Q2A Question and Answer - Vedic Astrology Advice by Steve Hora Jyotish Free advice on Quora as Most Valuable Writer - Series 1"
+description : "Question and Answer by Steve Hora"
 type: "post"
 categories: 
   - "Vedic Astrology"

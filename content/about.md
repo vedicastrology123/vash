@@ -4,7 +4,7 @@ date: 2019-05-14T14:46:10+06:00
 image: "images/success.jpg"
 author: Steve Hora
 information: "Expert Vedic Astrologer"
-description : "Expert Vedic Astrologer."
+description : "Expert Vedic Astrologers."
 type: "main"
 path:
   - "https://stevehora.com/about/"

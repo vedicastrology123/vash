@@ -4,7 +4,7 @@ descslug: "Stock Analysis using Astrology"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/astrology-2.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions W.D.Gann Stock Analysis"
+description : "Stock Analysis using Astrology and W.D.Gann"
 type: "featured"
 categories: 
   - "Vedic Astrology"

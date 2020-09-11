@@ -4,7 +4,7 @@ descslug: "Pushya Paksha Ayanamsa"
 date: 2020-06-02T12:52:36+06:00
 image: images/articles/astrology-2.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Pushya Paksha Ayanamsa"
+description : "An Analysis"
 type: "featured"
 categories: 
   - "Vedic Astrology"

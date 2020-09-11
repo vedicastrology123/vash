@@ -2,9 +2,9 @@
 title: "Vedi Astrology Tamil"
 descslug: "Vedic Astrology Tamil"
 date: 2020-07-31T10:00:30+05:30
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Shri Maha Tripura Sundari
-description : "Hora Vedic Astrology by Steve - Hora Most Valuable Writer on Quora, Mantra Yantra Tantra Shri Chakra."
+description : "Knowledge"
 type: "post"
 categories: 
   - "Vedic Astrology"

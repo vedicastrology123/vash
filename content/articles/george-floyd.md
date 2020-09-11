@@ -4,7 +4,7 @@ descslug: "George Floyd - Analysis"
 date: 2020-06-02T12:52:36+06:00
 image: images/articles/george-floyd.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions George Floyd"
+description : "#Black Lives Matter - George Floyd - Analysis"
 type: "featured"
 categories: 
   - "Vedic Astrology"

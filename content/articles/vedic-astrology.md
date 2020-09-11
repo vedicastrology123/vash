@@ -2,9 +2,9 @@
 title: "Vedic Astrology Science"
 descslug: "Vedic Astrology Science"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Vedic Astrology Jyotish Steve Hora Natal Mundane Astrology Horoscope Reading Predictions"
+description : "Explore its knowledge"
 type: "post"
 categories: 
   - "Vedic Astrology"

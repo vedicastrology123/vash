@@ -4,7 +4,7 @@ descslug: "Gandhi - Analysis"
 date: 2019-11-24T14:51:12+06:00
 author: Steve Hora
 image: images/articles/mg.jpg
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Mahatma Gandhi"
+description : "An life analysis"
 type: "featured"
 categories: 
   - "Vedic Astrology"

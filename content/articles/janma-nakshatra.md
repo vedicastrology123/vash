@@ -2,9 +2,9 @@
 title: "Janma Nakshatra"
 descslug: "What is Janma Nakshatra?"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Janma Star"
+description : "What is Janma Nakshatra?"
 type: "post"
 categories: 
   - "Vedic Astrology"

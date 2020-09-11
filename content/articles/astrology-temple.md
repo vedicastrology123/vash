@@ -2,7 +2,7 @@
 title: "Astrology Temple"
 descslug: "Secrets of Astrology in Temples"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
 description : "Inscriptions"
 type: "post"

@@ -2,9 +2,9 @@
 title: "Karma and Astrology"
 descslug: "Karma and Astrology"
 date: 2020-07-31T10:35:30+05:30
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Optimize your life using Vedic Astrology. Know your karma from your birth chart and enjoy your good karma and remedy the bad ones."
+description : "Optimize your life, Know your karma from your birth chart."
 type: "post"
 categories: 
   - "Vedic Astrology"

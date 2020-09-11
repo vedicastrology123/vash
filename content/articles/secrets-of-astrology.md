@@ -2,9 +2,9 @@
 title: "Secrets of Astrology"
 descslug: "Secrets of Astrology"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Secret"
+description : "Know and Explore"
 type: "post"
 categories: 
   - "Vedic Astrology"

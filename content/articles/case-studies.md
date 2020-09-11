@@ -2,9 +2,9 @@
 title: "Case Studies"
 descslug: "Case Studies"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Case Studies"
+description : "Parivarthana Yoga"
 type: "post"
 categories: 
   - "Vedic Astrology"
@@ -20,7 +20,7 @@ keywords:
   - "Case Studies"
 ---
 
-## Parivarthana Yoga - Case Studies
+### Parivarthana Yoga
 
 ### Definition
 

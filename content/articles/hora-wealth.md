@@ -2,11 +2,11 @@
 title: "Hora Wealth"
 descslug: "Wealth using Hora D2 chart."
 date: 2020-06-02T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
-description : "Hora Vedic Astrology Advice by Steve Hora Wealth Matrimony matching love compatibility 27 nakshatras 20 divisional chart dhoni tarot birth chart famous horoscope forecast name vedas"
+description : "Wealth using Hora D2 chart"
 type: "post"
 categories: 
   - "Vedic Astrology"

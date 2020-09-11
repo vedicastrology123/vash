@@ -4,7 +4,7 @@ descslug: "Nadi Palm Leaf Astrology"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/quu1.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Tamil Nadi"
+description : "Tamil Nadi Palm Leaf"
 type: "featured"
 categories: 
   - "Vedic Astrology"

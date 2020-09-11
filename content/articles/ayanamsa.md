@@ -4,7 +4,7 @@ descslug: "What is Ayanamsa?"
 date: 2020-07-31T10:35:30+05:30
 image: images/articles/ayanamsa.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Ayanamsas used"
+description : "A Scientific Calculation"
 type: "featured"
 categories: 
   - "Vedic Astrology"

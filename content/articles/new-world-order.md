@@ -4,7 +4,7 @@ descslug: "New World Order"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/astrology-4.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions RatMetal 2020"
+description : "Analysis - China Ratl Metal year"
 type: "featured"
 categories: 
   - "Vedic Astrology"

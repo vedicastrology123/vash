@@ -2,9 +2,9 @@
 title: "Rashi"
 descslug: "What is Rashi?"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Rashi Sign"
+description : "What is Rashi?"
 type: "post"
 categories: 
   - "Vedic Astrology"

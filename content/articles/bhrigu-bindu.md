@@ -2,9 +2,9 @@
 title: "Bhrigu Bindu"
 descslug: "How to use Bhrigu Bindu?"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Bhrigu Bindu"
+description : "What is Bhrigu Bindu and How to use it?"
 type: "post"
 categories: 
   - "Vedic Astrology"

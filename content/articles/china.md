@@ -4,7 +4,7 @@ descslug: "Future of China"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/astrology-4.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions China Future"
+description : "Future of China"
 type: "featured"
 categories: 
   - "Vedic Astrology"

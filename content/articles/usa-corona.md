@@ -4,7 +4,7 @@ descslug: "Corona virus USA"
 date: 2020-04-27T10:52:36+06:00
 image: images/articles/astrology-4.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Coronavirus"
+description : "An Analysis"
 type: "featured"
 categories: 
   - "Vedic Astrology"

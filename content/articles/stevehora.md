@@ -5,9 +5,9 @@ date: 2020-04-07T12:52:36+06:00
 
 author: Steve Hora Jyotish
 
-image: images/vaashicon.png
+image: images/success.jpg
 
-description : Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Your Astrologer
+description : Hora Vedic Astrology by Steve - Hora Natal Mundane Predictions
 type: "post"
 categories: 
   - "Vedic Astrology"

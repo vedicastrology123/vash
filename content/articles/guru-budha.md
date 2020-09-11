@@ -4,7 +4,7 @@ descslug: "Are Guru Budha enemies!"
 date: 2020-07-31T09:00:00+05:30
 image: images/articles/astrology-3.jpg
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Budha Guru"
+description : "Are Guru Budha enemies!"
 type: "featured"
 categories: 
   - "Vedic Astrology"

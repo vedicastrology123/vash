@@ -2,10 +2,10 @@
 title: "Vedic Astrology Meaning"
 descslug: "Vedic Astrology Meaning"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 alt: "Steve Hora"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions - 12 Houses"
+description : "Knowledge"
 type: "post"
 categories: 
   - "Vedic Astrology"

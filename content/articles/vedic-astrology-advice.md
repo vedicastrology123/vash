@@ -1,9 +1,9 @@
 ---
 title: "Steve Hora"
 date: 2020-06-02T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Shri Maha Tripura Sundari
-description : "Steve Hora - Vedic Astrology  Jyotish Steve Hora Natal Mundane Astrology Horoscope Reading Predictions"
+description : "Steve Hora - Vedic Astrology Jyotish Hora Natal Mundane Predictions"
 type: "main"
 categories: 
   - "Vedic Astrology"

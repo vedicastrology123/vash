@@ -2,9 +2,9 @@
 title: "Tithi Information"
 descslug: "Tithi Information"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Tithi Information"
+description : "Know your Tithi"
 categories: 
   - "Vedic Astrology"
 tags:

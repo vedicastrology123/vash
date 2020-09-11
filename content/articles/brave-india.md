@@ -7,7 +7,7 @@ author: Steve Hora
 
 image: images/articles/brave-india.png
 
-description : Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Brave India
+description : Galwan war - An Analysis
 
 type: "featured"
 categories: 

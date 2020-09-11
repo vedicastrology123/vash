@@ -2,9 +2,9 @@
 title: "Navamsa Makara"
 descslug: "Navamsa Makara"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Q2A - Quora"
+description : "Shani Sade Sati"
 type: "post"
 categories: 
   - "Vedic Astrology"

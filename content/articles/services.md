@@ -3,9 +3,9 @@ title: "Astrology Services"
 descslug: "Our services"
 date: 2019-05-14T14:46:10+06:00
 description: "Services Page"
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Services - Hora Vedic Astrology by Steve - Hora Wealth Natal Mundane Astrology Horoscope Reading Predictions"
+description : "For you"
 path:
   - "https://stevehora.com/articles/services/"
 categories: 

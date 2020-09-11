@@ -2,9 +2,9 @@
 title: "Birth chart"
 descslug: "How to calculate birth chart?"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope How to Read Lagna Birth chart"
+description : "How to Read Lagna Birth chart?"
 type: "post"
 categories: 
   - "Vedic Astrology"

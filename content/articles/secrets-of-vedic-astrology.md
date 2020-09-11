@@ -2,9 +2,9 @@
 title: "Secrets of Vedic Astrology"
 descslug: "Secrets of Vedic Astrology"
 date: 2020-04-07T12:52:36+06:00
-image: "images/vaashicon.png"
+image: "images/success.jpg"
 author: Steve Hora
-description : "Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Secrets"
+description : "Explore..."
 type: "post"
 categories: 
   - "Vedic Astrology"
@@ -20,7 +20,7 @@ keywords:
   - "Secrets of Vedic Astrology"
 ---
 
-## Secrets of Vedic Astrology - Sahamas especially Artha Sahamas.
+### Sahamas - Artha Sahamas
 
 Part of Fortune is part of Arabic Astrology, which was copied into western astrology before 13th century.
 

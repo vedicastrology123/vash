@@ -2,9 +2,9 @@
 title: "Shipping Policy"
 descslug: "Our Shipping Policy"
 date: 2020-04-07T12:52:36+06:00
-image: images/vaashicon.png
+image: images/success.jpg
 author: Steve Hora
-description : "Shipping Policy - Hora Vedic Astrology by Steve - Hora Natal Mundane Astrology Horoscope Reading Predictions Privacy and Terms"
+description : "Prompt"
 categories: 
   - "Vedic Astrology"
 tags:
