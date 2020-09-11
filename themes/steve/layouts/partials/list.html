@@ -4,17 +4,18 @@
     </header>
     <section class="post-excerpt">
         {{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-            </br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
+            </br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
         {{else}}
             <p class="summary">{{ .Summary | plainify }}
 			</br>
                 {{ if .Truncated }}
-                    <a class="read-more" href="{{.RelPermalink}}">Read More…</a>
+                    <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
                 {{end}}
             </p>
         {{end}}
       </section>
-    <footer class="post-meta">
-    {{ partial "post_meta" .}}
-    </footer>
+    <footer style="background:#0F52BA;" class="post-meta">
+		{{ partial "post_meta" .}}
+    </footer>	
 </article>
+

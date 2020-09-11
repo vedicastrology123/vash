@@ -4,7 +4,7 @@ nav.breadcrumb{
 nav.breadcrumb li {
   display: inline ;
   font-size: 14px;
-    font-family: helvetica;
+    font-family: Roboto, helvetica;
 }
 nav.breadcrumb li a {
   text-decoration: none;
@@ -15,7 +15,7 @@ nav.breadcrumb li a:after {
 
   nav.navpage {
     font-size: 1em;
-    font-family: helvetica;
+    font-family: Roboto, helvetica;
     width: 100%;
 
   }
@@ -93,7 +93,7 @@ nav.navchildren{
 nav.navchildren li {
   font-size: smaller;
   line-height: 1.1em;
-  font-family: helvetica;
+  font-family: Roboto, helvetica;
   /*display: block;*/
 
 }

@@ -1,3 +1,23 @@
+        <div class="index-content post">
+            <h3><a class="read-more" href="{{.RelPermalink}}">{{.Title}}</a></h3>
+			<p>{{ .Summary }}<a class="read-more" href="{{.RelPermalink}}"><br><strong >Read More &raquo;</strong></a></p>
+        </div>
+		
+		   <footer style="background:#0F52BA;" class="post-footer">
+
+    {{if .Site.Params.logo}}
+    <figure class="author-image">
+        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+    </figure>
+    {{end}}
+  </footer>
+
+
+
+
+
+
+
         {{else}}
             {{ if .Site.Params.RSSLink}}
               <a class="menu-button icon-feed" href="{{.Site.Params.RSSLink }}">&nbsp;&nbsp;Subscribe</a>
@@ -12,3 +32,46 @@
         {{else}}
           <a class="menu-button icon-feed" href="{{ .RSSLink }}">&nbsp;&nbsp;Subscribe</a>
         {{end}}
+
+		
+		
+		
+		<!-- <form id="contact-form" method="post" action="https://forms.un-static.com/forms/d5c8ffd536c1dc7bef6d492c0e300f6b88691aee" role="form">
+			<div class="messages"></div>
+			<div class="controls">
+
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group">
+							<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname." required="required" data-error="Your Firstname is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="form-group">
+							<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="lastname.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="form-group">
+							<input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10">
+						<div class="form-group">
+							<textarea id="form_message" name="message" class="form-control" placeholder="Your Message." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<input type="submit" class="btn btn-success rounded btn-send" value="Send message">
+					</div>
+				</div>
+			</div>
+		</form> -->

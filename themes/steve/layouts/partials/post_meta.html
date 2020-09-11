@@ -11,17 +11,17 @@
 {{ if isset $author "thumbnail" }}
     <amp-img class="author-thumb" src="{{ $author.thumbnail | relURL }}" layout="fixed" width="24" height="24" alt="Author image"></amp-img>
 {{end}}
-{{$author.name}}
+<i style="color:#fff;">{{$author.name}}</i>
 {{if .Params.categories }}
 in
     {{ range $index, $category := .Params.categories }}
-        {{ if gt $index 0 }}, {{ end }}<a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ if gt $index 0 }}, {{ end }}<a style="color:#fff;" href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
 {{end}}
 {{if .Params.tags }}
 on
     {{ range $index, $tag := .Params.tags }}
-        {{ if gt $index 0 }}, {{ end }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+        {{ if gt $index 0 }}, {{ end }}<a style="color:#fff;" href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
     {{ end }}
 {{end}}
 <!-- <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">

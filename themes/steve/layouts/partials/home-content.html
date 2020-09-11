@@ -2,16 +2,48 @@
         {{if eq .Type "index" }}
         <div class="index-content post">
         {{.Content}}
+		   <footer style="background:#0F52BA;" class="post-footer">
+
+			{{if .Site.Params.logo}}
+			<figure class="author-image">
+				<a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+			</figure>
+			{{end}}
+		  </footer>
         </div>
         {{end}}
     {{ end }}
 
     {{ range .Data.Pages }}
         {{if eq .Type "main" }}
-        <div class="index-content post">
-            <h3><a class="read-more" href="{{.RelPermalink}}">{{.Title}}</a></h3>
-			<p>{{ .Summary }}<a class="read-more" href="{{.RelPermalink}}"><br><strong>Read More &raquo;</strong></a></p>
-        </div>
+<article class="post type-{{ .Type }}">
+
+    <header class="post-header">
+		<h3><a class="read-more" href="{{.RelPermalink}}">{{.Title}}</a></h3>
+        <!-- <small>{{.Page.Description}}</small> -->
+    </header>
+
+    <section class="post-content">
+      {{ .Summary }}
+	  <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}"><br>Read More &raquo;</a>
+    </section>
+<!-- 	<section class="post-meta">
+		{{ partial "post_meta" .}}
+	</section>
+ -->
+    <!-- {{ partial "author.html" . }} -->
+	</br>
+    {{ partial "social/share.html" . }}
+ 
+   <footer style="background:#0F52BA;" class="post-footer">
+
+    {{if .Site.Params.logo}}
+    <figure class="author-image">
+        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+    </figure>
+    {{end}}
+  </footer>
+</article>
         {{end}}
     {{ end }}
 
