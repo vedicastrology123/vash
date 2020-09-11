@@ -4,7 +4,7 @@ descslug: "Privacy"
 date: 2020-04-07T12:52:36+06:00
 image: images/success.jpg
 author: Steve Hora
-description : "Trust us"
+description : "Trust us - WE DO NOT DISCLOSE"
 categories: 
   - "Vedic Astrology"
 tags:
