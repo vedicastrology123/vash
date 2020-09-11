@@ -1,11 +1,10 @@
 {{ $pScratch := .Page.Scratch }}
 
-<h5>Below are the Question and Answers in different blog pages.</h5>
 {{ range .Site.Data.q2as }}
 	{{ $pScratch.Add "q2as" (slice (dict "question" .question "correctAnswer" .correctAnswer "relatedLink"  .relatedLink )) }}
-	  <strong>Question</strong><p>{{ .question }}</p>
-	  <strong>Answer</strong><p>{{ .correctAnswer }}</br>
-	  <a class="read-more" href="{{ .BaseURL }}{{ .relatedLink }}"><strong>Read More &raquo;</strong></a></p>
-	  <p align="center">____________________________________________</p>
+	  <p><strong>Question: </strong>{{ .question }}</br>
+	  <strong>Answer: </strong>{{ .correctAnswer }}</br>
+	  <a class="read-more" href="{{ .BaseURL }}{{ .relatedLink }}">Read More &raquo;</a></br>
+	  ____________</p>
 {{ end }}
 

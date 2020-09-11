@@ -1,5 +1,5 @@
 ---
-title: "FAQ"
+title: "FA Q2A"
 descslug: "Question and Answers in Vedic Astrology"
 date: 2020-04-07T12:52:36+06:00
 author: Steve Hora
@@ -28,7 +28,5 @@ keywords:
   - "Ketu"
   - "Venus"
 ---
-
-## Question and Answers in Vedic Astrology
 
 {{< showqs >}}
