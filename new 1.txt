@@ -1,3 +1,43 @@
+<div class="search" id="search">
+    <input type="text" placeholder="Search site..." v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
+    <div class="search-results" :style="{'display': showresult?'block':'none'}">
+        <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
+    </div>
+</div>
+
+https://en.jeffprod.com/blog/2018/build-your-own-hugo-website-search-engine/
+
+
+
+
+
+
+<!-- search result -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div id="search-results"></div>
+        <script id="search-result-template" type="text/x-js-template">
+          <ul class="search-result list-unstyled" id="summary-${key}">
+            <li class="border-bottom mb-4 pb-3">
+              <h4><a class="text-dark" href="${link}">${title}</a></h4>
+              <p>${snippet}</p>
+              ${ isset tags }<p>Tags: ${tags}</p>${ end }
+              ${ isset categories }<p>Categories: ${categories}</p>${ end }
+            </li>
+          </ul>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /search result -->
+
+
+
+
+
         <div class="index-content post">
             <h3><a class="read-more" href="{{.RelPermalink}}">{{.Title}}</a></h3>
 			<p>{{ .Summary }}<a class="read-more" href="{{.RelPermalink}}"><br><strong >Read More &raquo;</strong></a></p>

@@ -49,10 +49,11 @@ canonifyurls = true
   
   themeColor = "green" # Browser bar color
   googleanalytics = "UA-1341906-9"
-  ampElements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-mustache"] # AMP elements loaded on every page
+  adsensepublisher = ""
+  ampElements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind"] # AMP elements loaded on every page
 
   [params.amp]
-	elements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-mustache"] # AMP elements loaded on every page
+	elements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind"] # AMP elements loaded on every page
 
   [params.share]
     twitter = true
@@ -104,3 +105,13 @@ canonifyurls = true
 #    name = 'Search'
 #    weight = 7
 #    url = '/search/'
+
+
+[outputFormats.SearchIndex]
+		mediaType = "application/json"
+		baseName = "searchindex"
+		isPlainText = true
+		notAlternative = true
+
+[outputs]
+	home = ["HTML", "RSS", "SearchIndex"]
