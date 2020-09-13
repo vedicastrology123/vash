@@ -1,0 +1,149 @@
+<!-- <script type="application/ld+json">
+	{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "{{ .Site.Title }}",
+	"keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+     "sameAs": [ 
+     "https://www.facebook.com/SteveHoraAstrologer",
+     "https://twitter.com/AstrologyOrbit"
+     ],    
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+ -->
+<style amp-custom>
+         form.amp-form-submit-success [submit-success],
+         form.amp-form-submit-error [submit-error]{
+            margin-top: 16px;
+         }
+         form.amp-form-submit-success [submit-success] {
+            color: white;
+            background-color:gray;
+         }
+         form.amp-form-submit-error [submit-error] {
+            color: red;
+         }
+         form.amp-form-submit-success.hide-inputs > input {
+            display: none;
+         }
+		 amp-sidebar {
+		 background-size: 100% 50%;
+		 }
+</style>
+	  
+{{ partial "structure/header.html" . }}
+
+{{if .Params.image}}
+    <header class="main-header post-head post-cover">
+    <nav class="main-nav overlay clearfix">
+{{else}}
+    <header class="main-header post-head no-cover">
+    <nav class="main-nav clearfix">
+{{end}}
+{{ partial "navbar.html" . }}
+  </nav>
+  
+  
+      <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{.Title}}</h1>
+            <h2 class="page-description">
+                {{if .Params.description}}
+                    {{.Params.description}}
+                {{end}}
+            </h2>
+        </div>
+    </div>
+
+</header>
+
+<main class="content" role="main">
+
+  <article class="post type-{{ .Type }}">
+
+    <header class="post-header">
+    </header>
+
+    <section class="post-content">
+		<p><strong>Birth Chart Predictions</strong><br></br>
+		Click <a target="_blank" href="https://forms.gle/kLeDb2oBBUFWB6P49" onclick="goog_report_conversion ('https://stevehora.com/contact/')" class="btn btn-success rounded btn-send">Predictions</a> link and please provide <strong>your accurate date, time, place of birth and your life questions</strong>.</br>
+		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
+		
+		<form id="contact-form" method = "POST" 
+         action-xhr = "https://forms.un-static.com/forms/d5c8ffd536c1dc7bef6d492c0e300f6b88691aee" role="form"
+		 enctype=”multipart/form-data”
+         target = "_top">
+		<strong>Your Comments</strong>
+         <div>
+			<label>
+				<span>First Name:</span>
+				<input type = "text" size="36" name = "fname" placeholder = "Your first name, please" required><br/><br/>
+			</label>
+			<label>
+				<span>Last Name:</span>
+				<input type = "text" size="36" name = "lname" placeholder = "Last name" required><br/><br/>
+			</label>
+			<label>
+				<span>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<input type = "email" size="36" name = "email" placeholder = "Email" required><br/><br/>
+			</label>
+			<label>
+				<span>Message:&nbsp;&nbsp;&nbsp;</span></br>
+				<textarea rows="10" cols="49" name = "msg" maxlength="10000" placeholder = "Your message" required></textarea><br/><br/>
+			</label>
+			<input type = "submit" value = "Submit">
+         </div>
+         <div submit-success>
+            <template type = "amp-mustache">
+               Form Submitted, Thank You for your suggestions.
+            </template>
+         </div>
+         
+         <div submit-error>
+            <template type = "amp-mustache">
+               An Error occurred, please try again.
+            </template>
+         </div>
+      </form>
+
+
+
+      <!-- {{ .Content }} -->
+    </section>
+	</br>
+    <!-- {{ partial "social/share.html" . }} -->
+ 
+  <footer style="background:#0F52BA;" class="post-footer">
+
+    {{if .Site.Params.logo}}
+    <figure class="author-image">
+        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+    </figure>
+    {{end}}
+  </footer>
+</article>
+
+</main>
+{{ partial "structure/footer.html" . }}
+
+<!-- Event snippet for Contact conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-921381137/8z9TCKnL9twBEJHSrLcD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+

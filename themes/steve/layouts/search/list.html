@@ -1,0 +1,69 @@
+{{ partial "structure/header.html" . }}
+
+{{if .Params.cover}}
+  <header class="main-header tag-head list-cover">
+{{else if .Site.Params.cover}}
+  <header class="main-header tag-head cover">
+{{else}}
+    <header class="main-header tag-head no-cover">
+{{end}}
+    <nav class="main-nav overlay clearfix">
+      {{ partial "navbar.html" . }}
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+<amp-state id="allArticles"
+  src="/searchindex.json"></amp-state>
+  <input class="read-more" type="text" size="32" on="input-throttled:AMP.setState({filteredArticles: allArticles.items.filter(a => ((a.contents.toLowerCase().indexOf(event.value.toLowerCase()) != -1) || (a.title.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ||
+(a.url.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ) ),
+ inputValue: event.value })" placeholder="Type astrological keywords..." [value]="inputValue"><br></br>
+            <h1 class="page-title">Search Results</h1>
+        </div>
+    </div>
+</header>
+
+	<ul>
+			<amp-list height="282"
+			  [height]="(150) * filteredArticles.length"
+			  layout="fixed-height"
+			  src="/searchindex.json"
+			  [src]="filteredArticles"
+			  binding="no">
+		  <template type="amp-mustache">
+		  <li>
+			<article class="post type-{{ .Type }}">
+				<header class="post-header">
+					<strong class="post-title"><a {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>{{"{{title}}"}}</a></strong>
+				</header>
+				<section class="post-excerpt">
+					<p class="summary">{{"{{contents}}"}}
+					</br>
+						<a style="color:#0F52BA;" class="read-more"  {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>Read More…</a>
+					</p>
+				  </section>
+				<footer style="background:#0F52BA;" class="post-meta">
+					{{ partial "post_meta" .}}
+				</footer>	
+			</article>
+		  </li>
+		  </template>
+		</amp-list>
+	</ul>
+{{ partial "structure/footer.html" . }}
+
+<!-- <script type="application/ld+json">
+	{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "{{ .Site.Title }}",
+	"keywords" : [ "Search Vedic Astrology with Steve Hora" ],
+    "url": "{{ .Site.BaseURL }}",d
+    "description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+     "sameAs": [ 
+     "https://www.facebook.com/SteveHoraAstrologer",
+     "https://twitter.com/AstrologyOrbit"
+     ],    
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>-->
