@@ -74,6 +74,7 @@
 		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
 		
 		<form id="contact-form" method = "POST"
+		 enctype="text/plain"
          target = "_top"
 		 data-netlify="true">
 		<strong>Your Comments</strong>
@@ -94,7 +95,7 @@
 				<span>Message:&nbsp;&nbsp;&nbsp;</span></br>
 				<textarea rows="10" cols="49" name = "msg" maxlength="10000" placeholder = "Your message" required></textarea><br/><br/>
 			</label>
-			<input type = "submit" value = "Submit">
+			<input type = "submit" value = "Submit" onclick="submitFormAndHeader()">
          </div>
          <div submit-success>
             <template type = "amp-mustache">
@@ -109,7 +110,18 @@
          </div>
       </form>
 
+<script>
+      function submitFormAndHeader() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.setRequestHeader("Access-Control-Allow-Origin", "https://vedicastrology-amp.netlify.app/");
+        xhttp.setRequestHeader("Access-Control-Allow-Methods", "POST");
+        xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
+        xhttp.setRequestHeader("AMP-Access-Control-Allow-Source-Origin", "https://vedicastrology-amp.netlify.app/");
+		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
+        xhttp.send($("#contact-form").serialize());
+      }
 
+    </script>
 
       <!-- {{ .Content }} -->
     </section>
