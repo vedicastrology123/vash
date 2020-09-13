@@ -20,7 +20,12 @@
             </li>
         {{end}}
 			<nav toolbar="(max-width: 767px)" toolbar-target="target-element">
-			<li><input style="height:20px; width:225px; font-size:10pt;" placeholder="Search..." />
+			<li>
+<!-- 
+				<form method="get" action="/search" target="_top">
+					<input name="q" type="search" style="border: 1px solid #ccc; height:20px; width:180px; font-size:10pt;" placeholder="Search..." />
+					<input type="submit" style="border: 1px solid #ccc; height:20px; width:60px; font-size:10pt;" value="Submit">
+				</form> -->
 			</li>
 			<strong>Trending Articles</strong>
 			{{ partial "allposts.html" . }}

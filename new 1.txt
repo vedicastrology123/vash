@@ -1,3 +1,16 @@
+		<amp-list
+		  height="500"
+         [height]="(400) * filteredArticles.length"
+		 layout="fixed-height"
+		  items="."
+		  src="/searchindex.json"
+		  [src]="filteredArticles"
+		  binding="no">
+
+https://cristianpb.github.io/blog/amp-search-jekyll
+
+
+
 <div class="search" id="search">
     <input type="text" placeholder="Search site..." v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
     <div class="search-results" :style="{'display': showresult?'block':'none'}">
