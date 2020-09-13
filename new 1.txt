@@ -1,11 +1,7 @@
-		<amp-list
-		  height="500"
-         [height]="(400) * filteredArticles.length"
-		 layout="fixed-height"
-		  items="."
-		  src="/searchindex.json"
-		  [src]="filteredArticles"
-		  binding="no">
+ 
+         action-xhr = "https://forms.un-static.com/forms/d5c8ffd536c1dc7bef6d492c0e300f6b88691aee"
+ role="form"
+		 enctype=”multipart/form-data”
 
 https://cristianpb.github.io/blog/amp-search-jekyll
 
