@@ -74,8 +74,7 @@
 		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
 		
 		<form id="contact-form" method = "POST"
-		 action-xhr="/"
-		 enctype="text/plain"
+		 action-xhr="/searchindex.json"
          target = "_top"
 		 data-netlify="true">
 		<strong>Your Comments</strong>
@@ -116,11 +115,11 @@
         var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("contact-form").innerHTML =
+            document.getElementById("submit-success").innerHTML =
               this.responseText;
           }
         };
-        xhttp.open("POST", "/contact/", true);
+        xhttp.open("POST", "/searchindex.json/", true);
         xhttp.setRequestHeader("Access-Control-Allow-Origin", "https://vedicastrology-amp.netlify.app/");
         xhttp.setRequestHeader("Access-Control-Allow-Methods", "POST");
         xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
