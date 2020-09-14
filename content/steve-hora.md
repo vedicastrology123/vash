@@ -25,6 +25,20 @@ keywords:
   - "Tamil"
   - "Nadi"
   - "Grantha"
+
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
   
 email: "steve@stevehora.com"
 social:
@@ -35,7 +49,7 @@ social:
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "https://twitter.com/AstrologyOrbit"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "https://github.com/vedicastrology123/"  
+    link : "https://github.com/vedicastrology123/"
 ---
 
 **About Steve Hora**

@@ -16,6 +16,11 @@ path:
   - "https://stevehora.com/contact/"
 keywords:
   - "Vedic Astrology"
+
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+  
 ---
 
 **Reach us at  steve at stevehora dot com .**

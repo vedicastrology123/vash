@@ -21,6 +21,21 @@ keywords:
   - "Birth Chart"
   - "Free Birth Chart"
   - "Birth Chart Reading"
+  
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+  
 ---
 ## Birth Chart Prediction
 

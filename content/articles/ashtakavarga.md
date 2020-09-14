@@ -32,6 +32,21 @@ keywords:
   - "Ketu"
   - "Venus"
   - "Lagna"
+  
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+ 
 ---
 
 **Ashtakavarga system** deals with transit or [Gochara of Grahas](https://www.wisdomlib.org/definition/gochara) (Planets) in Bhavas (Houses). It has less significance in natal chart interpretation and Mundane Predictions and timing of events.

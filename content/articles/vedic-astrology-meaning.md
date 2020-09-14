@@ -32,6 +32,21 @@ keywords:
   - "10th House"
   - "11th House"
   - "12th House"
+  
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+  
 ---
 
 ## What is Vedic Horoscope

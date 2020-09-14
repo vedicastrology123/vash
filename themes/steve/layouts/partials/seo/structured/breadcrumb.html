@@ -1,15 +1,13 @@
 {{ if .Site.Params.breadcrumbsOnPath }}
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ $.Scratch.Add "path" .Site.BaseURL }}
+{{ $pScratch := .Scratch }}
+{{ .Scratch.Set "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "Home"))}}
 
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
-{{ range $index, $element := split $url "/" }}
-{{ $.Scratch.Add "path" $element }}
-{{ $.Scratch.Add "path" "/" }}
-{{ if ne $element "" }}
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
-{{ end }}
-{{ end }}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/steve-hora/" "name" "Steve Hora - Vedic Astrologer"))}}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/vedic-chart/" "name" "Calculate Your Vedic Astrology Chart"))}}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/articles/" "name" "Articles - Vedic Astrology"))}}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/about/" "name" "About"))}}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/contact/" "name" "Contact"))}}
+{{ .Scratch.Add "breadcrumb" (slice (dict "url" "https://stevehora.com/search/" "name" "Vedic Astrology"))}}
 
 <script type="application/ld+json">
 {

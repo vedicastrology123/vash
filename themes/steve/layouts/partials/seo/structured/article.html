@@ -11,8 +11,9 @@
 {{ if eq (getenv "HUGO_ENV") "production"}}
     {{$.Scratch.Set "staticDir" "static"}}
 {{ else }}
-    {{$.Scratch.Set "staticDir" "images-src"}}
+    {{$.Scratch.Set "staticDir" "static"}}
 {{ end }}
+{{$.Scratch.Add "staticDir" "/"}}
 {{$staticDir := ($.Scratch.Get "staticDir")}}
 <script type="application/ld+json">
 {
@@ -94,7 +95,7 @@
     }
   },
 {{- else }}
-  {{ $imageConfig := imageConfig (printf "static%s" .Site.Params.Logo) }}
+  {{ $imageConfig := imageConfig (printf "static/%s" .Site.Params.Logo) }}
   "publisher" : {
     "@type": "Organization",
     "name" : "{{ $.Site.Title }}",

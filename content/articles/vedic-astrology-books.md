@@ -17,6 +17,21 @@ lastmod: latest
 keywords:
   - "Learn Astrology"
   - "Astrology Books"
+  
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+  
 ---
 
 ## Books

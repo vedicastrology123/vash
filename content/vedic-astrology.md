@@ -27,6 +27,21 @@ path:
   - "https://stevehora.com/"
 
 #[sitemap] changefreq = "daily" priority = 1.0 filename = "sitemap.xml"
+
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+  
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+
 ---
 
 ### Vedic Astrology

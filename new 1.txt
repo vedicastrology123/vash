@@ -1,4 +1,19 @@
+<!-- {{ if .Site.Params.breadcrumbsOnPath }}
 
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
+{{ range $index, $element := split $url "/" }}
+{{ $.Scratch.Add "path" $element }}
+{{ $.Scratch.Add "path" "/" }}
+{{ if ne $element "" }}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+{{ end }}
+{{ end }}
+ -->
+ 
+ 
 https://stackoverflow.com/questions/38870814/jquery-form-submit-adding-request-headers/58965526#58965526
  
          action-xhr = "https://forms.un-static.com/forms/d5c8ffd536c1dc7bef6d492c0e300f6b88691aee"

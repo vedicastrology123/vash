@@ -19,6 +19,21 @@ path:
 keywords:
   - "Vimshottari Dasha"
   - "Timing"
+  
+news_keywords:
+  - "Vedic Astrology"
+  - "Steve Hora"
+
+structured:
+  type: "article"
+
+article:
+  image:
+   author: "Steve Hora"
+   src: "images/vaashicon.png"
+   height: 60
+   width: 60
+  
 ---
 
 ## Dasha systems

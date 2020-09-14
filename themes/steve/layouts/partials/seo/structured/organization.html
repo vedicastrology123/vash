@@ -1,4 +1,5 @@
-{{ if isset .Site.Params "organizationName" }}
+
+{{ if not (eq .Site.Params.organizationName "") }}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
