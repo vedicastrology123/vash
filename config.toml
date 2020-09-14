@@ -6,6 +6,7 @@ title = "Vedic Astrology"
 theme="steve"
 paginate = 5
 canonifyurls = true
+summaryLength = 15
 
 [permalinks]
     post = '/:year/:month/:slug/' # Wordpress style

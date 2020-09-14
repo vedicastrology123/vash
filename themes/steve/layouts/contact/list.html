@@ -73,8 +73,8 @@
 		Click <a target="_blank" href="https://forms.gle/kLeDb2oBBUFWB6P49" onclick="goog_report_conversion ('https://stevehora.com/contact/')" class="btn btn-success rounded btn-send">Predictions</a> link and please provide <strong>your accurate date, time, place of birth and your life questions</strong>.</br>
 		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
 		
-		<amp-form id="contact-form" method = "POST"
-		 action-xhr="https://vedicastrology-amp.netlify.app/"
+		<form id="contact-form" method = "POST"
+		 action-xhr="http://localhost:1313/response.json"
          target = "_top"
 		 data-netlify="true">
 		<strong>Your Comments</strong>
@@ -95,7 +95,7 @@
 				<span>Message:&nbsp;&nbsp;&nbsp;</span></br>
 				<textarea rows="10" cols="49" name = "msg" maxlength="10000" placeholder = "Your message" required></textarea><br/><br/>
 			</label>
-			<input type = "submit" value = "Submit" onclick="submitFormAndHeader()">
+			<input type = "submit" value = "Submit" >
          </div>
          <div submit-success>
             <template type = "amp-mustache">
@@ -108,7 +108,7 @@
                An Error occurred, please try again.
             </template>
          </div>
-      </amp-form>
+      </form>
 
 	<script>
       function submitFormAndHeader() {
@@ -127,7 +127,6 @@
 		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
         xhttp.send($("#contact-form").serialize());
       }
-
     </script>
 
       <!-- {{ .Content }} -->
