@@ -18,10 +18,17 @@ summaryLength = 15
     location = "SFO, USA"
     website = "https://stevehora.com"
     thumbnail = "/stevehora.bmp"
+    facebook = 'https://www.facebook.com/vedicastrology123' # Author's Facebook page
+    twitter = '@AstrologyOrbit'
+
+[social]
+    facebook = 'https://www.facebook.com/vedicastrology123' # Site's Facebook page
+    facebook_admin = 'https://www.facebook.com/vedicastrology123'
+    twitter = '@AstrologyOrbit'
 	
 [params]
   copyright = "Copyright 2014 stevehora.com - All rights reserved - "
-  description = "Steve Hora"
+  description = "Vedic Astrology by Steve Hora for Birth Chart Wealth Predictions free"
   terms = "Terms, Privacy"
   refund = "Refund Policy"
   information = "Your Destiny Your Success"
@@ -39,6 +46,7 @@ summaryLength = 15
   address = "Chennai, India and SFO, USA"
   organizationName = "stevehora.com"
   breadcrumbsOnPath = true
+  locale = "en_US"
   alternatePageName = "Hora Vedic Astrology by Steve"
   # Organization
     socialProfiles = ""
@@ -64,7 +72,10 @@ summaryLength = 15
   themeColor = "green" # Browser bar color
   googleanalytics = "UA-1341906-9"
   adsensepublisher = ""
-  ampElements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind","amp-state", "amp-user-notification","amp-ad"] # AMP elements loaded on every page
+  ampElements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind","amp-state", "amp-user-notification","amp-ad", "amp-youtube"] # AMP elements loaded on every page
+
+[params.structured]
+	type = ["Article", "Videos", "Product"]
 
 [params.article.image]
     src = "images/vaashicon.png"
@@ -73,7 +84,7 @@ summaryLength = 15
 	width = 60
 
   [params.amp]
-	elements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind","amp-state", "amp-user-notification","amp-ad"] # AMP elements loaded on every page
+	elements = ["amp-font", "amp-script", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-mustache","amp-bind","amp-state", "amp-user-notification","amp-ad", "amp-youtube"] # AMP elements loaded on every page
 
   [params.share]
     twitter = true
@@ -125,7 +136,6 @@ summaryLength = 15
     name = 'Search'
     weight = 7
     url = '/search/'
-
 
 [outputFormats.SearchIndex]
 		mediaType = "application/json"

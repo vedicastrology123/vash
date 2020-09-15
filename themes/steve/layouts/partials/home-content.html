@@ -25,10 +25,8 @@
 }
 </style>
 
-    {{ range .Data.Pages }}
-        {{if eq .Type "index" }}
         <div class="index-content post">
-        {{.Content}}
+			{{.Content}}
 		   <footer style="height:0.1rem; background:#0F52BA; border: 0.1rem solid #0F52BA; border-radius: 0.1em;" class="post-footer">
 
 			{{if .Site.Params.logo}}
@@ -38,40 +36,182 @@
 			{{end}}
 		  </footer>
         </div>
-        {{end}}
-    {{ end }}
 
-    {{ range .Data.Pages }}
-        {{if eq .Type "main" }}
-			<article class="post type-{{ .Type }}">
-				<header class="post-header">
-					<strong class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></strong>
-				</header>
+		<article class="post">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">Signs - Moveable, Immovable and Dual</a></strong>
+			</header>
+			<p>To know more about Vedic Astrology Signs, Click below youtube video</p>
+			<section  class="flex-container">
+				<section style="min-width: 70%;" class="post-excerpt column">
+					<amp-youtube data-videoid="WL7H-v_LzDw" data-param-rel="0" layout="responsive" width="250" height="150"></amp-youtube>
+				</section>
+				<section style=" background:#fff;" class="column bg-alt">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+					{{else}}
+						<p class="summary">Signs - Moveable, Immovable and Dual - Significances in Vedic Astrology by Steve Hora
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+						{{end}}
+						</p>
+					{{end}}
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+	{{ with .Site.GetPage "/articles/hora-wealth.md" }}
+		<article class="post type-{{ .Type }}">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></strong>
+			</header>
 			<section  class="flex-container">
 				<section class="post-excerpt column">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
 					{{else}}
-							<p class="summary">{{ .Summary | plainify }}
-							</br>
-							{{ if .Truncated }}
-								<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
-							{{end}}
+						<p class="summary">{{ .Summary | plainify }}
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
+						{{end}}
 						</p>
 					{{end}}
-				  </section>
-							  <section class="column bg-alt">
-							<img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></img>
-							  </section>
 				</section>
+				<section class="column bg-alt">
+					<img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></img>
+				</section>
+			</section>
 			<section>
 				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
-					{{ partial "post_meta" .}}
+				{{ partial "post_meta" .}}
 				</footer>	
 			</section>
-			</article>
-        {{end}}
-    {{ end }}
+		</article>
+	{{end}}
+
+	{{ with .Site.GetPage "/steve-hora.md" }}
+		<article class="post type-{{ .Type }}">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></strong>
+			</header>
+			<section  class="flex-container">
+				<section class="post-excerpt column">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
+					{{else}}
+						<p class="summary">{{ .Summary | plainify }}
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
+						{{end}}
+						</p>
+					{{end}}
+				</section>
+				<section class="column bg-alt">
+					<img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></img>
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+		<article class="post">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">Drekkana</a></strong>
+			</header>
+			<p>To know more about Vedic Astrology Signs, Click below youtube video</p>
+			<section  class="flex-container">
+				<section style="min-width: 70%;" class="post-excerpt column">
+					<amp-youtube data-videoid="L5NCD05E2dE" data-param-rel="0" layout="responsive" width="250" height="150"></amp-youtube>
+				</section>
+				<section style=" background:#fff;" class="column bg-alt">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+					{{else}}
+						<p class="summary">Drekkana and its Significances in Vedic Astrology by Steve Hora
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+						{{end}}
+						</p>
+					{{end}}
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+		<article class="post">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">Mantra Prabhava</a></strong>
+			</header>
+			<p>To know more about Vedic Astrology Signs, Click below youtube video</p>
+			<section  class="flex-container">
+				<section style="min-width: 70%;" class="post-excerpt column">
+					<amp-youtube data-videoid="pPt8fyLvdqg" data-param-rel="0" layout="responsive" width="250" height="150"></amp-youtube>
+				</section>
+				<section style=" background:#fff;" class="column bg-alt">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+					{{else}}
+						<p class="summary">Mantra Prabhava by Steve Hora
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+						{{end}}
+						</p>
+					{{end}}
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+		<article class="post">
+			<header class="post-header">
+				<strong class="post-title"><a href="/articles/tithi-information/">Shri Chakra</a></strong>
+			</header>
+			<section class="flex-container">
+				<section style="min-width: 45%; text-align:center" class="post-excerpt column">
+		<a href="/articles/tithi-information/"><img src="/images/shrichakramts.png" loading="lazy" width="324" height="324" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"><br><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success</span></a>
+				</section>
+				<section style=" background:#fff;" class="column bg-alt">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a></p>
+					{{else}}
+						<p class="summary">Tithi in Vedic Astrology by Steve Hora
+						
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a>
+						{{end}}
+						</p>
+					{{end}}
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; background:#0F52BA; border: 0.1rem solid #51aaa3; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+	{{end}}
 
 {{/*
     Display posts from a single section only. default to 'post'

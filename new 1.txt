@@ -1,3 +1,43 @@
+<a href="{{ .Permalink }}"><img src="{{ .Permalink }}images/products/ShriChakra.png" loading="lazy" width="364px" height="364px" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success.</span></a>
+
+
+<iframe id="player" class="embed-responsive-item" loading="lazy" width="300px" height="284px" src="" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen Enable privacy-enhanced mode></iframe>		
+
+https://www.googleapis.com/youtube/v3/videos?id="WL7H-v_LzDw"&key="AIzaSyByZCr1P2g1hbdprSqYZhQOoCt_hJKRk3E"&part=snippet
+
+AIzaSyByZCr1P2g1hbdprSqYZhQOoCt_hJKRk3E
+
+http://youtube.com/get_video_info?video_id="WL7H-v_LzDw"
+
+<amp-youtube autoplay video="WL7H-v_LzDw"</amp-youtube>
+
+<amp-youtube
+        {{ with .video }}data-videoid="{{ . }}"{{ end }}
+        {{ with .autoplay }}autoplay{{ end }}
+        {{ with .controls }}data-param-controls="1"{{ end }}
+        {{ with .color }}data-param-color="{{ . }}"{{ end }}
+        {{ with .disablekb }}data-param-disablekb="{{ . }}"{{ end }}
+        {{ with .end }}data-param-end="{{ . }}"{{ end }}
+        {{ with .fs }}data-param-fs="{{ . }}"{{ end }}
+        {{ with .hl }}data-param-hl="{{ . }}"{{ end }}
+        {{ with .list }}data-param-list="{{ . }}"{{ end }}
+        {{ with .listType }}data-param-listType="{{ . }}"{{ end }}
+        {{ with .loop }}data-param-loop="{{ . }}"{{ end }}
+        {{ with .modestbranding }}data-param-modestbranding="{{ . }}"{{ end }}
+        {{ with .playlist }}data-param-playlist="{{ . }}"{{ end }}
+        {{ with .playsinline }}data-param-playsinline="{{ . }}"{{ end }}
+        {{ with .rel }}data-param-rel="{{ . }}"{{ end }}
+        {{ with .showinfo }}data-param-showinfo="{{ . }}"{{ end }}
+        {{ with .start }}data-param-start="{{ . }}"{{ end }}
+        {{ with .layout }}layout="{{ . }}"{{ end }}
+        {{ with .width }}width="{{ . }}"{{ end }}
+        {{ with .height }}height="{{ . }}"{{ end }}></amp-youtube>
+
+
+    {{ range .Data.Pages }}
+        {{if eq .Type "main" }}
+
+
 <!-- {{ if .Site.Params.breadcrumbsOnPath }}
 
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}

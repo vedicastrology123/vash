@@ -6,7 +6,7 @@ author: Steve Hora
 information: "Expert Vedic Astrologer"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
-description : "Hora Vedic Astrology Advice by Steve Hora Wealth Matrimony matching love compatibility 27 nakshatras 20 16 divisional chart dhoni tarot birth chart famous forecast name vedas"
+description : "Hora Vedic Astrology Advice by Steve for Birth Chart Wealth Predictions"
 type: "index"
 categories: 
   - "Vedic Astrology"
@@ -42,6 +42,8 @@ article:
    height: 60
    width: 60
 
+#amp:
+#    elements: "amp-social-share"
 ---
 
 ### Vedic Astrology
