@@ -77,7 +77,8 @@
 		<form id="contact-form" method = "POST"
 		 action-xhr="https://vedicastrology-amp.netlify.app/response.json/"
          target = "_top"
-		 data-netlify="true">
+		 data-netlify="true"
+		 on="submit-success:success-lightbox;submit-error:error-lightbox">
 		<strong>Your Comments</strong>
          <div>
 			<label>
@@ -98,7 +99,7 @@
 			</label>
 			<input type = "submit" value = "Submit" onclick=submitFormAndHeader()>
          </div>
-		 on="submit-success:success-lightbox;submit-error:error-lightbox"
+		 
          <div submit-success>
             <template type = "amp-mustache">
                Form Submitted, Thank You for your suggestions.
