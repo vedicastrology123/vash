@@ -98,6 +98,7 @@
 			</label>
 			<input type = "submit" value = "Submit" onclick=submitFormAndHeader()>
          </div>
+		 on="submit-success:success-lightbox;submit-error:error-lightbox"
          <div submit-success>
             <template type = "amp-mustache">
                Form Submitted, Thank You for your suggestions.
@@ -110,6 +111,24 @@
             </template>
          </div>
       </form>
+
+<amp-lightbox id="success-lightbox" layout="nodisplay">
+<div class="lightbox"
+    on="tap:my-lightbox.close"
+    role="button"
+    tabindex="0">
+    <h1>Hello World!</h1>
+  </div>
+</amp-lightbox>
+
+<amp-lightbox id="error-lightbox" layout="nodisplay">
+<div class="lightbox"
+    on="tap:my-lightbox.close"
+    role="button"
+    tabindex="0">
+    <h1>Hello World!</h1>
+  </div>
+</amp-lightbox>
 
 	<script>
       function submitFormAndHeader() {
@@ -126,9 +145,9 @@
 		xhttp.setRequestHeader("Content-Type", "application/json");
         xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
         xhttp.setRequestHeader("AMP-Access-Control-Allow-Source-Origin", "https://vedicastrology-amp.netlify.app/");
-		
-		xhttp.setResponseHeader("AMP-Redirect-To", "https://vedicastrology-amp.netlify.app/about/");
-		xhttp.setResponseHeader("Access-Control-Expose-Headers", "AMP-Redirect-To");
+		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
+		//xhttp.setResponseHeader("AMP-Redirect-To", "https://vedicastrology-amp.netlify.app/about/");
+		//xhttp.setResponseHeader("Access-Control-Expose-Headers", "AMP-Redirect-To");
 
         xhttp.send($("#contact-form").serialize());
       }
