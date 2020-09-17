@@ -126,7 +126,10 @@
 		xhttp.setRequestHeader("Content-Type", "application/json");
         xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
         xhttp.setRequestHeader("AMP-Access-Control-Allow-Source-Origin", "https://vedicastrology-amp.netlify.app/");
-		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
+		
+		xhttp.setResponseHeader("AMP-Redirect-To", "https://vedicastrology-amp.netlify.app/about/");
+		xhttp.setResponseHeader("Access-Control-Expose-Headers", "AMP-Redirect-To");
+
         xhttp.send($("#contact-form").serialize());
       }
     </script>

@@ -1,3 +1,6 @@
+xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
+		
+
         //xhttp.open("POST", "https://vedicastrology-amp.netlify.app/searchindex.json/", true);
 
 <a href="{{ .Permalink }}"><img src="{{ .Permalink }}images/products/ShriChakra.png" loading="lazy" width="364px" height="364px" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success.</span></a>
