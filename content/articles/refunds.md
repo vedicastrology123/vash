@@ -19,7 +19,7 @@ keywords:
   - "Refund Policy"
 ---
 
-## Refund and Cancellation Policy
+### Refund and Cancellation Policy
 
 Our focus is complete customer satisfaction. In the event, of not meeting the customer satisfaction, we will refund back the money, provided the reasons are genuine and proved after investigation of the dissatisfaction.
 
@@ -27,7 +27,7 @@ In case of dissatisfaction of our products, customers have the liberty to cancel
 
 Our Policy for the cancellation and refund is as follows
 
-## Cancellation Policy
+### Cancellation Policy
 
 For Cancellations, please contact us [via contact page](/contact/). 
 
@@ -43,7 +43,7 @@ We will intimate the customer, of the returned product condition as soon as poss
 
 The courier charges for returning the product will be borne by the customer.
 
-## Refund Policy
+### Refund Policy
 
 We will try our best to offer the best product for our customers.
 
@@ -53,6 +53,6 @@ If paid by credit card, refunds will be issued to the original credit card, prov
 
 Also please refer our [Terms and Privacy Policy](/articles/privacy/) for more information.
 
-##### Questions
+#### Questions
 
 If you have questions about this policy, [please contact us](/contact/).

@@ -46,9 +46,9 @@ Get predictions and solutions from Our Astrologers for your life problems.
 
 [For Marriage Horoscope and Nakshatra matching](/articles/marriage-compatibility/) of boy and girl, contact us.
 
-##### Reach us at  **steve@stevehora.com**
+Reach us at  **steve@stevehora.com**
 
-### Vedic Astrology Information
+##### Vedic Astrology Information
 
 * [Vedic Astrology books pdf and articles](/articles/vedic-astrology-books/)
 * Vedic Astrology apps, ebooks and education

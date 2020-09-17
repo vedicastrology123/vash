@@ -37,7 +37,7 @@ article:
   
 ---
 
-## George Floyd Killing
+### George Floyd Killing
 
 A Mundane Astrological Analysis using House and Nakshatra system of Vedic Astrology.
 
@@ -75,6 +75,6 @@ This brings losses and Karmic debt (wounds and ill-feelings) occurs.
 
 Lagna point is in Budha nakshatra and Kuja, lagna lord is in Rahu nakshatra (A Naidhana tara),so death occurs.
 
-### Black Lives Matter (BLM)
+##### Black Lives Matter (BLM)
 
 [Black Lives Matter. ](https://en.wikipedia.org/wiki/Killing_of_George_Floyd)

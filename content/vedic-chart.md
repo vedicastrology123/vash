@@ -62,7 +62,7 @@ article:
 
 ---
 
-**Birth chart or Horoscope**
+### Birth chart or Horoscope
 
 Birth chart is based on your accurate Date of Birth, Time and Place of Birth.
 

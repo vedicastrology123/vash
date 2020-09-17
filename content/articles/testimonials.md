@@ -21,13 +21,13 @@ keywords:
   - "Testimonials"
 ---
 
-## Testimonials
+### Testimonials
 
 Please know about Me and My Expertise, from [My Quora Profile, and Questions and My Answers](https://www.quora.com/profile/Steve-Hora) and on this [website](https://stevehora.com) .
 
 To know about my prediction accuracy, contact [Puja Kataria on Facebook](https://www.facebook.com/puja.kataria) and for [my knowledge Rami Sivan on Quora](https://www.quora.com/profile/Rami-Sivan).
 
-## Take away
+#### Take away
 
 Provide your accurate birth details and life questions for which you are seeking solutions.
 

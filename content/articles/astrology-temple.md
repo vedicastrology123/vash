@@ -38,7 +38,7 @@ article:
   
 ---
 
-**Astrology Temple secrets**
+### Astrology Temple secrets
 
 Refer below youtube for information about the Temple and its carvings which has
 Astrological significance.
@@ -63,14 +63,14 @@ Proceeding from the center, you will find the following
 * Then it is 20 Vimsamsas.
 * 36 Drekanna squares around the vimsamsa square.
 
-### Why Vimsamsa of 20 squares?
+#### Why Vimsamsa of 20 squares?
 
  Vimsamsa signifies religious and spiritual development and permanent wisdom.
 
  Finding Your own [Vimsamsa](https://astrozing.com/vimsamsa-divisional-horoscope-or-varga-birth-chart/) representation in a temple and worshiping that deity as below
  is the SECRET.
 
-#### The presiding deities of the 20 Vimsamsa in an odd Rashi are
+##### The presiding deities of the 20 Vimsamsa in an odd Rashi are
 
 * Kali
 * Gauri
@@ -93,7 +93,7 @@ Proceeding from the center, you will find the following
 * Tripura
 * Sumukhi
 
-##### In an even Rashi these 20 deities are
+###### In an even Rashi these 20 deities are
 
 * Daya
 * Megha

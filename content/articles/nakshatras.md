@@ -34,7 +34,7 @@ article:
    width: 60
   
 ---
-## Nakshatras
+### Nakshatras
 
 What are the names of the 27 Nakshatras or star constellations?
 

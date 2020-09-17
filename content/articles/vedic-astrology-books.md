@@ -34,7 +34,7 @@ article:
   
 ---
 
-## Books
+### Books
 
 * {{< amazon asin="B0073U9LF0" affiliate="stevehora05-21" title="Astrology For Beginners" >}}
 * {{< amazon asin="8120808479" affiliate="stevehora05-21" title="How to Judge a Horoscope: I to VI Houses - Vol.1" >}}
@@ -44,7 +44,7 @@ article:
 * {{< amazon asin="8120808509" affiliate="stevehora05-21" title="Three Hundred Important Combinations" >}}
 * {{< amazon asin="8185674264" affiliate="stevehora05-21" title="Graha and Bhava Balas" >}}
 
-###### Reach me at  steve at stevehora dot com .
+Reach me at  **steve at stevehora dot com** .
 
 You can write to us to know more about Vedic Astrology and listed below
 

@@ -36,7 +36,7 @@ article:
   
 ---
 
-## Dasha systems
+### Dasha systems
 - are many in Vedic Astrology for timing events in one’s life from the horoscope.
 
 Each Dasha system has a purpose as enumerated in the samhitas.

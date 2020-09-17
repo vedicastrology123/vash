@@ -39,7 +39,7 @@ article:
   
 ---
 
-## Question and Answers
+### Question and Answers
 <table>
 
 <thead>
@@ -112,7 +112,7 @@ Well, a country becomes fully qualified, to enact and amend laws, by declaring i
 </tbody>
 </table>
 
-### Vedic Astrology Readings
+#### Vedic Astrology Readings
 
 * Tithi Information
 * Ayanamsa

@@ -38,7 +38,7 @@ article:
   
 ---
 
-## Horoscope - Marriage Compatibility
+### Horoscope - Marriage Compatibility
 
 {{<table "table table-striped table-warning table-hover table-bordered">}}
 | No. | Poruttham  | Result                                                   |

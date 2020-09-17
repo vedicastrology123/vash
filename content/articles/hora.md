@@ -43,7 +43,7 @@ article:
   
 ---
 
-## Using Hora Astrology in Daily life
+### Using Hora Astrology in Daily life
 
 [Hora as per Vedic Astrology](/articles/hora-wealth/) is based on the sequence of the week days, namely Sunday, Monday, Tuesday etc.
 

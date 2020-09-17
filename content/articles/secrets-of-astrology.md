@@ -38,7 +38,7 @@ article:
   
 ---
 
-## Lagna (D1) and Navamsa chart (D9)
+### Lagna (D1) and Navamsa chart (D9)
 From a person s lagna chart, the 7th lord denotes spouse and marriage.
 Its significance or amsa can be found in Navamsa chart (D9).
 
@@ -52,11 +52,11 @@ of these two souls.
 
 Then these two are destined to become couples and live their life together, in this janma, not necessarily of Love ( OMG :( ).
 
-## For Nakshatra matching
+#### For Nakshatra matching
 
 For Marriage Horoscope matching of boy and girl, use nakshatra matching.
 
-## For Horoscope matching
+#### For Horoscope matching
 
 Consult an expert astrologer for Matrimony matching or marriage compatibility.
 

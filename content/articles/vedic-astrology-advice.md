@@ -53,7 +53,7 @@ social:
     link : "https://github.com/vedicastrology123/"  
 ---
 
-**About Author**
+### About Author
 
 I am a born astrologer, as per Sri Vaithiswara Agasthiya Koushiha Nadi Grantha in Tamil.
 In my palm-leaf reading, one of my profession is mentioned as below

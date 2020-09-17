@@ -26,8 +26,18 @@
 			{
 			   font-size: 21px !important;
 			}
-		</style>
- -->    </head>
+		</style>	
+ -->    
+ {{ if .IsHome }}
+	<meta name="keywords" content= "{{ range $keyw,$keyword:=.Params.keywords}}{{ if $keyw }},{{ end }} {{$keyword}}{{ end }}"/>
+{{ else if (eq .Type "keywords") }}
+		<meta name="keywords" content= "{{ .Site.Params.keywords }}"/> 
+{{ else if (not (or (eq .Type "categories") (eq .Type "tags") )) }}
+	<meta name="keywords" content= "{{ range $keyw,$keyword:=.Params.keywords}}{{ if $keyw }},{{ end }} {{$keyword}}{{ end }}"/>
+{{ else }}
+		<meta name="keywords" content= "{{ .Title }}"/> 
+{{ end }}
+ </head>
 <body>
 {{ partial "navigation/sidebar" .}}
 <div class="site-wrapper">

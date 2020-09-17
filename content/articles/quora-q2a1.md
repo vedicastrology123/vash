@@ -41,9 +41,9 @@ article:
 <table>
 <thead>
 
-## Question and Answers
+### Question and Answers
 
-### by Steve Hora on Quora
+by **Steve Hora on Quora**.
 
 #### Most Valuable Writer on Vedic Astrology (Jytoisha)
 

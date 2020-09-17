@@ -79,7 +79,7 @@ We can modify, suffer, enjoy, deny, postpone, BUT we cannot escape the karmic ef
 
 An expert Vedic Astrologer will predict the life events and give Karmic solutions.
 
-##### Astrology - Using a Scientific Method
+###### Astrology - Using a Scientific Method
 
 Do I use one. Yes, I do. **How do I do?**
 

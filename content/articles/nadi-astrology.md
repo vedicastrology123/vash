@@ -38,7 +38,7 @@ article:
   
 ---
 
-## Nadi Astrology (Tamil Palm Leaf Reading)
+### Nadi Astrology (Tamil Palm Leaf Reading)
 
 Nadi - Tamil Palm Leaf horoscope reading is a mystery and one of Life wonders.
 
@@ -86,7 +86,6 @@ A sample  **General Chapter** is below, with few verses from it. The chart is de
 
 The poetic Tamil is highly chaste and bit difficult, even for a normal Tamilian to understand.
 
-
 #### Kandam 2 - Education and Wealth
 This chapter gives details about the Nadi seeker s Wealth, Family and Education. It also contains details about his/her Eyesight and Speech-related information.
  
@@ -132,7 +131,6 @@ This chapter deals with Development of spirituality, the possibility, of attaini
 #### Kandam 16 – Dasha Bhukthi predictions
 Predictions about dasha and bhukthi.
 There are other kandams, which may vary according to the Nadi reader s store house.
-
 
 Contact us for a personnel meeting arrangement with an authentic Nadi Reader.
 

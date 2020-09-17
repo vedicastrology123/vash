@@ -37,9 +37,9 @@ article:
 
 ---
 
-## A modern approach to Jaimini Astrology
+### A modern approach to Jaimini Astrology
 
-### Postulation
+#### Postulation
 
 1. Only 7 karakas is valid. Rahu-Ketu is taken as one unit.
 
@@ -76,9 +76,7 @@ Parasara s with NO exceptions. There will be NO consideration for subtraction or
 
 17. No mixing of Vimshottari dasha with Jaimini or No cosideration for Nakshatras.
 
-#### Analysis of Chart
-
-##### Mahatma Gandhi
+##### Analysis of Mahatma Gandhi Chart
 
 ![Horoscope of Mahatma Gandhi](/images/articles/mahatma-gandhi.png)
 
@@ -98,7 +96,7 @@ Fourth child in 1990. Running period is Thula-Makara. Makara is fifth from Kanya
 
 Spouse death in Feb 1944. Running period was Mesha-Makara. DK Budha is in Makara.
 
-### Jaimini Yoga predictions
+##### Jaimini Yoga predictions
 
 AtmaKaraka Guru is in Mesha in Rashi and in Dhanur in Navamsa. Considering KarakaAmsa as 
 

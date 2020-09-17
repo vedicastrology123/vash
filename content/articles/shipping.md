@@ -19,15 +19,15 @@ keywords:
   - "Shipping Policy"
 ---
 
-## Shipping Policy
+### Shipping Policy
 
 Thank you for visiting and shopping at our website.
 
 Following are the terms and conditions that constitute our Shipping Policy.
 
-## Domestic Shipping Policy
+#### Domestic Shipping Policy
 
-### Shipment processing time
+##### Shipment processing time
 
 All orders are processed within 2-3 business days. Orders are not shipped or delivered on weekends or holidays.
 
@@ -39,7 +39,7 @@ If there will be a significant delay in shipment of your order, we will contact 
 
 Please do email us, if shipping time exceeds 2-3 business days.
 
-### Shipping rates & delivery estimates
+##### Shipping rates & delivery estimates
 
 Shipping charges within USA for your order will be calculated and displayed at checkout.
 
@@ -59,23 +59,23 @@ Delivery delays can occasionally occur.
 
 We normally send by Fedex. Our website ships to addresses within the U.S., U.S. Territories, and APO/FPO/DPO addresses.
 
-#### Shipment confirmation & Order tracking
+##### Shipment confirmation & Order tracking
 
 You will receive a Shipment Confirmation email once your order has shipped containing your tracking number(s). The tracking number will be active within 24 hours.
 
-#### Customs, Duties and Taxes
+##### Customs, Duties and Taxes
 
 Our website is not responsible for any customs and taxes applied to your order. All fees imposed during or after shipping are the responsibility of the customer (tariffs, taxes, etc.).
 
-#### Damages
+##### Damages
 
 Our website is not liable for any products damaged or lost during shipping. If you received your order damaged, please contact the shipment carrier to file a claim.
 
 Please save all packaging materials and damaged goods before filing a claim.
 
-#### International Shipping Policy
+##### International Shipping Policy
 
 Do let us know your preferred courier, local address, time for delivery or pickup and other details. The additional shipping cost, whatsoever, will be billed to you.
 
-#### Returns Policy
+##### Returns Policy
 [Our Return and Refund Policy](/articles/refunds/) provides detailed information about options and procedures for returning your order.

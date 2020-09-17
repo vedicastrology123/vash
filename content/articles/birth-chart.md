@@ -37,7 +37,7 @@ article:
    width: 60
   
 ---
-## Birth Chart Prediction
+### Birth Chart Prediction
 
 A birth chart reading or Lagna chart prediction is also called **Reading the Horoscope**. A Horoscope the mapping of planets from a Geo-centric point of view.
 
@@ -101,38 +101,38 @@ Using Vimshottari dasha as it is, which is based on Chandra, but predictions fro
 
 For quick reference of house significance
 
-First House
+**First House**
 Birth, head, physical body, limb, physical features, livelihood
 
-Second House
+**Second House**
 Wealth, food, right eye, what one eats or drinks, face, eye, speech, family, property
 
-Third House
+**Third House**
 Courage, firmness, bad thoughts, breast, ear, especially right ear, prowess, brother or sister - younger one, heroism, mental strength
 
-Fourth house
+**Fourth house**
 House, home, land, relation, mother, vehicle, happiness, water, learning
 
-Fifth House
+**Fifth House**
 Intellect, children, son, belly, traditional law, virtuous acts previously done
 
-Sixth House
+**Sixth House**
 Debt, wounds, disease, enemy, sin, a wicked act, fear, humiliation
 
-Seventh House
+**Seventh House**
 Desire, love, passion, cohabitation, partner, public, wife or husband, dowry
 
-Eighth House
+**Eighth House**
 Life, longevity, mental pain, defeat or insult, sorrow, scandal, ill-repute, death, impurity, obstacle, danger
 
-Ninth House
+**Ninth House**
 Guru or preceptor, father, auspicious, previous life , worship, penance, virtue, grandson, prayer, spiritual initiation, noble family, fortune
 
-Tenth House
+**Tenth House**
 Livelihood, kingdom, work, commerce, trade, business, rank or position, good conduct, honor, sacrifice, command, quality, wealth, occupation
 
-Eleventh House
+**Eleventh House**
 Profit or gain, income, all kinds of receipts, acquisition, gain, desire, passion, fulfillment of one s desire, wealth or riches, brothers and sisters - elder one, friends
 
-Twelfth House
+**Twelfth House**
 House of disappearance, bondage, loss, negation, bed, sin, poverty, penury, loss, decline, misery, left eye, leg, defect.

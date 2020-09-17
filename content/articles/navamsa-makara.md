@@ -36,7 +36,7 @@ article:
   
 ---
 
-## What is the effect of Saturn in the 7th house on a D9 chart in Capricorn?
+### What is the effect of Saturn in the 7th house on a D9 chart in Capricorn?
 
 Effect of Saturn (Shani) in 7th house and that too in D9 chart. Interesting and a not a question to answer.
 
@@ -45,9 +45,9 @@ Analysing Navamsa in isolation is done by the unintelligent dull brain. Any char
 And also predicting based on the D9 house is just blabbering.
 
 
-## How will Capricorn Rashi be affected due to Shani’s Sade-Sati?
+#### How will Capricorn Rashi be affected due to Shani’s Sade-Sati?
 
-## What are the remedies for Shani Sade Sati?
+##### What are the remedies for Shani Sade Sati?
 
 Shani Sade Sati, the most dreaded transition of the Great Karmic Graha - Shani.
 
@@ -72,7 +72,7 @@ Shani does NOT care even if he is owner of his own house, that is Makara or Kumb
 But if Shani is in Makara and Chandra not being in sade-sati position, consider yourself lucky, for the coming transit of Shani into Makara. :) .
 
 
-## Is it true, retrograde+debilitated=exalted?
+#### Is it true, retrograde+debilitated=exalted?
 
 Retrograde means, as observed from earth,the apparent movement of the said Graha, is backwards. This is due to the elliptical movement of earth and the graha. Actual Graha will be moving forward.
 
@@ -82,8 +82,7 @@ From astrological point of view, a power lost graha and moving backward, would h
 
 It cannot become exalted. Some astrologer would have created this axiom and did a reverse-proof to prove his point.
 
-
-## After visiting Thirupathi on Monday, can I go to Kalahasthi on Tuesday and do my Rahu Ketu Pooja?
+#### After visiting Thirupathi on Monday, can I go to Kalahasthi on Tuesday and do my Rahu Ketu Pooja?
 
 You should NOT. Reverse it.Why?
 
@@ -98,7 +97,7 @@ That way Lord Shiva and Goddess Parvathi and Goddess Lakshmi will be pleased and
 What one should take, go and meet Lord Balaji is …..
 
 
-## What happens in the conjunction of Saturn and Mars in the 12th house?
+#### What happens in the conjunction of Saturn and Mars in the 12th house?
 
 Saturn (Shani) and Mars (Kuja) fighting in 12th. A cold graha fighting with fire,and arch enemy.
 
@@ -108,8 +107,7 @@ Also Where is your 1st and 7th lord, will tell more about your bed pleasures.
 
 If navamsa is given add another 25% accuracy from me. If given full birth details, it will be 95%.
 
-
-## Can you tell us what is the indications of wealth in astrology chart?
+#### Can you tell us what is the indications of wealth in astrology chart?
 
 2nd house is the indicator of all wealth in astrology chart.
 
@@ -127,8 +125,7 @@ Reading from scripture without research or predicting ad-dictum is for generic o
 
 How to apply all the postulation with kalaa and dashaa and predict when the accrual of wealth will happen is only by a master of predictions, who can proclaim himself as Jyotish Acharya, proudly.
 
-
-## What are effects of having sun and Saturn in the same house?
+#### What are effects of having sun and Saturn in the same house?
 
 Saturn is the son of Sun, through Chaya Devi, another wife of Sun. Chaya means Shadow or Dark.
 As Chaya Devi was not treated well by Sun, Saturn hates Sun.
@@ -136,8 +133,7 @@ But Sun as father of Saturn shows benevolence towards Saturn, which is not accep
 
 So one will find an eternal dilemma between these two Grahas. Due to which it affects horoscopes as such.
 
-
-## What is the importance of nakshatra lord in a horoscope?
+#### What is the importance of nakshatra lord in a horoscope?
 
 The nakshatra lord decides your fate for that aspect of life. Dasha is the measurement to deduce the time, of when that fate will fructify.
 
@@ -167,8 +163,7 @@ if 2nd lord is in 1st, he hates his tribes
 
 if 2nd lord is in 3rd, he has got good eyesight and will be a sports’ person.
 
-
-## What can I recite to get rid of Rahu?
+#### What can I recite to get rid of Rahu?
 
 Vedic astrological science was created and told to us by our great Rishis for, to harness graha’s power.
 
@@ -192,8 +187,7 @@ Even if he is bad, he can be harnessed in a good way, by removing him from NadiA
 
 NadiAmsa is the amsa where space (grahas) and time (dasha) meet, for a given birth chart.
 
-
-## Which chart in Vedic astrology is more important for career and wealth, D1 or D9?
+#### Which chart in Vedic astrology is more important for career and wealth, D1 or D9?
 
 D1 is Lagna chart, which is important. D9 is used to delineate the strength of Grahas in D1.
 
@@ -205,7 +199,7 @@ When a house is divided into its 16 vargas, all varga division totals to 150 div
 
 Many astrologers do not use divisional chart and know only to interpret from D1 only.
 
-## Which yogas (planetary combinations) give rise to mystic powers and intuitive abilities in an individual?
+#### Which yogas (planetary combinations) give rise to mystic powers and intuitive abilities in an individual?
 
 Mystic powers and Intuitive abilities are bestowed by the following yogas (planetary combinations).
 
@@ -221,6 +215,6 @@ So it bestows me with high intellectual, a sharp brain, intuitiveness and a soft
 
 ![Chakras and Horoscope ](/images/articles/chakras.jpg)
 
-### More
+#### More
 
 {{< targetblank "Astrological predictions on China" "https://www.quora.com/What-are-some-predictions-for-the-future-of-China/answer/Steve-Hora" >}}.

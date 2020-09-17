@@ -39,13 +39,13 @@ article:
   
 ---
 
-## Enrich and Optimize your life with Vedic Astrology ( Jyotish )
+### Enrich and Optimize your life with Vedic Astrology ( Jyotish )
 
 Karma plays an important role in the destiny or fate of a person. Free Will has its part also. Read more below
 
 Vedic Astrology captures this Karma of Yours in your Horoscope.
 
-### What is Vedic Astrology - An Introduction
+#### What is Vedic Astrology - An Introduction
 
 Vedic Astrology is one of the Vedas, the ancient Hindu scriptures. In Vedic astrology, the destiny or fate of a person is determined by his/her karma, which is set forth in the cosmic design of horoscope, planets and stars.
 
@@ -56,7 +56,7 @@ In Vedic astrology, a master astrologer, known as a Jyotish, uses a variety of d
 Vedic (Sidereal) horoscope is made according to Precession of Equinox or Ayanamsa ( True Lahiri Ayanamsa - Chitra paksha), using sidereal solar years of 360.
 Birth chart analysis is as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala or Naadi timing technique.
 
-#### What is in it for me
+##### What is in it for me
 
 **With your accurate Date of Birth, Place and Time - a horoscope** is made using pure astronomical scientific data of planetary positions.
 
@@ -76,7 +76,7 @@ The horoscope is the photo-capture of our previous birth karma.
 
 We can modify, suffer, enjoy, deny, postpone, BUT we cannot escape the karmic effect. We can carry forward it to the next birth.
 
-#### How to go about
+##### How to go about
 
 **Life is just Space, Energy and Time, like this Universe**
 
@@ -92,7 +92,7 @@ I read your horoscope for detailed analysis of the following
 
   * Time Karma correction is done by syncing your Space, Energy and Time as per your horoscope and using techniques which ensures that your time is any time as good time, and you sail this Ocean of Life smoothly.
 
-#### Can one change Destiny with Free Will
+##### Can one change Destiny with Free Will
 
 Yes, if you have no karmic balance from previous birth, nor in this birth.
 
@@ -100,7 +100,7 @@ Then your Free Will comes into action, to create newer Good Karma or Bad as well
 
 Or one can absolve all these Karmas, like Lord Buddha did, and attain Enlightenment.
 
-##### Astrological Quote
+###### Astrological Quote
 
 ஞாலங் கருதினுங் கைகூடுங் காலம் கருதி இடத்தாற் செயின்
 

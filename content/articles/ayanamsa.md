@@ -39,16 +39,16 @@ article:
   
 ---
 
-## Ayanamsa - A Scientific Calculation
+### Ayanamsa - A Scientific Calculation
 
-### Scientific data
+#### Scientific data
 
 Data used is from scientific community and not from Vedic text books.
 But Vedic Seers have to be credited for noting this great scientific data namely Ayanamsa or Precession of Equinox, astronomically long back. This is the greatest Achievement of Vedic Sidereal Astrology and Astronomical observations in India from time immemorial.
 
 [Scientific Axial Precession ](https://en.wikipedia.org/wiki/Axial_precession)
 
-#### Calculation of Ayanamsa using Modern Astronomical Data
+##### Calculation of Ayanamsa using Modern Astronomical Data
 
 > Polaris (Alpha UMi) or Urs Major or Dhrurva nakshatra or the Pole star is the present reference star for measuring the precession of Earth or Ayanamsa.
 

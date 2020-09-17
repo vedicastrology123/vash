@@ -1,5 +1,22 @@
 {{ partial "structure/header.html" . }}
 
+<script type="application/ld+json">
+	{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "{{ .Site.Title }}",
+	"keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+    "url": "{{ .Permalink }}",
+    "description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+     "sameAs": [ 
+     "https://www.facebook.com/SteveHoraAstrologer",
+     "https://twitter.com/AstrologyOrbit"
+     ],    
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+
 {{if .Params.cover}}
   <header class="main-header tag-head list-cover">
 {{else if .Site.Params.cover}}

@@ -37,7 +37,7 @@ article:
   
 ---
 
-## How is your Rasi sign determined?
+### How is your Rasi sign determined?
 
 The zodiac sign in which the planet Moon is situated at the time of your birth becomes your rasi or moon sign.
 

@@ -35,7 +35,7 @@ article:
 
 ---
 
-## Mahatma Gandhi
+### Mahatma Gandhi
 
 Chart Analysis and Mundane Predictions By Steve Hora.
 

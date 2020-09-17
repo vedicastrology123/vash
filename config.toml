@@ -145,3 +145,12 @@ summaryLength = 15
 
 [outputs]
 	home = ["HTML", "RSS", "SearchIndex"]
+
+keywords = "Hora, Vedic Astrology , Birth Chart , Steve, Advice, Wealth, Matrimony matching, love compatibility, 27 nakshatras, 20 divisional charts, dhoni famous horoscope, forecast, name, vedas , Calculate your Vedic Astrology Chart , Jyotish , About , Astrology Chat , Contact us , Quora Question and Answers , Predictions, ashtakavarga, astrology temple, august 2020, ayanamsa, bhrigu bindu, birth chart, brave india, case studies, china, coronavirus, dasha, gann w d, george floyd, graha, guru budha, guru dakshina, jaimini, janma nakshatra, karana, karma and astrology, mahatma gandhi, marriage compatibility, nadi astrology, nakshatras, nava grahas, navamsa makara, new world order, privacy, pushya paksha ayanamsa, quora q2a, quora q2a1, rashi sign, rashi, secrets of astrology, secrets of varma, secrets of vedic astrology, stevehora, telegram, tithi information, usa corona, vedic astrology books, vedic astrology meaning, vedic astrology software, vedic astrology tamil"
+
+newkeys = [ "Hora", "Vedic Astrology" , "Birth Chart" , "Steve", "Advice", "Wealth", "Matrimony matching", "love compatibility", "27 nakshatras", "20 divisional charts", "dhoni famous horoscope", "forecast", "name", "vedas", "Calculate your Vedic Astrology Chart" , "Jyotish" , "About" , "Astrology Chat" , "Contact us" , "Quora Question and Answers" , "Predictions","ashtakavarga","astrology temple","august 2020","ayanamsa","bhrigu bindu","birth chart","brave india","case studies","china","coronavirus","dasha","gann w d","george floyd","graha","guru budha","guru dakshina","jaimini","janma nakshatra","karana","karma and astrology","mahatma gandhi","marriage compatibility","nadi astrology","nakshatras","nava grahas","navamsa makara","new world order","privacy","pushya paksha ayanamsa","quora q2a","quora q2a1","rashi sign","rashi","secrets of astrology","secrets of varma","secrets of vedic astrology","stevehora","telegram","tithi information","usa corona","vedic astrology books","vedic astrology meaning","vedic astrology software","vedic astrology tamil"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  keyword = "keywords"

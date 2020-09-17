@@ -37,7 +37,7 @@ article:
   
 ---
 
-## What are the names of the 12 zodiac or Rashi or signs?
+### What are the names of the 12 zodiac or Rashi or signs?
 
 The 12 zodiac signs are: Mesha (Aries), Vrishabha, Mithuna, Karkataka, Simha, Kanya, Tula, Vrischika, Dhanu, Makara, Kumbha and Meena.
 

@@ -23,9 +23,9 @@ news_keywords:
   
 ---
 
-**Reach us at  steve at stevehora dot com .**
+Reach us at  **steve at stevehora dot com**
 
-#### Vedic Astrology Information
+### Vedic Astrology Information
 
 [Ashtakavarga System of Prediction.](/articles/ashtakavarga/)
 
@@ -46,6 +46,7 @@ Case studies in Astrology.
 China future astrologically.
 
 Coronavirus - an astrological analysis.
+
 Different Dasha systems.
 
 Gann W D and Vedic Astrology.

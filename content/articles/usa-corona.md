@@ -35,7 +35,7 @@ article:
   
 ---
 
-## When the Corona virus Pandemic will end in USA and will solve it?
+### When the Corona virus Pandemic will end in USA and will solve it?
 
 ![USA Independence Birth data](/images/articles/usa-ind.png)
 
@@ -45,7 +45,7 @@ Below is the Sidereal (Vedic) Horoscope of USA declaration of Independence.
 
 In mundane astrology, when dealing with countries, it is very important to see, the 1st lord, its children 5th house (People), Relationship 7th house, 6th house of Diseases and 8th from 6th for Cure (Vaccine).
 
-### Chart Analysis and Mundane Predictions
+#### Chart Analysis and Mundane Predictions
 The Vedic horoscope is made according to Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Vimshottari Dasha.
 I proceed to read the horoscope as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala timing technique.
 
@@ -66,6 +66,6 @@ Democratic countries ruled by Saturn will help out America. Saturn is looking at
 
 ![USA Independence Horoscope](/images/articles/time-for-cure.png)
 
-### More
+##### More
 
 {{< targetblank "Astrological predictions on China" "https://www.quora.com/What-are-some-predictions-for-the-future-of-China/answer/Steve-Hora" >}}.

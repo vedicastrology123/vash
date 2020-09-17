@@ -44,9 +44,9 @@ article:
   
 ---
 
-## NavaGraha
+### Nava Graha
 
-### Nava means Nine. Graha means  **One which Pulls or affects**.
+**Nava means Nine**. Graha means  **One which Pulls or affects**.
 
 A graha can be a Star (Sun) or a Satellite of Earth (Moon).
 There are nine grahas in Hindu scriptures like Vedic Astrology.
@@ -62,7 +62,7 @@ Grahas or Planets have temporal and permanent relationships and characters to ea
 
 [//]: # (This syntax works like a comment, and won't appear in any output. Below is html comment which will not be rendered but word counted)
 
-### Vedic Astrology Information
+#### Vedic Astrology Information
 
 * Vedic Astrology dasha calculator
 * Vedic Astrology demystified

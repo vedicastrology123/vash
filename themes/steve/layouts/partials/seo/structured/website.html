@@ -4,6 +4,26 @@
     "@type": "WebSite",
     "name": "{{ with .Site.Params.Description }} {{ . }}{{ end }}",
     {{ with .Site.Params.alternatePageName }}"alternateName": "{{ . }}",{{ end }}
-    "url": "{{ .Site.BaseURL }}"
+    "url": "{{ .Site.BaseURL }}",
+	"keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+	"description": "{{ .Site.Params.description }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
+     "sameAs": [ 
+     "https://www.facebook.com/SteveHoraAstrologer",
+     "https://twitter.com/AstrologyOrbit"
+     ],
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Thing",
+  "name": "Vedic Astrology",
+  "subjectOf": {
+    "@type": "CreativeWork",
+    "name": "Hora Vedic Astrology by Steve"
+  }
 }
 </script>

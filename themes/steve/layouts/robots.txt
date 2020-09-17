@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /404/
+
+{{ range where .Data.Pages "Params.robotsdisallow" true }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
+
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /keywords/
+
+Sitemap: https://stevehora.com/sitemap.xml

@@ -38,7 +38,7 @@ article:
   
 ---
 
-**Mundane - World Predictions**
+### Mundane - World Predictions
 
 The predictions are given on the transits of planets, with no fixed Ascendant (Lagna).
 
@@ -104,7 +104,7 @@ But Religious countries will survive on its own strength.
 
 Cyclones in the Southern hemisphere is likely to hit countries.
 
-##### References and Analysis method followed
+###### References and Analysis method followed
 
 The above predictions are based on major movement of Saturn, Jupiter, Sun, Rahu (Dragon Head), Ketu (Dragon Tail) and in a minor ways other grahas (planets) namely Venus, Mars, Moon and Mercury.
 

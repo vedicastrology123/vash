@@ -38,7 +38,7 @@ article:
   
 ---
 
-## Rat Metal - Chinese Calendar Year 2020 - Astrological signify?
+### Rat Metal - Chinese Calendar Year 2020 - Astrological signify?
 
 The Chinese New Years are Lunar based starting from next lunar day after new moon.
 
@@ -48,7 +48,7 @@ The Vedic Sidereal Horoscope is as below.
 
 From this chart one can read the predictions for the People of China.
 
-### Chart Analysis and Mundane Predictions
+#### Chart Analysis and Mundane Predictions
 
 
 ![Metal Rat](/images/articles/metalratyear2020.png)
@@ -95,6 +95,6 @@ From 26th June till July 27th, Loss of wealth.
 
 From July 27th till 18th Aug, good exports but with loss of name and fame.
 
-### More
+#### More
 
 {{< targetblank "Astrological predictions on China" "https://www.quora.com/What-are-some-predictions-for-the-future-of-China/answer/Steve-Hora" >}}.

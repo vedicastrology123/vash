@@ -35,7 +35,7 @@ article:
    width: 60
   
 ---
-**Vedic Astrology on Telegram Channels**
+### Vedic Astrology on Telegram Channels
 
 Join here to {{< targetblank "Learn Vedic Astrology" "https://www.t.me/LearnVedicAstrology" >}}.
 
@@ -51,7 +51,7 @@ To get {{< targetblank "Vedic Astrology Advice from a Jyotish" "https://www.t.me
 
 {{< targetblank "Stay tuned on Vedic Astrology telegram channel" "https://www.t.me/stevehorachannel" >}}.
 
-### Question and Answer in Vedic Astrology
+#### Question and Answer in Vedic Astrology
 
 You can write to us to know more about Vedic Astrology.
 

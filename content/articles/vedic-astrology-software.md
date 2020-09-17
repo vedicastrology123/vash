@@ -39,7 +39,7 @@ article:
   
 ---
 
-## Vedic Astrology Software
+### Vedic Astrology Software
 
 Recommended by Steve Hora – Jyotish Guru
 
@@ -47,7 +47,7 @@ Recommended by Steve Hora – Jyotish Guru
 
 I use it for my research and accurate predictions.
 
-### Steve Hora, Vedic Astrologer, Researcher and Subject Matter Expert (SME) on Vedic, Naadi and Mundane Astrology.
+#### Steve Hora, Vedic Astrologer, Researcher and Subject Matter Expert (SME) on Vedic, Naadi and Mundane Astrology.
 
 Reach me at  steve at stevehora dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
 
@@ -68,16 +68,16 @@ I challenge the status quo, ad-literam and anecdotal of vedic and western astrol
 
 (This quality of mine is due to Chandra exalted in Vrishabha and Makara Lagna Shani and Ketu sitting in Abhijit nakshatra).
 
-#### Astrological Quote
+##### Astrological Quote
 ஞாலங் கருதினுங் கைகூடுங் காலம் கருதி இடத்தாற் செயின்
 
 Choose proper time and place and act, even the world, you will win with ease.
 
 ----from Thirukural (484 couplet) by Saint ThiruValluvar (1st century BC)
 
-##### Vedic Astrology on Telegram
+###### Vedic Astrology on Telegram
 
-##### Click below links to join
+#3#### Click below links to join
 
 [Learn Vedic Astrology.](https://www.t.me/LearnVedicAstrology)
 

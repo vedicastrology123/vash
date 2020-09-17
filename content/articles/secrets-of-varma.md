@@ -36,11 +36,11 @@ article:
   
 ---
 
-## Varma or Marma (Secret) points of Tamil Martial Arts
+### Varma or Marma (Secret) points of Tamil Martial Arts
 
 Varma or Marma points are based on the movement of Prana Energy in a human body.
 
-## Amirtha Nilai (Prana s location)
+#### Amirtha Nilai (Prana s location)
 On each tithi day the prana moves as below
 
 ![Tithi - Marma point](/images/articles/tethi.png)

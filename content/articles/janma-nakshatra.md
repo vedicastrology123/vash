@@ -36,7 +36,7 @@ article:
   
 ---
 
-## How is your Janma Nakshatra or janma star determined?
+### How is your Janma Nakshatra or janma star determined?
 
 The Nakshatra in which moon is placed at the time of your birth is your Janma Nakshatra or birth star.
 

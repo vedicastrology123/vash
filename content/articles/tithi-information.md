@@ -34,7 +34,7 @@ article:
   
 ---
 
-## Tithi Information
+### Tithi Information
 
 [Tithi Calculator](https://www.astroica.com/vedic-astrology/tithi-calculator.php) link gives the tithi of the entered date and place.
 
@@ -42,15 +42,15 @@ What are the 15 Tithis or lunar phases called?
 
 The 15 Tithis or unar phases are: Pratipada(Padyami), Dwiteeya, Triteeya, Chaturthi, Panchami, Shasthi, Saptami, Asthami, Navami, Dashami, Ekadasi, Dwadasi, Trayodasi, Chaturdasi and Poornima/Amavasya.
 
-## Shri Chakra Maha Tripura Sundari Khadgamala Stotram
+#### Shri Chakra Maha Tripura Sundari Khadgamala Stotram
 
 
 Click below link and hear the below Stotram as many times.
 
 
-### Shri Chakra Khadgamala Stotram on youtube youtu.be/djojAK_uheI .
+#### Shri Chakra Khadgamala Stotram on youtube youtu.be/djojAK_uheI .
 
-#### Panchang
+##### Panchang
 
 Tithi information can be got from Hindu Calendar or Panchang.
 

@@ -1,10 +1,10 @@
-<!-- <script type="application/ld+json">
+<script type="application/ld+json">
 	{
     "@context": "http://schema.org",
     "@type": "WebPage",
     "name": "{{ .Site.Title }}",
 	"keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
-    "url": "{{ .Site.BaseURL }}",
+    "url": "{{ .Permalink }}",
     "description": "{{ .Site.Params.description }}",
     "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
      "sameAs": [ 
@@ -14,7 +14,7 @@
     "license": "{{ .Site.Params.Copyright }}"
 }
 </script>
- -->
+
 <style amp-custom>
          form.amp-form-submit-success [submit-success],
          form.amp-form-submit-error [submit-error]{
@@ -37,14 +37,15 @@
 	  
 {{ partial "structure/header.html" . }}
 
-{{if .Params.image}}
-    <header class="main-header post-head post-cover">
-    <nav class="main-nav overlay clearfix">
+{{if .Params.cover}}
+  <header class="main-header tag-head list-cover">
+{{else if .Site.Params.cover}}
+  <header class="main-header tag-head cover">
 {{else}}
-    <header class="main-header post-head no-cover">
-    <nav class="main-nav clearfix">
+    <header class="main-header tag-head no-cover">
 {{end}}
-{{ partial "navbar.html" . }}
+    <nav class="main-nav overlay clearfix">
+      {{ partial "navbar.html" . }}
   </nav>
   
   
@@ -74,7 +75,7 @@
 		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
 		
 		<form id="contact-form" method = "POST"
-		 action-xhr="http://localhost:1313/response.json"
+		 action-xhr="https://vedicastrology-amp.netlify.app/response.json/"
          target = "_top"
 		 data-netlify="true">
 		<strong>Your Comments</strong>
@@ -95,7 +96,7 @@
 				<span>Message:&nbsp;&nbsp;&nbsp;</span></br>
 				<textarea rows="10" cols="49" name = "msg" maxlength="10000" placeholder = "Your message" required></textarea><br/><br/>
 			</label>
-			<input type = "submit" value = "Submit" >
+			<input type = "submit" value = "Submit" onclick=submitFormAndHeader()>
          </div>
          <div submit-success>
             <template type = "amp-mustache">
@@ -119,9 +120,10 @@
               this.responseText;
           }
         };
-        xhttp.open("POST", "https://vedicastrology-amp.netlify.app/searchindex.json/", true);
+
         xhttp.setRequestHeader("Access-Control-Allow-Origin", "https://vedicastrology-amp.netlify.app/");
         xhttp.setRequestHeader("Access-Control-Allow-Methods", "POST");
+		xhttp.setRequestHeader("Content-Type", "application/json");
         xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
         xhttp.setRequestHeader("AMP-Access-Control-Allow-Source-Origin", "https://vedicastrology-amp.netlify.app/");
 		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
@@ -129,7 +131,7 @@
       }
     </script>
 
-      <!-- {{ .Content }} -->
+      {{ .Content }}
     </section>
 	</br>
     <!-- {{ partial "social/share.html" . }} -->

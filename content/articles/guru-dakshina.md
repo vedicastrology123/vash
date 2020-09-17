@@ -19,7 +19,7 @@ keywords:
   - "Guru Dakshina"
 ---
 
-## Guru Dakshina / Kannikai
+### Guru Dakshina / Kannikai
 
 [Please pay Guru Dakshina, by clicking this PayUMoney](https://www.payumoney.com/react/app/merchant/#/pay/merchant/690EDAA4FBC4CAEEB390A87CE3DB59C9?param=5465070)
 

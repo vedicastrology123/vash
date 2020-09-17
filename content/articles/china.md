@@ -37,7 +37,7 @@ article:
 
 ![Dasha system](/images/articles/ch1.png)
 
-## China Horoscope
+### China Horoscope
 
 The data for China’s natal horoscope is taken from above authentic source.
 
@@ -63,7 +63,7 @@ Shukra as 10th lord in 10th, makes it a super power in its own right. It will be
 
 12th lord Guru in 12th and Vargottama makes it suave and clever in foreign relations. Guru being 3rd lord also, it maintains the same strategy with its neighbors also.
 
-### Edit on 3rd Feb 2020 :
+#### Edit on 3rd Feb 2020 :
 
 The 22nd drekkana from Lagna of China’s horoscope is occupied by Shani, who is lagna lord in 8th. Also as 2nd lord (maraka) is sitting in 8th, looking at the maraka-sthana BADLY.
 

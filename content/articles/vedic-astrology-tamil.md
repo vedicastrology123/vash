@@ -48,7 +48,7 @@ article:
   
 ---
 
-## About Steve Hora
+### About Steve Hora
 
 I am a born astrologer, as per Sri Vaithiswara Agasthiya Koushiha Nadi Grantha in Tamil.
 In my palm-leaf reading, one of my profession is mentioned as below
@@ -67,7 +67,7 @@ I challenge the status quo, ad-literam and anecdotal of vedic and western astrol
 
 (This quality of mine is due to Chandra exalted in Vrishabha and Makara Lagna Shani and Ketu sitting in Abhijit nakshatra).
 
-### Astrological Quote
+#### Astrological Quote
 
 ஞாலங் கருதினுங் கைகூடுங் காலம் கருதி இடத்தாற் செயின்
 
@@ -79,7 +79,7 @@ Apart from Star or Nakshatra matching, matrimony matching for marriage can be do
 
 Reach me at  steve at stevehora dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
 
-#### On Telegram
+##### On Telegram
 
 [Learn Vedic Astrology.](https://www.t.me/LearnVedicAstrology)
 

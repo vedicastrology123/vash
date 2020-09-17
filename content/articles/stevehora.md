@@ -41,8 +41,8 @@ article:
   
 ---
 
-## Steve Hora – Jyotish Guru
-### Vedic Astrologer, Researcher and Subject Matter Expert (SME) on Vedic, Naadi and Mundane Astrology.
+### Steve Hora – Jyotish Guru
+**Vedic Astrologer**, Researcher and Subject Matter Expert (SME) on Vedic, Naadi and Mundane Astrology.
 
 Reach me at  steve at stevehora dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
 

@@ -37,7 +37,7 @@ article:
   
 ---
 
-## Graha Budha an enemy of Guru
+### Graha Budha an enemy of Guru
 
 Consider the relationship of Guru and Budha from their houses in the zodiac
 
@@ -65,7 +65,7 @@ Once upon a time, Chandra seduced Guru’s wife Tara, and an illegitimate son wa
 
 The stories in Hindu puranas have astrological significance.
 
-### Vedic Astrology Information
+#### Vedic Astrology Information
 
 * Zodiac Sign Compatibility for Marriage
 * Horoscope Matching, Kundali Matching, Kundli Matching for Marriage Free

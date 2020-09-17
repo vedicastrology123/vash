@@ -36,13 +36,13 @@ article:
   
 ---
 
-## Pushya-paksha Ayanamsa
+### Pushya-paksha Ayanamsa
 by Great Astrologer PVR Narasimha Rao, his free and best Jagannatha Hora software.
 
 ![Pushya Paksha Ayanamsa ](/images/articles/ayan.jpg)
 
 
-### Jagannatha Hora
+#### Jagannatha Hora
 
 PVR Narasimha Rao Garu had done a great exemplary service and Punya to Vedic Astrology.
 
@@ -69,7 +69,7 @@ Rather this ayanamsa has great future for western astrology also, as it is in Su
 
 Q2A on Quora : What is your opinion of the astrologer PVR Narasimha Rao, his software Jagannatha Hora and his delineation of the Pushya-paksha Ayanamsa?
 
-### Vedic Astrology Information
+##### Vedic Astrology Information
 
 * Love Compatibility
 * Free Horoscope Matching, Kundali Matching for Marriage

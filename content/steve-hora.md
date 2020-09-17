@@ -52,7 +52,7 @@ social:
     link : "https://github.com/vedicastrology123/"
 ---
 
-**About Steve Hora**
+### About Steve Hora
 
 A born astrologer, as per Sri [Vaithiswara Agasthiya Koushiha Nadi Grantha in Tamil](/articles/nadi-astrology/).
 In the palm-leaf reading, one of his profession is mentioned as below

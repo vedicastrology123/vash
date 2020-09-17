@@ -49,7 +49,8 @@ article:
  
 ---
 
-**Ashtakavarga system** deals with transit or [Gochara of Grahas](https://www.wisdomlib.org/definition/gochara) (Planets) in Bhavas (Houses). It has less significance in natal chart interpretation and Mundane Predictions and timing of events.
+### Ashtakavarga system
+Deals with transit or [Gochara of Grahas](https://www.wisdomlib.org/definition/gochara) (Planets) in Bhavas (Houses). It has less significance in natal chart interpretation and Mundane Predictions and timing of events.
 
 The principle of this system is as follows
 
@@ -71,7 +72,7 @@ The principle of this system is as follows
 
 ![Ashtakavarga](/images/articles/ashtakavarga.png)
 
-### To start with
+#### To start with
 
 Use a [good Astrological software](https://jagannatha-hora.informer.com/8.0/) to make your Sarva Ashtakavarga for your birth chart.
 
@@ -95,7 +96,7 @@ Example : I have 36 in 11th house, which is house of profits. And in 12th house,
 
 I have 33 in 1st house. A self made person with a strong mind.
 
-#### Pros of Ashtakavarga
+##### Pros of Ashtakavarga
 
 It is a quick way to assess a chart.
 

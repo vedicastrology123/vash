@@ -37,7 +37,7 @@ article:
   
 ---
 
-#### In-Depth knowledge
+### In-Depth knowledge
 [Vedic Astrology](https://en.wikipedia.org/wiki/Hindu_astrology) is a vast subject. Steve Hora and other astrologers on our website, have in-depth knowledge for horoscope predictions.
 
 **Privacy**
@@ -50,7 +50,7 @@ Vedic birth chart will be made according to True Lahiri Ayanamsa (Chitra paksha)
 
 The birth chart will be read as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala timing technique.
 
-##### Shri Chakra Meditation for Horoscope Remedies and Solutions
+#### Shri Chakra Meditation for Horoscope Remedies and Solutions
 Personalized Shri Chakra as per your horoscope, for meditation. Personalized mantra, yantra and tantra as per Vedic traditions for life solutions can be given.
 
 **Prasna Marga**

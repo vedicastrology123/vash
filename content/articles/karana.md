@@ -35,9 +35,7 @@ article:
 
 ---
 
-## Karana
-
-###Karana and their effects in Astrology
+### Karana and their effects in Astrology
 
 #### Bav Karana
 Individuals born in Bav Karana in Astrology are spiritual and like to be involved in holy activities. They are divuthful and have faith in giving their best to any work that’s given to them.
