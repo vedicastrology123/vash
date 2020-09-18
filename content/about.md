@@ -40,11 +40,9 @@ article:
 ### In-Depth knowledge
 [Vedic Astrology](https://en.wikipedia.org/wiki/Hindu_astrology) is a vast subject. Steve Hora and other astrologers on our website, have in-depth knowledge for horoscope predictions.
 
-**Privacy**
-[We respect the privacy of yours](/articles/privacy/) and **DO NOT DISCLOSE any private information to anyone**.
+**Privacy**: [We respect the privacy of yours](/articles/privacy/) and **DO NOT DISCLOSE any private information to anyone**.
 
-**Accurate Predictions**
-Vedic Astrology is about accurate Vedic birth chart Predictions. Steve Hora uses a Mundane Predictions technique from Tamil Nadi Grantha, with which the Timing and Predictions are accurately given.
+**Accurate Predictions** : Vedic Astrology is about accurate Vedic birth chart Predictions. Steve Hora uses a Mundane Predictions technique from Tamil Nadi Grantha, with which the Timing and Predictions are accurately given.
 
 Vedic birth chart will be made according to True Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Vimshottari Dasha.
 
@@ -53,12 +51,9 @@ The birth chart will be read as per Parasara system and Timing using Vimshottari
 #### Shri Chakra Meditation for Horoscope Remedies and Solutions
 Personalized Shri Chakra as per your horoscope, for meditation. Personalized mantra, yantra and tantra as per Vedic traditions for life solutions can be given.
 
-**Prasna Marga**
-Get questions answered according to the time of the question.
+**Prasna Marga** : Get questions answered according to the time of the question.
 
-**For Marriage**
-
-Get predictions and solutions from Our Astrologers for your life problems.
+**For Marriage** : Get predictions and solutions from Our Astrologers for your life problems.
 
 [For Marriage Horoscope and Nakshatra matching](/articles/marriage-compatibility/) of boy and girl, contact us.
 
@@ -66,13 +61,13 @@ Reach us at  **steve@stevehora.com**
 
 **Vedic Astrology Information**
 
-* [Vedic Astrology books pdf and articles](/articles/vedic-astrology-books/)
-* Vedic Astrology apps, ebooks and education
-* Vedic Astrology a guide to the fundamentals of jyotish
-* Reading a Vedic Astrology chart
-* What is a Vedic Astrology reading
-* How to read a Vedic Astrology birth chart
-* Vedic Astrology birth chart in tamil Nadi leaf
-* Vedic Astrology blog, course and classes
-* Marriage or matrimony compatibility
-* C-Section birth
+* [Vedic Astrology books pdf and articles](/articles/vedic-astrology-books/).
+* Vedic Astrology apps, ebooks and education.
+* Vedic Astrology a guide to the fundamentals of jyotish.
+* Reading a Vedic Astrology chart.
+* What is a Vedic Astrology reading.
+* How to read a Vedic Astrology birth chart.
+* Vedic Astrology birth chart in tamil Nadi leaf.
+* Vedic Astrology blog, course and classes.
+* Marriage or matrimony compatibility.
+* C-Section birth.

@@ -5,6 +5,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html ⚡ lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}" class="no-js"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
+		<html amp lang="en">
+
         {{ partial "amp/header" . }}
         <link rel="canonical" href="{{ .Permalink }}">
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -16,6 +18,37 @@
 
         <meta name="theme-color" content="{{ $.Site.Params.themeColor }}" />
         <meta name="description" content="{{ .Params.description }} - {{ $.Site.Params.description }}" />
+		<meta http-equiv="Cache-control" content="max-age=360000"/>
+		<link rel="search" href="/search.xml" title=" {{ .Site.Params.searchSite }}" type="application/opensearchdescription+xml">
+		<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Params.metadescription }}" />
+		
+		<meta name="twitter:creator" content="@astrologyorbit">
+		<meta name="twitter:description" content="{{ .Site.Params.description }} : {{ .Title }}">
+		<meta name="twitter:image" content="https://stevehora.com/images/shrichakra.png">
+		<meta name="url" content="{{ .Permalink }}" />
+		<meta name="twitter:url" content="{{ .Permalink }}" /> 
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+
+		<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
+		
+		{{ with .OutputFormats.Get "RSS" }}
+			<link href="{{ .Permalink }}/rss.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+			<link href="{{ .Permalink }}/rss.xml" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+		{{ end }}
+
+		<meta name="yandex-verification" content="1e043a3e8bf23f4b" />
+		<meta name="google-site-verification" content="89QkaR-LLUVFRcrvVrn5fDqFVVyFR-Ppjoy9Hcl6Do8" />
+
+		<meta name="imagemode" content="force" />
+		<meta name="coverage" content="Worldwide" /> 
+		<meta name="distribution" content="Global" />
+		<meta name="HandheldFriendly" content="True" /> 
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.description }}" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-touch-fullscreen" content="yes" /> 
 
         {{ if isset .Site.Params "favicon" }}
             {{ partial "structure/favicon.html" .Site.Params.favicon }}

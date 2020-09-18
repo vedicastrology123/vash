@@ -66,7 +66,7 @@ article:
 
 Birth chart is based on your accurate Date of Birth, Time and Place of Birth.
 
-If you want **a very detailed and professional** birth chart, reach at  steve at stevehora dot com .
+If you want **a very detailed and professional** birth chart, reach us at  **steve at stevehora dot com**.
 
 It will look like below.
 
