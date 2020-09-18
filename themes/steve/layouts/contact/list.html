@@ -76,68 +76,6 @@
 		
 		To contact us, click on <a href="https://docs.google.com/forms/d/e/1FAIpQLSevubIDnoz_K3v6dTpR7Fj-9IRlXZrUnYhPbq1Mo-1uM1mJWQ/viewform?usp=pp_url" target=_blank>Contact Form</a>.
 		<br></br>
-<!-- 		<form id="contact-form" method = "POST"
-		 
-		 action-xhr="/"
-         target = "_top"
-		 data-netlify="true">
-		<strong>Your Comments</strong>
-         <div>
-			<label>
-				<span>First Name:</span>
-				<input type = "text" size="36" name = "fname" placeholder = "Your first name, please" required><br/><br/>
-			</label>
-			<label>
-				<span>Last Name:</span>
-				<input type = "text" size="36" name = "lname" placeholder = "Last name" required><br/><br/>
-			</label>
-			<label>
-				<span>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<input type = "email" size="36" name = "email" placeholder = "Email" required><br/><br/>
-			</label>
-			<label>
-				<span>Message:&nbsp;&nbsp;&nbsp;</span></br>
-				<textarea rows="10" cols="49" name = "msg" maxlength="10000" placeholder = "Your message" required></textarea><br/><br/>
-			</label>
-			<input type = "submit" value = "Submit">
-         </div>
-		 
-         <div submit-success>
-            <template type = "amp-mustache">
-               Form Submitted, Thank You for your suggestions.
-            </template>
-         </div>
-         
-         <div submit-error>
-            <template type = "amp-mustache">
-               An Error occurred, please try again.
-            </template>
-         </div>
-      </form>
-
-	<script>
-      function submitFormAndHeader() {
-        var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("submit-success").innerHTML =
-              this.responseText;
-          }
-        };
-
-        xhttp.setRequestHeader("Access-Control-Allow-Origin", "https://vedicastrology-amp.netlify.app/");
-        xhttp.setRequestHeader("Access-Control-Allow-Methods", "POST");
-		xhttp.setRequestHeader("Content-Type", "application/json");
-        xhttp.setRequestHeader("Access-Control-Allow-Headers", "Content-Type");
-        xhttp.setRequestHeader("AMP-Access-Control-Allow-Source-Origin", "https://vedicastrology-amp.netlify.app/");
-		xhttp.setRequestHeader("Access-Control-Expose-Headers", "AMP-Access-Control-Allow-Source-Origin");
-		//xhttp.setResponseHeader("AMP-Redirect-To", "https://vedicastrology-amp.netlify.app/about/");
-		//xhttp.setResponseHeader("Access-Control-Expose-Headers", "AMP-Redirect-To");
-
-        xhttp.send($("#contact-form").serialize());
-      }
-    </script> -->
-
       {{ .Content }}
     </section>
     <!-- {{ partial "social/share.html" . }} -->
