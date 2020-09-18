@@ -72,7 +72,7 @@ summaryLength = 15
   themeColor = "green" # Browser bar color
   googleanalytics = "UA-1341906-9"
   adsensepublisher = ""
-  ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-youtube"] # AMP elements loaded on every page
+  ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-youtube","amp-mustache","amp-bind"] # AMP elements loaded on every page
 
 [params.structured]
 	type = ["Article", "Videos", "Product"]
@@ -82,9 +82,9 @@ summaryLength = 15
 	author = "Steve Hora"
 	height = 60
 	width = 60
-
+#, "amp-user-notification","amp-ad", 
   [params.amp]
-	elements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-youtube"] # AMP elements loaded on every page
+	elements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-youtube","amp-mustache","amp-bind"] # AMP elements loaded on every page
 
   [params.share]
     twitter = true
