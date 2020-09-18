@@ -33,11 +33,11 @@
 	        <amp-accordion>
         {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             <section>
-                <h5 class="nav-section">
+                <header class="nav-section">
                     <i class="fa fa-caret-down section-open" aria-hidden="true"></i>
                     <i class="fa fa-caret-right section-close" aria-hidden="true"></i>
                     {{ $taxonomyname | title | humanize }}
-                </h5>
+                </header>
                 <div>
                 {{ range $key, $value := $taxonomy }}
                     <li class="nav-opened" role="presentation"><a href="/{{ $taxonomyname | urlize }}/{{ $key | urlize }}">{{ $key | humanize }}</a></li>
