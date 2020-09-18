@@ -1,0 +1,21 @@
+{{ printf `<?xml version="1.0" encoding="utf-8" ?>` | safeHTML }}
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<Attribution>© {{ $.Date.Format "2006" | safeHTML }} {{ $.Site.Author.name }}; http://creativecommons.org/publicdomain/zero/1.0/legalcode.{{ .Site.Language.Lang }}</Attribution>
+	<Contact>{{ .Site.Author.email | safeHTML }}</Contact>
+	<Description>Search {{ .Site.Title }} with Steve Hora</Description>
+	<Developer>{{ .Site.Author.name | safeHTML }}</Developer>
+	<InputEncoding>utf-8</InputEncoding>
+	<Image width="37" height="40" type="image/png">{{ .Site.BaseURL }}/images/vaashicon.png</Image>
+	<Image width="32" height="32" type="image/vnd.microsoft.icon">{{ .Site.BaseURL }}/favicon.ico</Image>
+	<Language>{{ .Site.LanguageCode }}</Language>
+	<LongName>{{ .Site.Title }} :: {{ .Site.Language.Lang }}</LongName>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<ShortName>{{ .Site.Title }}</ShortName>
+	<SyndicationRight>open</SyndicationRight>
+	<ie:PreviewUrl type="text/html" method="GET" template="{{ .Site.BaseURL }}/search/?s={inputValue}"/>
+	<moz:SearchForm>{{ .Site.BaseURL }}/search/?s={inputValue}</moz:SearchForm>
+
+	<Url template="{{ .Site.BaseURL }}/search/?s={inputValue}" type="text/html" />
+	<Url rel="self" template="{{ .Site.BaseURL }}/search.xml" type="application/opensearchdescription+xml" />
+	<!-- <atom:link href="{{ $.Site.BaseURL }}/search.xml" rel="search" type="application/opensearchdescription+xml" title="{{ .Site.Title }}" /> -->
+</OpenSearchDescription>
