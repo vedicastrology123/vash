@@ -58,7 +58,7 @@
 					{{end}}
 				</section>
 				<section class="column bg-alt">
-					<img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></img>
+					<amp-img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></amp-img>
 				</section>
 			</section>
 			<section>
@@ -88,7 +88,7 @@
 					{{end}}
 				</section>
 				<section class="column bg-alt">
-					<img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></img>
+					<amp-img src="{{ .Page.Params.image | relURL }}" width="100%" height="100%" alt="{{ .Page.Params.description }}"></amp-img>
 				</section>
 			</section>
 			<section>
@@ -162,7 +162,7 @@
 			</header>
 			<section class="flex-container">
 				<section style="min-width: 50%; text-align:center" class="post-excerpt column">
-		<a href="/articles/tithi-information/"><img src="/images/shrichakramts.png" loading="lazy" width="200" height="200" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"><br><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success</span></a>
+		<a href="/articles/tithi-information/"><amp-img src="/images/shrichakramts.png" loading="lazy" width="200" height="200" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"></amp-img><br><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success</span></a>
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
