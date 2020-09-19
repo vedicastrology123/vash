@@ -72,7 +72,7 @@ summaryLength = 15
   themeColor = "green" # Browser bar color
   googleanalytics = "UA-1341906-9"
   adsensepublisher = ""
-  ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list", "amp-bind","amp-youtube"] # AMP elements loaded on every page
+  ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list", "amp-bind","amp-youtube", "amp-mustache"] # AMP elements loaded on every page
 
 [params.structured]
 	type = ["Article", "Videos", "Product"]
@@ -84,7 +84,7 @@ summaryLength = 15
 	width = 60
 #, "amp-user-notification","amp-ad", ,"amp-mustache","amp-bind"
   [params.amp]
-	elements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-bind","amp-youtube"] # AMP elements loaded on every page
+	elements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe","amp-form","amp-list","amp-bind","amp-youtube", "amp-mustache"] # AMP elements loaded on every page
 
   [params.share]
     twitter = true
