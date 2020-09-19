@@ -9,4 +9,9 @@ news_keywords:
   - "Vedic Astrology"
   - "Steve Hora"
   
+amp:
+  elements:
+   - "amp-list"
+   - "amp-bind"
+   - "amp-mustache"
 ---
