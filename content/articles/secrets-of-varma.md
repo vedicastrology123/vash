@@ -43,7 +43,12 @@ Varma or Marma points are based on the movement of Prana Energy in a human body.
 #### Amirtha Nilai (Prana s location)
 On each tithi day the prana moves as below
 
-![Tithi - Marma point](/images/articles/tethi.png)
+{{< amp-image
+  alt="Tithi - Marma point"
+  src="/images/articles/tethi.png"
+  width="40"
+  height="50"
+>}}
 
 Each person is born with Prana concentrated in a place in the human body as per the
 birth tithi.

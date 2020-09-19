@@ -39,8 +39,12 @@ article:
 ### Pushya-paksha Ayanamsa
 by Great Astrologer PVR Narasimha Rao, his free and best Jagannatha Hora software.
 
-![Pushya Paksha Ayanamsa ](/images/articles/ayan.jpg)
-
+{{< amp-image
+  alt="Pushya Paksha Ayanamsa"
+  src="/images/articles/ayan.png"
+  width="400"
+  height="500"
+>}}
 
 #### Jagannatha Hora
 

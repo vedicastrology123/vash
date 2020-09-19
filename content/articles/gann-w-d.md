@@ -67,7 +67,12 @@ All said, One can make profits - big or small in any bear or bull run of a share
 
 I play as below with my Vedic Chakra based on W.D. Gann.
 
-![BSE](/images/articles/bse.png)
+{{< amp-image
+  alt="BSE"
+  src="/images/articles/bse.png"
+  width="400"
+  height="500"
+>}}
 
 The name of the share price is DrReddyLabs. It was on BSE, pharma sector, traded on 22nd May 2020.
 

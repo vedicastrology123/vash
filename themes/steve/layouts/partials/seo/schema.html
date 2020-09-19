@@ -5,7 +5,7 @@
 {{ partial "seo/structured/videos" . }}
 {{ partial "seo/structured/product" . }}
 {{ end }}
-{{ if or (eq .Params.structured.type "Article") (eq .Site.Params.defaultSchema "article") }}{{ partial "seo/structured/article" . }}{{ end }}
+{{ if or (eq .Params.structured.type "article") (eq .Site.Params.defaultSchema "article") }}{{ partial "seo/structured/article" . }}{{ end }}
 <!-- {{ if or (eq .Params.structured.type "Videos") (eq .Site.Params.defaultSchema "videos") }}{{ partial "seo/structured/videos" . }}{{ end }}
 {{ if or (eq .Params.structured.type "Product") (eq .Site.Params.defaultSchema "product") }}{{ partial "seo/structured/product" . }}{{ end }}
  -->

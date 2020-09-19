@@ -54,7 +54,12 @@ Vedic horoscope is made according to Lahiri Ayanamsa (Chitra paksha), using side
 
 I proceed to read the horoscope as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala timing technique.
 
-![Horoscope of first coronavirus in China](/images/articles/covid.png)
+{{< amp-image
+  alt="Horoscope of first coronavirus in China"
+  src="/images/covid.png"
+  width="400"
+  height="500"
+>}}
 
 Guru (Jupiter) the ascendant or lagna lord is in his own house, but eclipsed by Ketu-Rahu axis. Ketu does NOT like Guru.
 

@@ -70,7 +70,12 @@ If you want **a very detailed and professional** birth chart, reach us at  **ste
 
 It will look like below.
 
-![A sample Vedic Astrology Birth Chart](/images/birth-chart.png)
+{{< amp-image
+  alt="A sample Vedic Astrology Birth Chart"
+  src="/images/birth-chart.png"
+  width="400"
+  height="500"
+>}}
 
 A **pdf version** of your birth chart, can also be made available.
 

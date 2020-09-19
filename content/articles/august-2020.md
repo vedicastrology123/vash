@@ -62,7 +62,12 @@ This applies to all countries, if otherwise specified to a country which has a D
 
 * Mars (Kuja) is alone in Pisces (Meena).
 
-![August 2020 Astrological chart](/images/articles/august-2020.png)
+{{< amp-image
+  alt="August 2020 Astrological chart"
+  src="/images/articles/august-2020.png"
+  width="400"
+  height="500"
+>}}
 
 #### Astrological Predictions
 
