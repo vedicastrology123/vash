@@ -14,27 +14,7 @@
     "license": "{{ .Site.Params.Copyright }}"
 }
 </script>
-
-<style amp-custom>
-         form.amp-form-submit-success [submit-success],
-         form.amp-form-submit-error [submit-error]{
-            margin-top: 16px;
-         }
-         form.amp-form-submit-success [submit-success] {
-            color: white;
-            background-color:gray;
-         }
-         form.amp-form-submit-error [submit-error] {
-            color: red;
-         }
-         form.amp-form-submit-success.hide-inputs > input {
-            display: none;
-         }
-		 amp-sidebar {
-		 background-size: 100% 50%;
-		 }
-</style>
-	  
+ 
 {{ partial "structure/header.html" . }}
 
 {{if .Params.cover}}
