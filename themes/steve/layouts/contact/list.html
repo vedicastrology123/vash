@@ -1,3 +1,5 @@
+{{ partial "structure/header.html" . }}
+
 <script type="application/ld+json">
 	{
     "@context": "http://schema.org",
@@ -14,8 +16,6 @@
     "license": "{{ .Site.Params.Copyright }}"
 }
 </script>
- 
-{{ partial "structure/header.html" . }}
 
 {{if .Params.cover}}
   <header class="main-header tag-head list-cover">
@@ -51,7 +51,7 @@
 
     <section class="post-content">
 		<p><h3>Birth Chart Predictions</h3>
-		Click <a target="_blank" href="https://forms.gle/kLeDb2oBBUFWB6P49" onclick="goog_report_conversion ('https://stevehora.com/contact/')" class="btn btn-success rounded btn-send">Prediction link</a> and provide <strong>your accurate date, time, place of birth and your life questions</strong>.</br>
+		Click <a target="_blank" href="https://forms.gle/kLeDb2oBBUFWB6P49">Prediction link</a> and provide <strong>your accurate date, time, place of birth and your life questions</strong>.</br>
 		As always we assure you of our sincere vedic astrology advice and accurate horoscope predictions.</p>
 		
 		To contact us, click on <a href="https://docs.google.com/forms/d/e/1FAIpQLSevubIDnoz_K3v6dTpR7Fj-9IRlXZrUnYhPbq1Mo-1uM1mJWQ/viewform?usp=pp_url" target=_blank>Contact Form</a>.
@@ -75,7 +75,7 @@
 
 <!-- Event snippet for Contact conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
+<!-- <script>
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
@@ -88,5 +88,5 @@ function gtag_report_conversion(url) {
   });
   return false;
 }
-</script>
+</script> -->
 
