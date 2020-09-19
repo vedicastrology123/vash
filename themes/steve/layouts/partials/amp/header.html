@@ -12,7 +12,7 @@
         {{ end }}
     {{ end }}
 {{ end }}
-
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
 {{- $ampCorePath := index (index $.Site.Data "amp-modules") "amp-core" -}}
 <script async src="{{ $ampCorePath }}"></script>
 <style amp-custom>
