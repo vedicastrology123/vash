@@ -103,7 +103,7 @@
         "height" : {{ $.Site.Params.publisherLogoHeight }},
         "width" : {{ $.Site.Params.publisherLogoWidth }}
     }
-  },
+  }
 {{- else }}
   {{ $imageConfig := imageConfig (printf "static/%s" .Site.Params.Logo) }}
   "publisher" : {
@@ -115,7 +115,7 @@
         "height" : 60,
         "width" : 60
     }
-  },
+  }
 {{- end }}
 }
 </script>
