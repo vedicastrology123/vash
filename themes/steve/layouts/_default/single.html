@@ -29,10 +29,7 @@
   <article class="post type-{{ .Type }}">
 
     <header class="post-header">
-        <!-- <h1 class="post-title">{{.Title | title}}</h1> -->
-        <!-- <small>{{.Page.Description}}</small> -->
-		<!-- <amp-img src="/images/shrichakra.png" width="125" height="100" layout="responsive" alt="a sample image"></amp-img> -->
-		<amp-img style="border-radius: 50%;" src="{{ .Page.Params.image | relURL }}" width="48" height="48" alt="{{ .Page.Params.description }}"></amp-img>
+		<amp-img style="border: solid; border-color: purple; border-radius: 50%;" src="{{ .Page.Params.image | relURL }}" width="48" height="48" alt="{{ .Page.Params.description }}"></amp-img>
     </header>
 
     <section class="post-content">
@@ -50,7 +47,7 @@
 
     {{if .Site.Params.logo}}
     <figure class="author-image">
-        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+        <a style="border: solid; border-color: purple; border-radius: 50%;" class="img" href="{{.Site.BaseURL | relURL}}"></a>
     </figure>
     {{end}}
   </footer>

@@ -47,6 +47,7 @@
   <article class="post type-{{ .Type }}">
 
     <header class="post-header">
+		<amp-img style="border: solid; border-color: purple; border-radius: 50%;" src="/images/birth-chart.png" width="48" height="48" alt="{{ .Page.Params.description }}"></amp-img>
     </header>
 
     <section class="post-content">
@@ -64,7 +65,7 @@
 
     {{if .Site.Params.logo}}
     <figure class="author-image">
-        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+        <a style="border: solid; border-color: purple; border-radius: 50%;" class="img" href="{{.Site.BaseURL | relURL}}"></a>
     </figure>
     {{end}}
   </footer>

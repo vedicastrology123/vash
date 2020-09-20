@@ -53,12 +53,14 @@
 				<header class="post-header">
 					<strong class="post-title"><a {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>{{"{{title}}"}}</a></strong>
 				</header>
+			<section  class="flex-container">
 				<section class="post-excerpt">
 					<p class="summary">{{"{{contents}}"}}
 					</br>
 						<a style="color:#0F52BA;" class="read-more"  {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>Read More…</a>
 					</p>
 				  </section>
+			</section>
 				<footer style="background:#0F52BA;" class="post-meta">
 					{{ partial "post_meta" .}}
 				</footer>	

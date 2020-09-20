@@ -40,7 +40,7 @@ article:
 
 ### Bhrigu Bindu
 
-#### Bhrigu Bindu is the midpoint between Chandra (Moon) and Rahu (Dragon head).
+Bhrigu Bindu is the midpoint between Chandra (Moon) and Rahu (Dragon head).
 
 How do I use Bhrigu Bindu and Tribhagi Vimshottari dasha together from a horoscope to delineate events in life?.
 

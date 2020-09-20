@@ -1,9 +1,9 @@
 <nav class="pagination" role="navigation">
     {{if .HasPrev}}
-        <a style="color:#0F52BA;" class="newer-posts" href="{{ .Prev.URL }}">&larr; Newer Articles</a>
+        <a style="color:purple; border-color: purple; border-radius: 5%;" class="newer-posts" href="{{ .Prev.URL }}">&larr; Newer Articles</a>
     {{end}}
-    <span style="color:#0F52BA;" class="page-number">Page {{ .PageNumber }} of {{.TotalPages}}</span>
+    <span style="color:purple; border-color: purple; border-radius: 5%;" class="page-number">Page {{ .PageNumber }} of {{.TotalPages}}</span>
     {{if .HasNext}}
-        <a style="color:#0F52BA;" class="older-posts" href="{{ .Next.URL }}">Older Articles &rarr;</a>
+        <a style="color:purple; border-color: purple; border-radius: 5%;" class="older-posts" href="{{ .Next.URL }}">Older Articles &rarr;</a>
     {{end}}
 </nav>

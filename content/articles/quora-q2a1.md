@@ -44,7 +44,7 @@ article:
 
 by **Steve Hora on Quora**.
 
-#### Most Valuable Writer on Vedic Astrology (Jytoisha)
+**Most Valuable Writer on Quora** Vedic Astrology (Jytoisha)
 
 <tr><th style="height:55px; text-align:left; vertical-align:top"></th></tr><tr><th style="text-align:left; vertical-align:top">Question:</th>
 <td style="text-align:left; vertical-align:top">
