@@ -11,7 +11,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 email: "steve@stevehora.com"
 social:
   - icon : "ti-star" # themify icon pack : https://themify.me/themify-icons

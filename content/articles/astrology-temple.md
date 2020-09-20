@@ -11,7 +11,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 path:
   - "https://stevehora.com/articles/astrology-temple/"
 lead: Vedic Astrology by Steve Hora

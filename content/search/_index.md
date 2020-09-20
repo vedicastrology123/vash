@@ -8,6 +8,16 @@ path:
 news_keywords:
   - "Vedic Astrology"
   - "Steve Hora"
+
+categories: 
+  - "Vedic Astrology"
+
+tags:
+  - "Birth Chart Predictions"
+  - "Mundane Predictions"
+
+keywords:
+  - "Vedic Astrology"
   
 amp:
   elements:

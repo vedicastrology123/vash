@@ -10,7 +10,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:
@@ -23,9 +22,9 @@ keywords:
 
 ### Testimonials
 
-Please know about Me and My Expertise, from [My Quora Profile, and Questions and My Answers](https://www.quora.com/profile/Steve-Hora) and on this [website](https://stevehora.com) .
+Please know about Me and My Expertise, from [My Quora Profile](https://www.quora.com/profile/Steve-Hora) and my [Questions and My Answers](https://www.quora.com/profile/Steve-Hora) and on this [website](https://stevehora.com) .
 
-To know about my prediction accuracy, contact [Puja Kataria on Facebook](https://www.facebook.com/puja.kataria) and for [my knowledge Rami Sivan on Quora](https://www.quora.com/profile/Rami-Sivan).
+To know about my prediction accuracy, contact [Puja Kataria on Facebook](https://www.facebook.com/puja.kataria) and for my knowledge from [Rami Sivan on Quora](https://www.quora.com/profile/Rami-Sivan).
 
 #### Take away
 

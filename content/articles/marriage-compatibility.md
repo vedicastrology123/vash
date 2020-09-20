@@ -12,7 +12,6 @@ tags:
   - "Birth Chart Predictions"
   - "Marriage matching"
   - "Mundane Predictions"
-  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:

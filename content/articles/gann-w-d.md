@@ -11,7 +11,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
   - "Stocks Analysis"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 

@@ -12,7 +12,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 path:
   - "https://stevehora.com/articles/ashtakavarga/"
 lead: Vedic Astrology by Steve Hora

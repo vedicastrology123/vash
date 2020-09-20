@@ -13,7 +13,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 keywords:
   - "Vedic Astrology"
   - "Jyotish"

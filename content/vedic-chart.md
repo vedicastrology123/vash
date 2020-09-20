@@ -11,7 +11,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 path:
   - "https://stevehora.com/calculate-your-vedic-astrology-chart/"
 keywords:

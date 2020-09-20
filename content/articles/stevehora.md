@@ -14,7 +14,6 @@ categories:
 tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
-  - "Steve Hora"
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:
