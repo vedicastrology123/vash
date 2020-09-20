@@ -40,9 +40,10 @@ by Great Astrologer PVR Narasimha Rao, his free and best Jagannatha Hora softwar
 
 {{< amp-image
   alt="Pushya Paksha Ayanamsa"
-  src="/images/articles/ayan.png"
-  width="400"
-  height="500"
+  src="/images/articles/ayan.jpg"
+  width="208"
+  height="243"
+  layout="responsive"
 >}}
 
 #### Jagannatha Hora

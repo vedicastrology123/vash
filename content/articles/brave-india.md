@@ -54,8 +54,9 @@ Below is the Mundane Vedic horoscope.
 {{< amp-image
   alt="Brave Soldiers of India"
   src="/images/articles/brave-india.png"
-  width="400"
-  height="500"
+  width="250"
+  height="200"
+  layout="responsive"
 >}}
 
 I use Vedic (Sidereal) horoscope for Accurate timing and analysis, according to Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Analysis as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala or Naadi timing technique.

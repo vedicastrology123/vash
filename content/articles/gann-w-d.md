@@ -2,7 +2,7 @@
 title: "Gann W D"
 descslug: "Stock Analysis using Astrology"
 date: 2020-04-07T12:52:36+06:00
-image: images/articles/astrology-2.jpg
+image: images/success.jpg
 author: Steve Hora
 description : "Stock Analysis using Astrology and W.D.Gann"
 type: "featured"
@@ -69,8 +69,9 @@ I play as below with my Vedic Chakra based on W.D. Gann.
 {{< amp-image
   alt="BSE"
   src="/images/articles/bse.png"
-  width="400"
-  height="500"
+  width="385"
+  height="288"
+  layout="responsive"
 >}}
 
 The name of the share price is DrReddyLabs. It was on BSE, pharma sector, traded on 22nd May 2020.

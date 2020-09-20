@@ -1,5 +1,5 @@
 ---
-title: "SteveHora"
+title: "Steve Hora"
 descslug: "Know about Steve Hora"
 date: 2020-04-07T12:52:36+06:00
 
@@ -7,7 +7,7 @@ author: Steve Hora Jyotish
 
 image: images/success.jpg
 
-description : Hora Vedic Astrology by Steve - Hora Natal Mundane Predictions
+description : Expert Vedic Astrologer
 type: "post"
 categories: 
   - "Vedic Astrology"

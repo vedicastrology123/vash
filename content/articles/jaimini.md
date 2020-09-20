@@ -80,8 +80,9 @@ Parasara s with NO exceptions. There will be NO consideration for subtraction or
 {{< amp-image
   alt="Horoscope of Mahatma Gandhi"
   src="/images/articles/mahatma-gandhi.png"
-  width="400"
-  height="500"
+  width="724"
+  height="1024"
+  layout="responsive"
 >}}
 
 Marriage happened in May 1883. Jaimini Chara dasha running period was Dhanur-Makara.

@@ -64,8 +64,9 @@ This applies to all countries, if otherwise specified to a country which has a D
 {{< amp-image
   alt="August 2020 Astrological chart"
   src="/images/articles/august-2020.png"
-  width="400"
-  height="500"
+  width="764"
+  height="737"
+  layout="responsive"
 >}}
 
 #### Astrological Predictions

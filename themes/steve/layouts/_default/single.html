@@ -1,12 +1,16 @@
 {{ partial "structure/header.html" . }}
 
-{{if .Params.image}}
-    <header class="main-header post-head post-cover">
+{{if .Params.cover}}
+  <header class="main-header tag-head list-cover">
     <nav class="main-nav overlay clearfix">
+{{else if .Site.Params.cover}}
+  <header class="main-header tag-head cover">
+      <nav class="main-nav overlay clearfix">
 {{else}}
-    <header class="main-header post-head no-cover">
-    <nav class="main-nav clearfix">
+    <header class="main-header tag-head no-cover">
+	<nav class="main-nav clearfix">
 {{end}}
+
 {{ partial "navbar.html" . }}
   </nav>
   
@@ -29,7 +33,7 @@
   <article class="post type-{{ .Type }}">
 
     <header class="post-header">
-		<amp-img style="border: solid; border-color: purple; border-radius: 50%;" src="{{ .Page.Params.image | relURL }}" width="48" height="48" alt="{{ .Page.Params.description }}"></amp-img>
+		<amp-img style="border: solid; border-color: purple; border-radius: 50%;" src="{{ .Params.image | relURL }}" width="48" height="48" alt="{{ .Page.Params.description }}"></amp-img>
     </header>
 
     <section class="post-content">

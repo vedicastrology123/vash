@@ -37,8 +37,9 @@ article:
 {{< amp-image
   alt="Dasha system"
   src="/images/articles/ch1.png"
-  width="400"
-  height="500"
+  width="363"
+  height="165"
+  layout="responsive"
 >}}
 
 ### China Horoscope
@@ -50,8 +51,9 @@ Below is the vedic horoscope of China. Predictions will be continued, so followe
 {{< amp-image
   alt="Dasha1 system"
   src="/images/articles/ch2.png"
-  width="400"
-  height="500"
+  width="602"
+  height="851"
+  layout="responsive"
 >}}
 
 In mundane astrology, when dealing with countries, it is very important to see, the 1st lord, its children (People), Relationship 7th house, 6th house of Conflict and Peace.

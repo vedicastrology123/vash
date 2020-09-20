@@ -53,8 +53,9 @@ Guru as 5th lord, which indicates **Name and Fame**, is also Vargottama, but ret
 {{< amp-image
   alt="GeorgeFloyd"
   src="/images/articles/gf.png"
-  width="400"
-  height="500"
+  width="129"
+  height="167"
+  layout="responsive"
 >}}
 
 Rahu is with Budha, sudden death happens.

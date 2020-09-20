@@ -39,8 +39,9 @@ article:
 {{< amp-image
   alt="USA Independence Birth data"
   src="/images/articles/usa-ind.png"
-  width="40"
-  height="50"
+  width="461"
+  height="216"
+  layout="responsive"
 >}}
 
 Below is the Sidereal (Vedic) Horoscope of USA declaration of Independence.
@@ -48,8 +49,9 @@ Below is the Sidereal (Vedic) Horoscope of USA declaration of Independence.
 {{< amp-image
   alt="USA Independence Horoscope"
   src="/images/articles/usa-country.png"
-  width="400"
-  height="500"
+  layout="responsive"
+  width="816"
+  height="1056"
 >}}
 
 In mundane astrology, when dealing with countries, it is very important to see, the 1st lord, its children 5th house (People), Relationship 7th house, 6th house of Diseases and 8th from 6th for Cure (Vaccine).
@@ -76,8 +78,9 @@ Democratic countries ruled by Saturn will help out America. Saturn is looking at
 {{< amp-image
   alt="USA Independence Horoscope"
   src="/images/articles/time-for-cure.png"
-  width="40"
-  height="50"
+  width="486"
+  height="152"
+  layout="responsive"
 >}}
 
 ##### More

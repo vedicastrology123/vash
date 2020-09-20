@@ -71,15 +71,17 @@ Lagna and its lord, 10th house lord and Dasamsa tells about the power of the cou
 {{< amp-image
   alt="India Independence Date"
   src="/images/articles/qu1.png"
-  width="40"
-  height="50"
+  width="359"
+  height="199"
+  layout="responsive"
 >}}
 
 {{< amp-image
   alt="Independence Chart"
   src="/images/articles/qu2.png"
-  width="400"
-  height="500"
+  width="602"
+  height="851"
+  layout="responsive"
 >}}
 
 The Dasamsa positions are as below
@@ -87,8 +89,9 @@ The Dasamsa positions are as below
 {{< amp-image
   alt="Dasamsa"
   src="/images/articles/qu3.png"
-  width="40"
-  height="50"
+  width="434"
+  height="205"
+  layout="responsive"
 >}}
 
 Analyzing the Lagna or Rasi chart, one can find Guru is the lagna lord, 10th house lord also and he is in 11th house, neecha, flanked by 6th lord Surya and 8th lord Shukra. A clear case of caught between enemies- hidden and outside.

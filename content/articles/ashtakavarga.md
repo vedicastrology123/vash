@@ -2,7 +2,7 @@
 title: "Ashtakavarga"
 descslug: "What is meant by Ashtakavarga?"
 date: 2020-06-02T12:52:36+06:00
-image: "images/success.jpg"
+image: "images/articles/ashtakavarga.png"
 author: Steve Hora
 description : "How to predict with Ashtakavarga?."
 type: "post"
@@ -72,8 +72,9 @@ The principle of this system is as follows
 {{< amp-image
   alt="Ashtakavarga"
   src="/images/articles/ashtakavarga.png"
-  width="400"
-  height="500"
+  width="428"
+  height="411"
+  layout="responsive"
 >}}
 
 

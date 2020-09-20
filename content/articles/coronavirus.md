@@ -56,8 +56,9 @@ I proceed to read the horoscope as per Parasara system and Timing using Vimshott
 {{< amp-image
   alt="Horoscope of first coronavirus in China"
   src="/images/covid.png"
-  width="400"
-  height="500"
+  width="602"
+  height="851"
+  layout="responsive"
 >}}
 
 Guru (Jupiter) the ascendant or lagna lord is in his own house, but eclipsed by Ketu-Rahu axis. Ketu does NOT like Guru.

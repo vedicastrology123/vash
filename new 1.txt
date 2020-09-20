@@ -1,3 +1,12 @@
+{{if .Params.image}}
+    <header class="main-header post-head post-cover">
+    <nav class="main-nav overlay clearfix">
+{{else}}
+    <header class="main-header post-head no-cover">
+    <nav class="main-nav clearfix">
+{{end}}
+
+
 <!-- 		<form id="contact-form" method = "POST"
 		 
 		 action-xhr="/"

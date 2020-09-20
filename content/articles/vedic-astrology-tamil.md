@@ -1,5 +1,5 @@
 ---
-title: "Vedi Astrology Tamil"
+title: "Vedi Astrology - Tamil"
 descslug: "Vedic Astrology Tamil"
 date: 2020-07-31T10:00:30+05:30
 image: "images/success.jpg"

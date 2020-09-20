@@ -102,8 +102,9 @@ Refer above questions answer. Further research into Nadi Palm leaf timing method
 {{< amp-image
   alt="D 60"
   src="/images/articles/quu1.png"
-  width="40"
-  height="50"
+  width="250"
+  height="200"
+  layout="responsive"
 >}}
 
 </td>
@@ -133,8 +134,9 @@ Going by above considerations, all other divisional charts have this definition 
 {{< amp-image
   alt="D 60"
   src="/images/articles/quu2.png"
-  width="40"
-  height="50"
+  width="193"
+  height="130"
+  layout="responsive"
 >}}
 
 A closer look at D60 reveals secrets from a Nadi perspective. The same analogy can be used to derive mathematically, deduce and predict any divisional charts.
