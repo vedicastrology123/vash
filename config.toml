@@ -2,7 +2,7 @@
 baseURL = "https://vedicastrology-amp.netlify.app/"
 
 languageCode = "en-us"
-title = "Vedic Astrology"
+title = "Hora Vedic Astrology by Steve for Birth Chart Wealth Predictions"
 theme="steve"
 paginate = 5
 canonifyurls = true
@@ -28,7 +28,7 @@ summaryLength = 15
 	
 [params]
   copyright = "Copyright 2014 stevehora.com - All rights reserved - "
-  description = "Vedic Astrology by Steve Hora for Birth Chart Wealth Predictions, Solutions, Consultation and Advice"
+  description = "Vedic Astrology by Steve Hora accurate prediction from Birth Chart for Health Wealth Happiness Destiny Fame Success. Mantra Solution Consultation Advice."
   terms = "Terms, Privacy"
   refund = "Refund Policy"
   information = "Your Destiny Your Success"

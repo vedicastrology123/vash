@@ -17,7 +17,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
         <meta name="theme-color" content="{{ $.Site.Params.themeColor }}" />
-        <meta name="description" content="{{ .Params.description }} - {{ $.Site.Params.description }}" />
+		{{ if .IsHome }}
+        <meta name="description" content="{{ $.Site.Params.description }}" />
+		{{ else }}
+        <meta name="description" content="{{ .Params.description }} - {{ $.Site.Title }}" />
+		{{ end }}
 		<link rel="search" href="/search.xml" title=" {{ .Site.Params.searchSite }}" type="application/opensearchdescription+xml">
 		<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Params.metadescription }}" />
 		
