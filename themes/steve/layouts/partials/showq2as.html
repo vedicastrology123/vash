@@ -1,14 +1,25 @@
+{{ $pScratch := .Scratch }}
+
 {{ range .Site.Data.q2as }}
+	{{ $pScratch.Add "q2as" (slice (dict "question" .question "correctAnswer" .correctAnswer "relatedLink"  .relatedLink )) }}
+
 	  <p><strong>Question: </strong>{{ .question }}</br>
 	  <strong>Answer: </strong>{{ .correctAnswer }}</br>
 	  <a class="read-more" href="{{ .BaseURL }}{{ .relatedLink }}">Read More &raquo;</a></br>
 	  ____________</p>
 	  
-	<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "FAQPage",
-		  "mainEntity": [{
+	  {{ $q2a := .Scratch.Get "q2as" }}
+	  {{ $q2a.question }}ssss
+{{ end }}
+
+<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+	  "mainEntity": [
+			{{ range $index, $q2as := $.Scratch.Get "q2as" }}
+				{{ if ne $index 0 }},{{ end }}
+						{
 						"@type": "Question",
 						"name": "{{ .question }}",
 						"acceptedAnswer": {
@@ -16,7 +27,7 @@
 						  "text": "{{ .correctAnswer }}"
 						}
 					}
-			]
-		}
-	</script>	  
-{{ end }}
+			{{ end }}
+		]
+	}
+</script>
