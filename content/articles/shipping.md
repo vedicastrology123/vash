@@ -14,8 +14,7 @@ lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:
   - "https://stevehora.com/articles/shipping-policy/"
-keywords:
-  - "Shipping Policy"
+
 ---
 
 ### Shipping Policy

@@ -16,7 +16,7 @@ lastmod: latest
 path:
   - "https://stevehora.com/articles/usa-corona/"
 keywords:
-  - "Virus"
+  - "CoronaVirus"
   
 news_keywords:
   - "Vedic Astrology"

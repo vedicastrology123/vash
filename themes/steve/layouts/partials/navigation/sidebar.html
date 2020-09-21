@@ -1,5 +1,6 @@
-<amp-sidebar style="width: 300;	background: url(/images/sidebar.jpg) blue; background-size: 100% 100%;" id="sidebar" layout="nodisplay" side="right">
-    <h4 class="nav-title">Menu</h4>
+<amp-sidebar style="width: 300;	background: url(/images/sidebar.jpg), url(/images/destiny.jpg), url(/images/success.jpg);  background-position: top right, top 190px right, bottom 0px left;
+  background-repeat: no-repeat; background-size: 300px, 400px;" id="sidebar" layout="nodisplay" side="right">
+    <h4 style="color: pink; font-weight: bold;" class="nav-title">Menu</h4>
     <a href="#" class="nav-close" on="tap:sidebar.close" role="button" tabindex="1">
         <span class="hidden">Close</span>
     </a>
@@ -13,13 +14,13 @@
             </li>
         {{end}}
 			<li>
-			<strong>Trending Articles</strong>
+			<strong style="color: pink;">Trending Articles</strong>
 			{{ partial "allposts.html" . }}
 
 	        <amp-accordion>
         {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             <section>
-                <header class="nav-section">
+                <header style="color: pink;" class="nav-section">
                     <i class="fa fa-caret-down section-open" aria-hidden="true"></i>
                     <i class="fa fa-caret-right section-close" aria-hidden="true"></i>
                     {{ $taxonomyname | title | humanize }}

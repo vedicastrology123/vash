@@ -17,7 +17,6 @@ keywords:
   - "Vedic Astrology"
   - "Marriage"
   - "Jyotish"
-  - "Services"
 ---
 
 ### In-Depth knowledge

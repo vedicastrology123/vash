@@ -17,8 +17,7 @@ lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 keywords:
   - "Astrology Temple secrets"
-  - "Temple"
-  - "Secrets"
+  - "Secrets of Hindu temples"
   - "Vimsamsa"
   
 news_keywords:

@@ -32,7 +32,8 @@ summaryLength = 15
   terms = "Terms, Privacy"
   refund = "Refund Policy"
   information = "Your Destiny Your Success"
-  cover = "/images/plan.gif" # Homepage cover
+  cover = "/images/vedic-astrology.gif" # Homepage cover
+  cover_sizes = [480, 360]
   #https://kapwi.ng/c/32p9SwRr
   logo = "images/shrichakra9.png"
   publisherLogoHeight = 60

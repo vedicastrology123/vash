@@ -18,8 +18,8 @@ path:
 keywords:
   - "Hora"
   - "Vedic Astrology"
-  - "Steve"
-  - "Karma"
+  - "Steve Hora"
+  - "Karma and Vedic Astrology"
   - "Jyotish"
   
 news_keywords:

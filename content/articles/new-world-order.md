@@ -16,8 +16,7 @@ lastmod: latest
 path:
   - "https://stevehora.com/articles/new-world-order/"
 keywords:
-  - "Rat"
-  - "Metal Year"
+  - "Rat Metal Year"
   - "Chinese Calendar"
   - "Year 2020"
   

@@ -15,11 +15,10 @@ path:
 keywords:
   - "Vedic Astrology"
   - "Jyotish"
-  - "Accurate"
-  - "Predictions"
+  - "Accurate Predictions"
   - "Nakshatra"
   - "Horoscope"
-  - "Technique"
+  - "Timing Technique"
   - "Tamil"
   - "Nadi"
   - "Grantha"

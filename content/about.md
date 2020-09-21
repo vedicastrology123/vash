@@ -17,8 +17,6 @@ keywords:
   - "Vedic Astrology"
   - "Marriage"
   - "Jyotish"
-  - "About"
-  - "Contact"
   
 news_keywords:
   - "Vedic Astrology"

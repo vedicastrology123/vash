@@ -16,12 +16,9 @@ tags:
 keywords:
   - "Vedic Astrology"
   - "Jyotish"
-  - "Search Vedic Astrology with Steve Hora"
   - "Calculate your Vedic Astrology Birth Chart"
   - "Read Birth Chart"
-  - "Question"
-  - "Answers"  
-  - "Predictions"
+
 path:
   - "https://stevehora.com/"
 

@@ -18,7 +18,6 @@ path:
 keywords:
   - "George Floyd"
   - "Black Lives Matter"
-  - "BLM"
   
 news_keywords:
   - "Vedic Astrology"

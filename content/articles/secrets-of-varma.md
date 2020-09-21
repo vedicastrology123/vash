@@ -16,8 +16,7 @@ lastmod: latest
 path:
   - "https://stevehora.com/articles/secrets-of-varma/"
 keywords:
-  - "Varma"
-  - "Secret"
+  - "Varma Secrets"
   
 news_keywords:
   - "Vedic Astrology"

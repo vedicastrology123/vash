@@ -14,16 +14,11 @@ tags:
   - "Birth Chart Predictions"
   - "Mundane Predictions"
 keywords:
-  - "Hora"
   - "Vedic Astrology"
-  - "Steve"
   - "Famous Horoscope"
-  - "Search Vedic Astrology with Steve Hora"
   - "Calculate your Vedic Astrology Birth Chart"
   - "Read Birth Chart"
-  - "Question"
-  - "Answers"  
-  - "Predictions"
+  - "Question and Answers"  
 path:
   - "https://stevehora.com/articles/hora-wealth/"
   

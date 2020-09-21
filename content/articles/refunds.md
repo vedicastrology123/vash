@@ -14,8 +14,7 @@ lead: Vedic Astrology by Steve Hora
 lastmod: latest 
 path:
   - "https://stevehora.com/articles/refund-policy/"
-keywords:
-  - "Refund Policy"
+
 ---
 
 ### Refund and Cancellation Policy

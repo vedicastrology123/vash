@@ -18,7 +18,6 @@ path:
 keywords:
   - "Guru"
   - "Budha"
-  - "Enemy"
   
 news_keywords:
   - "Vedic Astrology"
