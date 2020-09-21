@@ -1,10 +1,21 @@
-{{ $pScratch := .Page.Scratch }}
-
 {{ range .Site.Data.q2as }}
-	{{ $pScratch.Add "q2as" (slice (dict "question" .question "correctAnswer" .correctAnswer "relatedLink"  .relatedLink )) }}
 	  <p><strong>Question: </strong>{{ .question }}</br>
 	  <strong>Answer: </strong>{{ .correctAnswer }}</br>
 	  <a class="read-more" href="{{ .BaseURL }}{{ .relatedLink }}">Read More &raquo;</a></br>
 	  ____________</p>
+	  
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "FAQPage",
+		  "mainEntity": [
+						"@type": "Question",
+						"name": "{{ .question }}",
+						"acceptedAnswer": {
+						  "@type": "Answer",
+						  "text": "{{ .correctAnswer }}"
+						}
+			]
+		}
+	</script>	  
 {{ end }}
-
