@@ -4,7 +4,11 @@
 				<div class="site-footer">
 						<ul style="list-style-type:none;" class="footer-item">
 						<strong style="color:#0F52BA;">Trending Articles</strong>
-							{{ partial "allposts.html" . }}
+							{{ range first 9 (shuffle (where (where .Site.RegularPages "Type" "post") ".Title" "!=" .Title )) }}
+							<li class="footer-item">
+							<a href="{{.Permalink}}">{{ .Params.Descslug }}</a>
+							</li>
+							{{end}}
 						</ul>
 				</div>
 				<div class="site-footer">
