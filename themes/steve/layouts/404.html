@@ -1,14 +1,31 @@
-<!doctype html>
-<html amp lang="en">
-  <head>
-    <meta charset="utf-8">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <link rel="canonical" href="/">
-    <title>{{ .Site.Title | title }} &middot; {{ .Site.Params.description | title }}</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>  </head>
-  <body>
-    <h1>Page not found</h1>
-    Going back to the <a href="/">entrance</a> should help you out.
-  </body>
-</html>
+{{ partial "structure/header.html" . }}
+
+<header class="main-header {{if isset .Site.Params "cover" }}cover{{else}}no-cover{{end}}">
+    <nav class="main-nav overlay clearfix">
+        {{ partial "navbar.html" . }}
+    </nav>
+
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Vedic Astrology</h1>
+            <h2 style="color:white;" class="page-description"><b>{{ .Site.Params.information }}</b></h2>
+			<h3 class="page-description">by</h3>
+            <h2 style="color:white;" class="page-description"><b>{{ .Site.Params.authorname }}</b></h2>
+            <div class="social-link">
+                {{ partial "social/home.html" . }}
+            </div>
+        </div>
+    <!-- <div class="scroll-down"><a href="#content"><i class="fa fa-angle-down"></i></a></div> -->
+    </div>
+
+</header>
+
+	<main id="content" class="content" role="main">
+		<div class="index-content post">
+			<article class="text-center">The searched page had moved to another.</br>
+				Type your search keywords in <a href="{{ "/search/" | relURL }}">Search Page</a>, to get to your searched content.<br></br>
+				Apologies from our side for the inconvenience caused.
+			</article>
+		</div>
+	</main>
+{{ partial "structure/footer.html" . }}
