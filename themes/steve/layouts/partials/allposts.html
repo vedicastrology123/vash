@@ -1,5 +1,5 @@
 {{ range first 3 (shuffle (where (where .Site.RegularPages "Type" "post") ".Title" "!=" .Title )) }}
 <li class="footer-item">
-<a href="{{.Permalink}}">{{ .Params.Descslug }}</a>
+<a style="color: white;" href="{{.Permalink}}">{{ .Params.Descslug }}</a>
 </li>
 {{end}}

@@ -1,3 +1,16 @@
+<button on="tap:AMP.setState({darkMode: !darkMode})">
+    <svg class="icon moon" fill="currentColor"><use xlink:href="#icon-moon" /></svg>
+    <svg class="icon sunny" fill="currentColor"><use xlink:href="#icon-sunny" /></svg>
+  </button>
+
+:root{--main-bg-color:$main-background}:root .sunny{display:none}:root .moon{display:block}.dark-mode:root{--main-bg-color:#000}.dark-mode:root .sunny{display:block}.dark-mode:root .moon{display:none}
+
+
+	   :root {
+    --color-primary: #005AF0;
+    --color-text-light: #fff;
+  }
+
 {{if .Params.image}}
     <header class="main-header post-head post-cover">
     <nav class="main-nav overlay clearfix">
