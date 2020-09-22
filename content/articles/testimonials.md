@@ -48,6 +48,7 @@ I provide the following
 As always with all other clients, Assuring you of accurate, genuine astrological help.
 
 Regards,
+
 Steve
 
 I am accurate with my Vedic Astrology based on Samaya Amsa.

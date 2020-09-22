@@ -1,3 +1,48 @@
+    <!-- :root {
+	  --heading-color: red;
+      --text-color: black;
+      --background-color: white;
+      --image-filter: grayscale(0%);    
+    }
+    #dark-mode:checked ~ label::before {
+      content: "☀️";
+    }
+    #dark-mode:checked ~ * {
+      --heading-color: turquoise;
+	  --text-color: white;
+      --background-color: black;
+      --image-filter: grayscale(50%);
+      
+      color: white;
+	  background-color: #121212;
+    }
+    label[for="dark-mode"]::before {
+      content: "🌒";
+    }
+    #dark-mode, label[for="dark-mode"] {
+      color: lightblue;
+      position: absolute;
+      top: 1rem;
+      right: 2.25rem;
+    }
+    h1 {
+      color: var(--heading-color);
+    }
+    amp-img {
+      filter: var(--image-filter);
+    }
+    .visually-hidden {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+      white-space: nowrap; /* 1. */
+    } -->
+	
 <button on="tap:AMP.setState({darkMode: !darkMode})">
     <svg class="icon moon" fill="currentColor"><use xlink:href="#icon-moon" /></svg>
     <svg class="icon sunny" fill="currentColor"><use xlink:href="#icon-sunny" /></svg>
