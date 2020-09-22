@@ -16,8 +16,8 @@
 {{- $ampCorePath := index (index $.Site.Data "amp-modules") "amp-core" -}}
 <script async src="{{ $ampCorePath }}"></script>
 <style amp-custom>
-    {{ partial "styles/stylesheet" . | safeCSS }}
     {{ partial "styles/main_cover" . | safeCSS }}
+    {{ partial "styles/stylesheet" . | safeCSS }}
 
 .flex-container{
     min-width: 65%;
@@ -158,27 +158,10 @@
 				margin-left: 0px;
 				margin-bottom: 10px;
 			}
-         form.amp-form-submit-success [submit-success],
-         form.amp-form-submit-error [submit-error]{
-            margin-top: 16px;
-         }
-         form.amp-form-submit-success [submit-success] {
-            color: white;
-            background-color:gray;
-         }
-         form.amp-form-submit-error [submit-error] {
-            color: red;
-         }
-         form.amp-form-submit-success.hide-inputs > input {
-            display: none;
-         }
+		}
 		 amp-sidebar {
 		 background-size: 100% 50%;
 		 }
-	   :root {
-    --color-primary: #005AF0;
-    --color-text-light: #fff;
-  }
   /* a custom sharing icon */
   amp-social-share.custom-style {
     background-color: #008080;
@@ -194,7 +177,55 @@
     color: var(--color-text-light);
     background-color: var(--color-primary);
   }
+  :root {
+    --color-primary: #005AF0;
+    --color-text-light: #fff;
+  }
 
+    <!-- :root {
+	  --heading-color: red;
+      --text-color: black;
+      --background-color: white;
+      --image-filter: grayscale(0%);    
+    }
+    #dark-mode:checked ~ label::before {
+      content: "☀️";
+    }
+    #dark-mode:checked ~ * {
+      --heading-color: turquoise;
+	  --text-color: white;
+      --background-color: black;
+      --image-filter: grayscale(50%);
+      
+      color: white;
+	  background-color: #121212;
+    }
+    label[for="dark-mode"]::before {
+      content: "🌒";
+    }
+    #dark-mode, label[for="dark-mode"] {
+      color: lightblue;
+      position: absolute;
+      top: 1rem;
+      right: 2.25rem;
+    }
+    h1 {
+      color: var(--heading-color);
+    }
+    amp-img {
+      filter: var(--image-filter);
+    }
+    .visually-hidden {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+      white-space: nowrap; /* 1. */
+    } -->
 </style>
 
 {{ if isset $.Site.Params "ampmanifest" }}

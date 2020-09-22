@@ -1,6 +1,7 @@
 {{ partial "structure/header.html" . }}
 
 <header class="main-header {{if isset .Site.Params "cover" }}cover{{else}}no-cover{{end}}">
+
     <nav class="main-nav overlay clearfix">
         {{ partial "navbar.html" . }}
     </nav>
@@ -23,5 +24,6 @@
 <main id="content" class="content" role="main">
 
 {{ partial "home-content.html" . }}
+
 </main>
 {{ partial "structure/footer.html" . }}
