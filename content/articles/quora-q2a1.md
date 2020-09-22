@@ -101,7 +101,7 @@ Refer above questions answer. Further research into Nadi Palm leaf timing method
 
 {{< amp-image
   alt="D 60"
-  src="/images/articles/quu1.png"
+  src="/images/articles/quu1.jpg"
   width="250"
   height="200"
   layout="responsive"
