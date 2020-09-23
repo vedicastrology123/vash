@@ -1,10 +1,10 @@
 ---
-title: "About Us"
+title: "Sun Moon Sign"
 date: 2019-05-14T14:46:10+06:00
 image: "images/success.jpg"
 author: Steve Hora
-information: "Expert Vedic Astrologer"
-description : "Expert Vedic Astrologers."
+information: "Sun Moon Sign Predictions"
+description : "Predictions"
 type: "main"
 path:
   - "https://stevehora.com/sun-moon-sign/"
@@ -39,8 +39,6 @@ article:
 Based on Your Sun and Moon sign as per Tropical western astrology.
 
 
-**Privacy**: [We respect the privacy of yours](/articles/privacy/) and **DO NOT DISCLOSE any private information to anyone**.
-
 **Accurate Predictions** : Vedic Astrology is about accurate Vedic birth chart Predictions. Steve Hora uses a Mundane Predictions technique from Tamil Nadi Grantha, with which the Timing and Predictions are accurately given.
 
 Vedic birth chart will be made according to True Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Vimshottari Dasha.
@@ -55,6 +53,8 @@ Personalized Shri Chakra as per your horoscope, for meditation. Personalized man
 **For Marriage** : Get predictions and solutions from Our Astrologers for your life problems.
 
 [For Marriage Horoscope and Nakshatra matching](/articles/marriage-compatibility/) of boy and girl, contact us.
+
+**Privacy**: [We respect the privacy of yours](/articles/privacy/) and **DO NOT DISCLOSE any private information to anyone**.
 
 Reach us at  **steve@stevehora.com**
 

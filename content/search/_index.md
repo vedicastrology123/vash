@@ -1,7 +1,8 @@
 ---
 title: "Search Results"
 date: 2019-05-14T14:46:10+06:00
-description: "Search"
+image: "images/success.jpg"
+description: "Search Vedic Astrology with Steve"
 path:
   - "https://stevehora.com/search/"
   
@@ -25,3 +26,5 @@ amp:
    - "amp-bind"
    - "amp-mustache"
 ---
+
+Type astrological keywords in the text box, to show relevant topics below.

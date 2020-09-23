@@ -2,7 +2,7 @@
 title: "Marriage Compatibility"
 descslug: "Marriage Compatibility"
 date: 2020-04-07T12:52:36+06:00
-image: "images/success.jpg"
+image: "images/articles/marriage1.jpg"
 author: Steve Hora
 description : "Matching with Horoscopes"
 type: "post"

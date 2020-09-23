@@ -16,7 +16,7 @@ lastmod: latest
 path:
   - "https://stevehora.com/articles/graha/"
 keywords:
-  - "Graha"
+  - "Grahas"
   - "Saturn"
   - "Sun"
   - "Moon"

@@ -39,7 +39,6 @@
         </div>
     </div>
 </header>
-
 	<ul>
 			<amp-list height="282"
 			  [height]="(150) * filteredArticles.length"
@@ -50,6 +49,7 @@
 		  <template type="amp-mustache">
 		  <li>
 			<article class="post type-{{ .Type }}">
+				<p>Type astrological keywords in the above text box, to show relevant topics below.</p>
 				<header class="post-header">
 					<strong class="post-title"><a {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>{{"{{title}}"}}</a></strong>
 				</header>

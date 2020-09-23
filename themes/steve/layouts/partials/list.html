@@ -7,7 +7,7 @@
         {{ if and (isset .Params "excerpt") (.Params.excerpt) }}
             </br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
         {{else}}
-				<p class="summary">{{ .Summary | plainify }}
+				<p class="summary">{{ .Summary | truncate 100 | plainify }}
 				</br>
                 {{ if .Truncated }}
                     <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
@@ -16,7 +16,7 @@
         {{end}}
       </section>
 			      <section class="column bg-alt">
-				<amp-img src="{{ .Page.Params.image | relURL }}" layout="responsive" width="100" height="100" alt="{{ .Page.Params.description }}"></amp-img>
+				<amp-img src="{{ .Page.Params.image | relURL }}" layout="responsive" width="100" height="85" alt="{{ .Page.Params.description }}"></amp-img>
 			      </section>
 </section>
 <section>
