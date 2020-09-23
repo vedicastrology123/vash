@@ -181,32 +181,17 @@
 				</footer>	
 			</section>
 		</article>
-
 	{{end}}
+        <div class="index-content post">
+		   <footer style="background: #0F52BA; position: relative;
+    margin: 1.5rem 0 0 0;
+    padding: 1.5rem 0 0 0;
+    border-top: #EBF2F6 2px solid; text-align: center;">
 
-{{/*
-    Display posts from a single section only. default to 'post'
-*/}}
-{{ if not ($.Scratch.Get "paginatedSections") }}
-    {{ if isset .Site.Params "paginatedSections" }}
-        {{ $.Scratch.Set "paginatedSections" .Site.Params.paginatedSections }}
-    {{ else }}
-        {{ $.Scratch.Set "paginatedSections" "main" }}
-    {{ end }}
-{{ end }}
-
-{{ $list := where .Data.Pages "Section" "in" ($.Scratch.Get "paginatedSections") }}
-{{ $list := where $list "Section" "!=" "" }}
-{{ $paginator := .Paginate ( $list ) }}
-
-<div class="extra-pagination inner">
-    {{ partial "navigation/pagination.html" $paginator }}
-</div>
-
-{{ range $index, $page := $paginator.Pages }}
-    {{ partial "list.html" . }}
-{{ end }}
-
-<nav class="pagination" role="navigation">
-    {{ partial "navigation/pagination.html" $paginator }}
-</nav>
+			{{if .Site.Params.logo}}
+			<figure class="author-image">
+				<a style="border: solid; border-color: purple; border-radius: 50%;"  class="img" href="{{.Site.BaseURL | relURL}}"></a>
+			</figure>
+			{{end}}
+		  </footer>
+        </div>
