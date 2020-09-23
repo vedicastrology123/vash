@@ -26,7 +26,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
 					{{else}}
-						<p class="summary">Signs - Moveable, Immovable and Dual - Significances.
+						<p class="summary">Signs...
 						</br>
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
@@ -52,7 +52,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | plainify }}
+						<p class="summary">{{ .Summary | truncate 100 | plainify }}
 						</br>
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
@@ -82,7 +82,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | plainify }}
+						<p class="summary">{{ .Summary | truncate 100 | plainify }}
 						</br>
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
@@ -114,8 +114,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
 					{{else}}
-						<p class="summary">Drekkana and its Significances in Vedic Astrology by Steve Hora
-						</br>
+						<p class="summary">Drekkana
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
 						{{end}}
@@ -134,7 +133,7 @@
 			<header class="post-header">
 				<strong class="post-title"><a href="{{ .RelPermalink }}">Mantra Prabhava</a></strong>
 			</header>
-			<p>To know more about Vedic Astrology Signs, Click below youtube video</p>
+			<p>To know more about Mantra, Click below youtube video</p>
 			<section  class="flex-container">
 				<section style="min-width: 70%;" class="post-excerpt column">
 					<amp-youtube data-videoid="pPt8fyLvdqg" data-param-rel="0" layout="responsive" width="250" height="135"></amp-youtube>
@@ -143,8 +142,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
 					{{else}}
-						<p class="summary">Mantra Prabhava by Steve Hora
-						</br>
+						<p class="summary">Mantra Prabhava
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
 						{{end}}
