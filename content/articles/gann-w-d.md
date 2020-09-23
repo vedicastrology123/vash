@@ -37,7 +37,7 @@ article:
   
 ---
 
-### W.D Gann s  **Square of Nine** and Vedic Astrology in Stock Market Analysis
+### W.D Gann - **Square of Nine** and Vedic Astrology in Stock Market Analysis
 
 W.D.Gann invented his  **Square of Nine** theory for Stock Analysis Predictions using Vedic Astrology.
 
