@@ -1,7 +1,7 @@
 ---
 title: "Steve Hora"
 date: 2020-06-02T12:52:36+06:00
-image: "images/success.jpg"
+image: "images/valaai.png"
 author: Steve Hora
 description : "Expert Vedic Astrologer in Birth Chart and Mundane Predictions"
 information: "Expert Vedic Astrologer"

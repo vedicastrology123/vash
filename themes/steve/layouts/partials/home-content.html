@@ -52,8 +52,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | truncate 100 | plainify }}
-						</br>
+						<p class="summary">{{ .Summary | truncate 50 | plainify }}
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
 						{{end}}
@@ -83,7 +82,6 @@
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
 					{{else}}
 						<p class="summary">{{ .Summary | truncate 100 | plainify }}
-						</br>
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
 						{{end}}
@@ -167,10 +165,9 @@
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a></p>
+						<p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a></p>
 					{{else}}
-						<p class="summary">Tithi in Vedic Astrology by Steve Hora
-						
+						<p class="summary">Tithi in Vedic Astrology						
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a>
 						{{end}}
