@@ -7,7 +7,7 @@ information: "Expert Vedic Astrologer"
 description : "Expert Vedic Astrologers."
 type: "main"
 path:
-  - "https://stevehora.com/about/"
+  - "https://stevehora.com/sun-moon-sign/"
 categories: 
   - "Vedic Astrology"
 tags:
@@ -34,11 +34,10 @@ article:
 
 ### Daily Horoscope Predictions
 
+**Coming soon**
+
 Based on Your Sun and Moon sign as per Tropical western astrology.
 
-Find your Sun sign using
-
-Find your Moon sign using
 
 **Privacy**: [We respect the privacy of yours](/articles/privacy/) and **DO NOT DISCLOSE any private information to anyone**.
 

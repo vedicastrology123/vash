@@ -5,17 +5,17 @@
 	<Description>Search {{ .Site.Title }} with Steve Hora</Description>
 	<Developer>{{ .Site.Author.name | safeHTML }}</Developer>
 	<InputEncoding>utf-8</InputEncoding>
-	<Image width="37" height="40" type="image/png">{{ .Site.BaseURL }}/images/vaashicon.png</Image>
-	<Image width="32" height="32" type="image/vnd.microsoft.icon">{{ .Site.BaseURL }}/favicon.ico</Image>
+	<Image width="37" height="40" type="image/png">{{ .Site.BaseURL }}images/vaashicon.png</Image>
+	<Image width="32" height="32" type="image/vnd.microsoft.icon">{{ .Site.BaseURL }}favicon.ico</Image>
 	<Language>{{ .Site.LanguageCode }}</Language>
 	<LongName>{{ .Site.Title }} :: {{ .Site.Language.Lang }}</LongName>
 	<OutputEncoding>UTF-8</OutputEncoding>
 	<ShortName>{{ .Site.Title }}</ShortName>
 	<SyndicationRight>open</SyndicationRight>
-	<ie:PreviewUrl type="text/html" method="GET" template="{{ .Site.BaseURL }}/search/?s={inputValue}"/>
-	<moz:SearchForm>{{ .Site.BaseURL }}/search/?s={inputValue}</moz:SearchForm>
+	<ie:PreviewUrl type="text/html" method="GET" template="{{ .Site.BaseURL }}search/?s={inputValue}"/>
+	<moz:SearchForm>{{ .Site.BaseURL }}search/?s={inputValue}</moz:SearchForm>
 
-	<Url template="{{ .Site.BaseURL }}/search/?s={inputValue}" type="text/html" />
-	<Url rel="self" template="{{ .Site.BaseURL }}/search.xml" type="application/opensearchdescription+xml" />
+	<Url template="{{ .Site.BaseURL }}search/?s={inputValue}" type="text/html" />
+	<Url rel="self" template="{{ .Site.BaseURL }}opensearch.xml" type="application/opensearchdescription+xml" />
 	<!-- <atom:link href="{{ $.Site.BaseURL }}/search.xml" rel="search" type="application/opensearchdescription+xml" title="{{ .Site.Title }}" /> -->
 </OpenSearchDescription>
