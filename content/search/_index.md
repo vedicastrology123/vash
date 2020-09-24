@@ -1,7 +1,7 @@
 ---
 title: "Search Results"
 date: 2019-05-14T14:46:10+06:00
-image: "images/success.jpg"
+image: "images/banner.jpg"
 description: "Search Vedic Astrology with Steve"
 path:
   - "https://stevehora.com/search/"

@@ -2,7 +2,7 @@
 title: "August 2020"
 descslug: "Prediction for August 2020"
 date: 2020-08-02T12:52:36+06:00
-image: "images/success.jpg"
+image: "images/banner.jpg"
 author: Steve Hora
 description : "Mundane Predictions"
 type: "post"

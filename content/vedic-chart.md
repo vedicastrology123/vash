@@ -3,7 +3,7 @@ title: "Free Vedic Chart"
 date: "2019-05-14T14:46:10+06:00"
 description: "Vedic Horoscope"
 information: "Expert Vedic Astrologer"
-image: "images/success.jpg"
+image: "images/banner.jpg"
 author: "Steve Hora"
 type: "main"
 categories: 

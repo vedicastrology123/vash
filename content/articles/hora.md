@@ -2,7 +2,7 @@
 title: "Hora Astrology"
 descslug: "Hora is Wealth."
 date: 2020-06-02T12:52:36+06:00
-image: "images/success.jpg"
+image: "images/banner.jpg"
 author: Steve Hora
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 

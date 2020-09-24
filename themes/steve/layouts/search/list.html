@@ -32,7 +32,7 @@
         <div class="main-header-content inner">
 <amp-state id="allArticles"
   src="/searchindex.json"></amp-state>
-  <input class="read-more" name="s" type="text" size="32" on="input-throttled:AMP.setState({filteredArticles: allArticles.items.filter(a => ((a.contents.toLowerCase().indexOf(event.value.toLowerCase()) != -1) || (a.title.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ||
+  <input class="read-more" name="s" type="text" size="25" on="input-throttled:AMP.setState({filteredArticles: allArticles.items.filter(a => ((a.contents.toLowerCase().indexOf(event.value.toLowerCase()) != -1) || (a.title.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ||
 (a.url.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ) ),
  inputValue: event.value })" placeholder="Type astrological keywords..." [value]="inputValue"><br></br>
             <h1 class="page-title">Search Results</h1>

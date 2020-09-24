@@ -38,7 +38,7 @@ article:
   
 ---
 
-### Enrich and Optimize your life with Vedic Astrology ( Jyotish )
+### Enrich and Optimize your life with Vedic Astrology
 
 Karma plays an important role in the destiny or fate of a person. Free Will has its part also. Read more below
 
