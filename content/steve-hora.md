@@ -65,7 +65,7 @@ Astrologically, He love to analyze Vedic (Sidereal) or Western (Tropical) Astrol
 
 (This quality of his is due to 5th lord Shukra sitting in 4th, and looking at 10th, Ketu is with Shani in Makara lagna. Shukra being my Yogakaraka graha, sitting in Aswini Ketu-nakshatra, in my horoscope).
 
-He challenge the status quo, ad-literam and anecdotal of vedic and western astrology, navigate uncharted waters, to find newer vistas from the astrology lore and find the truth. Be unbiased, even with his own opinion, or by the very information gathered, than to assimilate, digest, critically analyze, synthesize and find the truest path, which had been lost to time.
+He challenges the status quo, ad-literam and anecdotal of vedic and western astrology, navigate uncharted waters, to find newer vistas from the astrology lore and find the truth. Be unbiased, even with his own opinion, or by the very information gathered, than to assimilate, digest, critically analyze, synthesize and find the truest path, which had been lost to time.
 
 (This quality of his is due to Chandra exalted in Vrishabha and Makara Lagna Shani and Ketu sitting in Abhijit nakshatra, in his horoscope).
 
