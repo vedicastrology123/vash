@@ -13,35 +13,6 @@
 		  </footer>
         </div>
 
-		<article class="post">
-			<header class="post-header">
-				<strong class="post-title"><a href="{{ .RelPermalink }}">Signs - Moveable, Immovable and Dual</a></strong>
-			</header>
-			<p>To know more about Vedic Astrology Signs, Click below youtube video.</p>
-			<section  class="flex-container">
-				<section style="min-width: 70%;" class="post-excerpt column">
-					<amp-youtube data-videoid="WL7H-v_LzDw" layout="responsive" width="250" height="135"></amp-youtube>
-				</section>
-				<section style=" background:#fff;" class="column bg-alt">
-					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
-					{{else}}
-						<p class="summary">Signs...
-						</br>
-						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
-						{{end}}
-						</p>
-					{{end}}
-				</section>
-			</section>
-			<section>
-				<footer style="height:27px; line-height:2.6rem; background:#0F52BA; border: 0.1rem solid purple; border-radius: 0.1em;" class="post-meta">
-				{{ partial "post_meta" .}}
-				</footer>	
-			</section>
-		</article>
-
 	{{ with .Site.GetPage "/articles/hora-wealth.md" }}
 		<article class="post type-{{ .Type }}">
 			<header class="post-header">
@@ -90,6 +61,36 @@
 				</section>
 				<section class="column bg-alt">
 					<amp-img src="{{ .Page.Params.image | relURL }}" layout="responsive" width="100" height="100" alt="{{ .Page.Params.description }}"></amp-img>
+				</section>
+			</section>
+			<section>
+				<footer style="height:27px; line-height:2.6rem; background:#0F52BA; border: 0.1rem solid purple; border-radius: 0.1em;" class="post-meta">
+				{{ partial "post_meta" .}}
+				</footer>	
+			</section>
+		</article>
+
+
+		<article class="post">
+			<header class="post-header">
+				<strong class="post-title"><a href="{{ .RelPermalink }}">Signs - Moveable, Immovable and Dual</a></strong>
+			</header>
+			<p>To know more about Vedic Astrology Signs, Click below youtube video.</p>
+			<section  class="flex-container">
+				<section style="min-width: 70%;" class="post-excerpt column">
+					<amp-youtube data-videoid="WL7H-v_LzDw" layout="responsive" width="250" height="135"></amp-youtube>
+				</section>
+				<section style=" background:#fff;" class="column bg-alt">
+					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+					{{else}}
+						<p class="summary">Signs...
+						</br>
+						{{ if .Truncated }}
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+						{{end}}
+						</p>
+					{{end}}
 				</section>
 			</section>
 			<section>
