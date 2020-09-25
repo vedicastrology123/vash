@@ -1,3 +1,6 @@
+{{ else if (not (or (eq .Type "categories") (eq .Type "tags") )) }}
+	<meta name="keywords" content= "{{ range $keyw,$keyword:=.Params.keywords}}{{ if $keyw }},{{ end }} {{$keyword}}{{ end }}"/>
+
 <amp-sidebar style="width: 300;	background: url(/images/sidebar.jpg), url(/images/destiny.jpg), url(/images/success.jpg);  background-position: top right, top 190px right, bottom 0px left;
   background-repeat: no-repeat; background-size: 300px, 400px;" id="sidebar" layout="nodisplay" side="right">
 

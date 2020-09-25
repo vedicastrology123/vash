@@ -18,6 +18,17 @@ keywords:
   - "Jyotish"
   - "Calculate your Vedic Astrology Birth Chart"
   - "Read Birth Chart"
+  - "Hora"
+  - "Steve"
+  - "Advice"
+  - "Wealth"
+  - "Matrimony matching"
+  - "love compatibility"
+  - "27 nakshatras"
+  - "20 divisional charts"
+  - "Jyotish"
+  - "Astrology Chat"
+  - "Quora Question and Answers"
 
 path:
   - "https://stevehora.com/"

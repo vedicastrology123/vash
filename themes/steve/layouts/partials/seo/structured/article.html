@@ -32,7 +32,13 @@
   "author": {
     "name" : "{{ $author.name }}"
   },
+  
+  {{ if (or .IsHome (eq .Type "main") (eq .Type "post") (eq .Type "featured")) }}
   "keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+{{ else }}
+  "keywords" : [ {{ range $index, $keyword := .Site.Params.newkeys }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
+{{ end }}
+
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
