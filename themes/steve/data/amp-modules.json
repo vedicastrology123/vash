@@ -36,6 +36,7 @@
   "amp-o2-player": "https://cdn.ampproject.org/v0/amp-o2-player-0.1.js",
   "amp-ooyala-player": "https://cdn.ampproject.org/v0/amp-ooyala-player-0.1.js",
   "amp-pinterest": "https://cdn.ampproject.org/v0/amp-pinterest-0.1.js",
+  "amp-position-observer": "https://cdn.ampproject.org/v0/amp-position-observer-0.1.js",
   "amp-reach-player": "https://cdn.ampproject.org/v0/amp-reach-player-0.1.js",
   "amp-reddit": "https://cdn.ampproject.org/v0/amp-reddit-0.1.js",
   "amp-selector": "https://cdn.ampproject.org/v0/amp-selector-0.1.js",
