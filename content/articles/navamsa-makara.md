@@ -217,7 +217,7 @@ So it bestows me with high intellectual, a sharp brain, intuitiveness and a soft
   src="/images/articles/chakras.jpg"
   width="140"
   height="138"
-  layout="responsive"
+  layout="fixed"
 >}}
 
 #### More
