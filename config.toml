@@ -19,7 +19,7 @@ summaryLength = 15
     bio = "Vedic Astrologer"
     location = "SFO, USA"
     website = "https://stevehora.com"
-    thumbnail = "/stevehora.bmp"
+    thumbnail = "/steve-hora.png"
     facebook = 'https://www.facebook.com/vedicastrology123' # Author's Facebook page
     twitter = '@AstrologyOrbit'
 
