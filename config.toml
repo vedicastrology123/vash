@@ -37,7 +37,7 @@ summaryLength = 15
   cover = "/images/vedic-astrology.gif" # Homepage cover
   cover_sizes = [480, 360]
   #https://kapwi.ng/c/32p9SwRr
-  logo = "images/shrichakra9.png"
+  logo = "shri-chakra.png"
   publisherLogoHeight = 60
   publisherLogoWidth = 60
   metadescription = "Hora Vedic Astrology by Steve Hora"
