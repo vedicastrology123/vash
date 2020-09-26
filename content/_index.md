@@ -58,9 +58,9 @@ amp:
 ### Vedic Astrology
 It is one of the Vedas, the ancient Hindu scriptures. In  [Vedic Astrology](https://en.wikipedia.org/wiki/Hindu_astrology), the destiny of a person is determined by his/her karma, which is set forth in the cosmic design.
 
-Vedic and Western astrology have some similarities, namely the [12 signs of the zodiac](/articles/vedic-astrology-meaning/). Vedic astrology emphasizes on the rising sign at the precise moment of birth rather than the 30-day sun sign of western astrology. Moon sign is given importance in vedic, to know mental characteristics. 
+Vedic and Western astrology have some similarities, namely the 12 signs of the zodiac. Vedic astrology emphasizes on the rising sign at the precise moment of birth rather than the 30-day sun sign of western astrology. Moon sign is given importance in vedic, to know mental characteristics. 
 
-In Vedic astrology, an expert astrologer, is known as [Jyotish](https://vedicfeed.com/jyotish-shastra-basic-facts/), uses a variety of divisional birth charts to do detailed reading of a chart.
+In Vedic astrology, an expert astrologer, is known as Jyotish, uses a variety of divisional birth charts to do detailed reading of a chart.
 
 For example : Hora is a divisional chart for predicting wealth from the birth chart. 7th house is used to forecast relationships in [Matrimony Matching](/articles/marriage-compatibility/) and also for love compatibility. [27 nakshatras](/articles/nakshatras/) are used for the compatibility test.
 
@@ -68,11 +68,10 @@ There are 16 divisional charts which are used for prediction purposes of various
 
 [Read more on Hora for wealth predictions](/articles/hora-wealth/).
 
-[Click here, for Questions and Answers on Vedic Astrology.](/articles/faq/)
 
 #### Planets and Houses - Birth Chart Predictions
 
-A birth chart is read in entirety of all the 12 houses or parts which govern different aspects of your life. More about that at [12 Houses of Vedic Astrology](/articles/vedic-astrology-meaning/).
+A birth chart is read in entirety of all the 12 houses or parts which govern different aspects of your life.
 
 Each house has its own significance by knowing its strength, weakness, life events for that house and its good and bad time.
 
