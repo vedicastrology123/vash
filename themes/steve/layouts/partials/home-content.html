@@ -23,7 +23,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | truncate 108 | plainify }}
+						<p class="summary">{{ .Summary | truncate 32 | plainify }}
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
@@ -52,7 +52,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | truncate 108 | plainify }}
+						<p class="summary">{{ .Summary | truncate 64 | plainify }}
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
@@ -78,14 +78,14 @@
 			<p>To know more about Vedic Astrology Signs, Click below youtube video.</p>
 			<section  class="flex-container">
 				<section style="min-width: 70%; border: 2px solid purple;" class="post-excerpt column">
-					<amp-youtube data-videoid="WL7H-v_LzDw" layout="responsive" width="250" height="144" ></amp-youtube>
+					<amp-youtube data-videoid="WL7H-v_LzDw" showinfo="0" controls="0" layout="responsive" width="250" height="144" ></amp-youtube>
+
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ "Astrological Signs." | plainify }}
-						</br>
+						<p class="summary">Signs
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
@@ -113,7 +113,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ "Drekkana  Mundane Predictions." | plainify }}
+						<p class="summary">Drekkana
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
@@ -141,7 +141,7 @@
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ "Mantra Prabhava for Success." | plainify }}
+						<p class="summary">Mantra
 						{{ if .Truncated }}
 							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
