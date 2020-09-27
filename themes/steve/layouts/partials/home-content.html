@@ -18,7 +18,7 @@
 			<header class="post-header">
 				<strong class="post-title"><a href="{{ .RelPermalink }}">{{ .Title |title }}</a></strong>
 			</header>
-			<section  class="flex-container">
+			<section class="flex-container">
 				<section class="post-excerpt column">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
 						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
@@ -30,7 +30,7 @@
 						</p>
 					{{end}}
 				</section>
-				<section class="column bg-alt">
+				<section style="border: 2px solid purple;" class="column bg-alt">
 					<amp-img src="{{ .Page.Params.image | relURL }}" layout="responsive" width="100" height="100" alt="{{ .Page.Params.description }}"></amp-img>
 				</section>
 			</section>
@@ -59,7 +59,7 @@
 						</p>
 					{{end}}
 				</section>
-				<section class="column bg-alt">
+				<section style="border: 2px solid purple;" class="column bg-alt">
 					<amp-img src="{{ .Page.Params.image | relURL }}" layout="responsive" width="81" height="81" alt="{{ .Page.Params.description }}"></amp-img>
 				</section>
 			</section>
@@ -77,8 +77,8 @@
 			</header>
 			<p>To know more about Vedic Astrology Signs, Click below youtube video.</p>
 			<section  class="flex-container">
-				<section style="min-width: 70%;" class="post-excerpt column">
-					<amp-youtube data-videoid="WL7H-v_LzDw" layout="responsive" width="250" height="135"></amp-youtube>
+				<section style="min-width: 70%; border: 2px solid purple;" class="post-excerpt column">
+					<amp-youtube data-videoid="WL7H-v_LzDw" layout="responsive" width="250" height="135" frameborder="5"></amp-youtube>
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
@@ -106,7 +106,7 @@
 			</header>
 			<p>To know more about Drekkana in Vedic Astrology, Click below youtube video</p>
 			<section  class="flex-container">
-				<section style="min-width: 70%;" class="post-excerpt column">
+				<section style="min-width: 70%; border: 2px solid purple;" class="post-excerpt column">
 					<amp-youtube data-videoid="L5NCD05E2dE" data-param-rel="0" layout="responsive" width="250" height="124"></amp-youtube>
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
@@ -134,7 +134,7 @@
 			</header>
 			<p>To know more about Mantra, Click below youtube video</p>
 			<section  class="flex-container">
-				<section style="min-width: 70%;" class="post-excerpt column">
+				<section style="min-width: 70%; border: 2px solid purple;" class="post-excerpt column">
 					<amp-youtube data-videoid="pPt8fyLvdqg" data-param-rel="0" layout="responsive" width="250" height="124"></amp-youtube>
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
@@ -161,7 +161,7 @@
 				<strong class="post-title"><a href="/articles/tithi-information/">Shri Chakra</a></strong>
 			</header>
 			<section class="flex-container">
-				<section style="text-align: center" class="post-excerpt column">
+				<section style="text-align: center; border: 2px solid purple;" class="post-excerpt column">
 		<a href="/articles/tithi-information/"><amp-img src="/images/shrichakramts.png" width="200" height="200" alt="Shri Chakra" title="Your horoscope's Customized Mantra, Yantra and Tantra for Success." class="img-fluid rounded mr-5 mb-4"></amp-img><br><span class="font-weight-light text-danger">Shri Chakra - Mantra, Yantra and Tantra for Success</span></a>
 				</section>
 				<section style=" background:#fff; text-align:left" class="column bg-alt">
