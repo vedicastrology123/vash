@@ -3,7 +3,7 @@
 		   <footer style="background: #0F52BA; position: relative;
     margin: 1.5rem 0 0 0;
     padding: 1.5rem 0 0 0;
-    border-top: #EBF2F6 2px solid; text-align: center;">
+    border-top: #EBF2F6 2px solid; border-radius: 101%; text-align: center;">
 
 			{{if .Site.Params.logo}}
 			<figure class="author-image">
@@ -21,11 +21,11 @@
 			<section  class="flex-container">
 				<section class="post-excerpt column">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | truncate 50 | plainify }}
+						<p class="summary">{{ .Summary | plainify }}
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -50,11 +50,11 @@
 			<section  class="flex-container">
 				<section class="post-excerpt column">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">{{ .Summary | truncate 100 | plainify }}
+						<p class="summary">{{ .Summary | plainify }}
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -82,12 +82,12 @@
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">Signs...
+						<p class="summary">{{ "Astrological Signs." | plainify }}
 						</br>
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -111,11 +111,11 @@
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">Drekkana
+						<p class="summary">{{ "Drekkana  Mundane Predictions." | plainify }}
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -139,11 +139,11 @@
 				</section>
 				<section style=" background:#fff;" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a></p>
+						</br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a></p>
 					{{else}}
-						<p class="summary">Mantra Prabhava
+						<p class="summary">{{ "Mantra Prabhava for Success." | plainify }}
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More...</a>
+							<a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -166,11 +166,11 @@
 				</section>
 				<section style=" background:#fff; text-align:left" class="column bg-alt">
 					{{ if and (isset .Params "excerpt") (.Params.excerpt) }}
-						<p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a></p>
+						<p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">(Read more)</a></p>
 					{{else}}
 						<p class="summary">Tithi in Vedic Astrology						
 						{{ if .Truncated }}
-							<a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">Read More...</a>
+							<a style="color:#0F52BA;" class="read-more" href="/articles/tithi-information/">(Read more)</a>
 						{{end}}
 						</p>
 					{{end}}
@@ -182,7 +182,7 @@
 		   <footer style="background: #0F52BA; position: relative;
     margin: 1.5rem 0 0 0;
     padding: 1.5rem 0 0 0;
-    border-top: #EBF2F6 2px solid; text-align: center;">
+    border-top: #EBF2F6 2px solid; border-radius: 101%; text-align: center;">
 
 			{{if .Site.Params.logo}}
 			<figure class="author-image">

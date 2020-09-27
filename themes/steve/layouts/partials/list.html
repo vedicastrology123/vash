@@ -7,9 +7,9 @@
         {{ if and (isset .Params "excerpt") (.Params.excerpt) }}
             </br><p class="excerpt">{{ .Params.excerpt  | plainify }} <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a></p>
         {{else}}
-				<p class="summary">{{ .Summary | truncate 50 | plainify }}
+				<p class="summary">{{ .Summary | truncate 108 | plainify }}
                 {{ if .Truncated }}
-                    <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">Read More…</a>
+                    <a style="color:#0F52BA;" class="read-more" href="{{.RelPermalink}}">(Read more)</a>
                 {{end}}
             </p>
         {{end}}

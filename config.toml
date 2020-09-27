@@ -7,7 +7,7 @@ title = "Hora Vedic Astrology by Steve for Birth Chart Wealth Predictions"
 theme="steve"
 paginate = 5
 canonifyurls = true
-summaryLength = 15
+summaryLength = 24
 
 [permalinks]
     post = '/:year/:month/:slug/' # Wordpress style

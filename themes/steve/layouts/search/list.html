@@ -57,13 +57,13 @@
 				<section class="post-excerpt column">
 					<p class="summary">{{"{{contents}}"}}
 					</br>
-						<a style="color:#0F52BA;" class="read-more"  {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>Read More…</a>
+						<a style="color:#0F52BA;" class="read-more"  {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>(Read more)</a>
 					</p>
 				  </section>
 			</section>
-				<footer style="background:#0F52BA;" class="post-meta">
-					{{ partial "post_meta" .}}
-				</footer>	
+			<footer style="height:28px; line-height: 2.6rem; background:#0F52BA; border: 0.1rem solid purple; border-radius: 0.2rem;" class="post-meta">
+		{{ partial "post_meta" .}}
+    </footer>
 			</article>
 		  </li>
 		  </template>
