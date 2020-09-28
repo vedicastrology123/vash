@@ -25,7 +25,7 @@ In case of dissatisfaction of our physical products, customers have the liberty 
 
 Our Policy for the cancellation and refund is as follows
 
-There is NO REFUND for Astrological Horoscope Predictions service.
+There is No Refund for Astrological Horoscope Predictions service.
 
 ### Cancellation Policy
 
@@ -53,7 +53,7 @@ If paid by credit card, refunds will be issued to the original credit card, prov
 
 Also please refer our [Terms and Privacy Policy](/articles/privacy/) for more information.
 
-There is NO REFUND for Astrological Horoscope Predictions.
+There is No Refund for Astrological Horoscope Predictions service.
 
 #### Questions
 
