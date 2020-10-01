@@ -1,4 +1,4 @@
----
+﻿---
 title: "Steve Hora"
 date: 2020-06-02T12:52:36+06:00
 image: "images/valaai.png"
@@ -53,21 +53,21 @@ social:
 ### About Steve Hora
 
 A born astrologer, as per Sri [Vaithiswara Agasthiya Koushiha Nadi Grantha in Tamil](/articles/nadi-astrology/).
-In the palm-leaf reading, one of his profession is mentioned as below
+In the palm-leaf reading, one of my professions are mentioned as below
 
 “ஜோதிடமும் கலை சார் அணி பண்டம் ….”
 
 It means Astrology, Graphical Yantras are some of my professions.
 
-He use Vedic (Sidereal) horoscope for Accurate timing and analysis, according to True Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Horoscope Analysis is as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala or Naadi timing technique.
+I use Vedic (Sidereal) horoscope for Accurate timing and analysis, according to True Lahiri Ayanamsa (Chitra paksha), using sidereal solar years of 360, Horoscope Analysis is as per Parasara system and Timing using Vimshottari Dasha system and Samaya Amsa or Kaala or Naadi timing technique.
 
-Astrologically, He love to analyze Vedic (Sidereal) or Western (Tropical) Astrology, comprehend it and solve the unresolved question of human existence, in its various aspects, events, tribulation and the very ending.
+Astrologically, I love to analyze Vedic (Sidereal) or Western (Tropical) Astrology, comprehend it and solve the unresolved question of human existence, in its various aspects, events, tribulation and the very ending.
 
-(This quality of his is due to 5th lord Shukra sitting in 4th, and looking at 10th, Ketu is with Shani in Makara lagna. Shukra being my Yogakaraka graha, sitting in Aswini Ketu-nakshatra, in my horoscope).
+(This quality of mine is due to 5th lord Shukra sitting in 4th, and looking at 10th, Ketu is with Shani in Makara lagna. Shukra being my Yogakaraka graha, sitting in Aswini Ketu-nakshatra, in my horoscope).
 
-He challenges the status quo, ad-literam and anecdotal of vedic and western astrology, navigate uncharted waters, to find newer vistas from the astrology lore and find the truth. Be unbiased, even with his own opinion, or by the very information gathered, than to assimilate, digest, critically analyze, synthesize and find the truest path, which had been lost to time.
+I challenge the status quo, ad-literam and anecdotal of vedic and western astrology, navigate uncharted waters, to find newer vistas from the astrology lore and find the truth. Be unbiased, even with his own opinion, or by the very information gathered, than to assimilate, digest, critically analyze, synthesize and find the truest path, which had been lost to time.
 
-(This quality of his is due to Chandra exalted in Vrishabha and Makara Lagna Shani and Ketu sitting in Abhijit nakshatra, in his horoscope).
+(This quality of mine is due to Chandra exalted in Vrishabha and Makara Lagna Shani and Ketu sitting in Abhijit nakshatra, in my horoscope).
 
 **Astrological Quote**
 
