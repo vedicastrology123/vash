@@ -20,7 +20,7 @@ keywords:
 
 ### Guru Dakshina / Kannikai
 
-Please pay Guru Dakshina, using Google Pay to UPI Id : stevehora@icici .
+Please pay Guru Dakshina, using Google Pay to UPI Id : **stevehora@icici** .
 
 Or
 
