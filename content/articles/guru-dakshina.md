@@ -20,11 +20,7 @@ keywords:
 
 ### Guru Dakshina / Kannikai
 
-[Please pay Guru Dakshina, by clicking this PayUMoney](https://www.payumoney.com/react/app/merchant/#/pay/merchant/690EDAA4FBC4CAEEB390A87CE3DB59C9?param=5465070)
-
-Or
-
-[Please pay Guru Dakshina, by clicking this RazorPay](https://rzp.io/l/stevehora)
+Please pay Guru Dakshina, using Google Pay to UPI Id : stevehora@icici .
 
 Or
 
