@@ -24,7 +24,7 @@ Please pay Guru Dakshina, using Google Pay to UPI Id : stevehora@icici .
 
 Or
 
-[If an international client, pay in USD, by clicking below link](https://rzp.io/l/stevehoraus)
+[If an international client, pay in USD, by clicking this link](https://rzp.io/l/stevehoraus) .
 
 Thanks and Regards,
 Steve
