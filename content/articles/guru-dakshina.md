@@ -20,15 +20,12 @@ keywords:
 
 ### Guru Dakshina / Kannikai
 
-Please pay Guru Dakshina, using Google Pay to UPI Id : **stevehora@icici** .
+Please pay Guru Dakshina, click on this link - [stevehora at razorpay](https://rzp.io/l/stevehora), enter amount,
+click Pay and select UPI and enter Id : stevehora@icici .
 
-Or
-
-[If an international client, pay in USD, by clicking this link](https://rzp.io/l/stevehoraus) .
+If you are an international client, to pay in USD, click [this link](https://rzp.io/l/stevehoraus) .
 
 Thanks and Regards,
 Steve
 
-Note : Guru Dakshina is given as a respect to the ancient Gurus who had spent their lifetime to propagate this divine vedic astrology knowledge to us. This would entitle you for divine blessings from Grahas, Gurus and me for accrual of good karma.
-
-You can write to us to know more about Vedic Astrology.
+**Note** : Guru Dakshina is given as a respect to the ancient Gurus who had spent their lifetime to propagate this divine vedic astrology knowledge to us. This would entitle you for divine blessings from Grahas, Gurus and me for accrual of good karma.
