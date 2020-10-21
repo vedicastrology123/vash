@@ -77,7 +77,7 @@ summaryLength = 24
   email = 'steve@stevehora.com'
   
   themeColor = "green" # Browser bar color
-  googleanalytics = "UA-1341906-9"
+  googleanalytics = "UA-180124947-1"
   adsensepublisher = ""
   ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe", "amp-position-observer","amp-animation"] # AMP elements loaded on every page
 
