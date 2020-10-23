@@ -107,7 +107,10 @@
         "@type" : "ImageObject",
         "url" : "{{ $.Site.Params.organizationLogo }}",
         "height" : {{ $.Site.Params.publisherLogoHeight }},
-        "width" : {{ $.Site.Params.publisherLogoWidth }}
+        "width" : {{ $.Site.Params.publisherLogoWidth }},
+		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
+        "isBasedOn" : ""
+
     }
   }
 {{- else }}
@@ -119,7 +122,9 @@
         "@type" : "ImageObject",
         "url": "{{ with .Site.Params.Logo }}{{ . | absURL }}{{ end }}",
         "height" : 60,
-        "width" : 60
+        "width" : 60,
+		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
+        "isBasedOn" : ""
     }
   }
 {{- end }}
