@@ -52,7 +52,8 @@
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Params.article.image.title }}",
       "license" : "{{ .Params.article.image.license_link }}",
-      "isBasedOn" : "{{ .Params.article.image.link }}"
+      "isBasedOn" : "{{ .Params.article.image.link }}",
+	  "acquireLicensePage" : "https://stevehora.com/contact/"
   },
 {{- else if isset .Params "image" -}}
   {{ $imageConfig := imageConfig (printf "%s%s" $staticDir .Params.Image) }}
@@ -64,7 +65,8 @@
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Title }}",
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
-      "isBasedOn" : ""
+      "isBasedOn" : "",
+	  "acquireLicensePage" : "https://stevehora.com/contact/"
   },
 {{- else if isset .Site.Params "cover" -}}
   {{ $imageConfig := imageConfig (printf "%s%s" $staticDir .Site.Params.Cover) }}
@@ -76,7 +78,8 @@
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Site.Title }}",
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
-      "isBasedOn" : ""
+      "isBasedOn" : "",
+	  "acquireLicensePage" : "https://stevehora.com/contact/"
   },
 {{- else }}
   {{ $imageConfig := imageConfig (printf "static%s" .Site.Params.Logo) }}
@@ -88,7 +91,8 @@
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Site.Title }}",
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
-      "isBasedOn" : ""
+      "isBasedOn" : "",
+	  "acquireLicensePage" : "https://stevehora.com/contact/"
   },
 {{- end }}
 {{- if isset $.Site.Params "publisherName" }}
@@ -99,7 +103,8 @@
         "@type" : "ImageObject",
         "url" : "{{ $.Site.Params.organizationLogo }}",
 		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
-        "isBasedOn" : ""
+        "isBasedOn" : "",
+	    "acquireLicensePage" : "https://stevehora.com/contact/"
 
     }
   }
@@ -112,7 +117,8 @@
         "@type" : "ImageObject",
         "url": "{{ with .Site.Params.Logo }}{{ . | absURL }}{{ end }}",
 		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
-        "isBasedOn" : ""
+        "isBasedOn" : "",
+	    "acquireLicensePage" : "https://stevehora.com/contact/"
     }
   }
 {{- end }}
