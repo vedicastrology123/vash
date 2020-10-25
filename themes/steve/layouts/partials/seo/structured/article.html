@@ -51,8 +51,6 @@
       "url": "{{ with .Params.article.image.src }}{{ . | absURL }}{{ end }}",
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Params.article.image.title }}",
-      "height" : {{ .Params.article.image.height }},
-      "width" : {{ .Params.article.image.width }},
       "license" : "{{ .Params.article.image.license_link }}",
       "isBasedOn" : "{{ .Params.article.image.link }}"
   },
@@ -65,8 +63,6 @@
       "url": "{{ with .Params.Image }}{{ . | absURL }}{{ end }}",
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Title }}",
-      "height" : {{ $imageConfig.Height }},
-      "width" : {{ $imageConfig.Width }},
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
       "isBasedOn" : ""
   },
@@ -79,8 +75,6 @@
       "url": "{{ with .Site.Params.Cover }}{{ . | absURL }}{{ end }}",
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Site.Title }}",
-      "height" : {{ $imageConfig.Height }},
-      "width" : {{ $imageConfig.Width }},
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
       "isBasedOn" : ""
   },
@@ -93,8 +87,6 @@
       "url": "{{ with .Site.Params.Logo }}{{ . | absURL }}{{ end }}",
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05" }}",
       "name": "{{ .Site.Title }}",
-      "height" : {{ $imageConfig.Height }},
-      "width" : {{ $imageConfig.Width }},
       "license" : "https://creativecommons.org/licenses/by-sa/4.0/",
       "isBasedOn" : ""
   },
@@ -106,8 +98,6 @@
     "logo" : {
         "@type" : "ImageObject",
         "url" : "{{ $.Site.Params.organizationLogo }}",
-        "height" : {{ $.Site.Params.publisherLogoHeight }},
-        "width" : {{ $.Site.Params.publisherLogoWidth }},
 		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
         "isBasedOn" : ""
 
@@ -121,8 +111,6 @@
     "logo" : {
         "@type" : "ImageObject",
         "url": "{{ with .Site.Params.Logo }}{{ . | absURL }}{{ end }}",
-        "height" : 60,
-        "width" : 60,
 		"license" : "https://creativecommons.org/licenses/by-sa/4.0/",
         "isBasedOn" : ""
     }
