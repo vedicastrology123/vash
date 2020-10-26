@@ -3,7 +3,7 @@ title: "Contact Us"
 date: 2019-05-14T14:46:10+06:00
 description: "For Your Accurate Birth Chart Predictions"
 information: "Expert Vedic Astrologer"
-image: "images/banner.jpg"
+image: "images/success.jpg"
 author: Steve Hora
 type: "main"
 categories: 

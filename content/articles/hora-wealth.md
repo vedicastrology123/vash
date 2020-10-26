@@ -2,7 +2,7 @@
 title: "Hora Wealth"
 descslug: "Wealth using Hora D2 chart."
 date: 2020-06-02T12:52:36+06:00
-image: "images/banner.jpg"
+image: "images/success.jpg"
 author: Steve Hora
 lead: Vedic Astrology by Steve Hora
 lastmod: latest 
