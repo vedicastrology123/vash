@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: /404/
 
+<<<<<<< HEAD
 Sitemap: https://stevehora.com/sitemap.xml
+=======
+Sitemap: https://stevehora.com/sitemap.xml
+>>>>>>> cde259c0d0964dec3d0e15d5c1475d4097695e03
