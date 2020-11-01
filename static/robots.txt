@@ -1,8 +1,4 @@
 User-agent: *
 Disallow: /404/
 
-Disallow: /categories/
-Disallow: /tags/
-Disallow: /keywords/
-
 Sitemap: https://stevehora.com/sitemap.xml
