@@ -45,7 +45,7 @@
    "question": "Does Hindu temple have astrological significance?",
    "answer": "1",
    "choices": "Yes,No,Do not know",
-   "correctAnswer": "Yes, Hindu temples have astrological significance.",
+   "correctAnswer": "Hindu temples have astrological significance.",
    "relatedLink": "/articles/astrology-temple/"
  },
  "q2a8": {
@@ -59,7 +59,7 @@
    "question": "How to calculate a vedic astrology birth chart?",
    "answer": "1",
    "choices": "Astrology Software,Astronomy, Do not Know",
-   "correctAnswer": "Using an Astrology software, one can calculate a vedic astrology birth chart.",
+   "correctAnswer": "Using an Astrology software one can calculate a vedic astrology birth chart.",
    "relatedLink": "/articles/birth-chart/"
  },
 "q2a10": {
@@ -73,7 +73,7 @@
    "question": "Did W.D.Gann, Investor used Vedic Astrology for analysis of Stock Market?",
    "answer": "1",
    "choices": "Yes,No ,Do not Know",
-   "correctAnswer": "Yes, His Square of Nine algorithm is connected to Vedic Astrology.",
+   "correctAnswer": "His Square of Nine algorithm is connected to Vedic Astrology.",
    "relatedLink": "/articles/gann-w-d/"
  },
 "q2a12": {
