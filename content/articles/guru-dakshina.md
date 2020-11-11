@@ -22,8 +22,7 @@ keywords:
 
 If you are an international client, to pay in USD, click [this link](https://rzp.io/l/stevehoraus) .
 
-Please pay Guru Dakshina in INR, click on this link - [stevehora at razorpay](https://rzp.io/l/stevehora), enter amount,
-click Pay and select UPI and enter Id : stevehora@icici .
+Please pay Guru Dakshina in INR, click on this link - [stevehora at razorpay](https://rzp.io/l/stevehora) .
 
 Thanks and Regards,
 Steve
