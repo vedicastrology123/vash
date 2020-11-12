@@ -76,7 +76,7 @@ summaryLength = 24
   linkedinName = 'steve-hora-vedic-astrologer'
   email = 'steve@stevehora.com'
   
-  themeColor = "green" # Browser bar color
+  themeColor = "#445fff" # Browser bar color
   googleanalytics = "UA-180124947-1"
   adsensepublisher = ""
   ampElements = ["amp-font", "amp-accordion","amp-analytics", "amp-sidebar", "amp-social-share", "amp-carousel","amp-iframe", "amp-position-observer","amp-animation"] # AMP elements loaded on every page
