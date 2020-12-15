@@ -14,7 +14,7 @@ summaryLength = 24
 	
 # Define the default author
 [author]
-    name = "Steve Hora ( RajaSekar )"
+    name = "Steve Hora"
 	email = "vedicastrology123@gmail.com"
     bio = "Vedic Astrologer"
     location = "SFO, USA"
@@ -41,8 +41,8 @@ summaryLength = 24
   publisherLogoHeight = 60
   publisherLogoWidth = 60
   metadescription = "Hora Vedic Astrology by Steve Hora ( RajaSekar )"
-  author = "Steve Hora( RajaSekar )"
-  authorname = "Steve Hora ( RajaSekar )"
+  author = "Steve Hora"
+  authorname = "Steve Hora"
   #authorlocation = "SFO, USA"
   #authorwebsite = "https://stevehora.com"
   #authorbio= "Vedic Astrology Expert"
@@ -50,7 +50,7 @@ summaryLength = 24
   organizationName = "stevehora.com"
   breadcrumbsOnPath = true
   locale = "en_US"
-  alternatePageName = "Hora Vedic Astrology by Steve (RajaSekar)"
+  alternatePageName = "Hora Vedic Astrology by Steve"
   # Organization
     socialProfiles = ""
     organizationLogo = "images/shrichakra.png"
@@ -114,7 +114,7 @@ summaryLength = 24
     url = '/'
 
 [[menu.main]]
-    name = 'Steve Hora (RajaSekar)'
+    name = 'Steve Hora'
     weight = 2
     url = '/steve-hora/'
 
