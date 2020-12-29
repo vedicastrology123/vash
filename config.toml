@@ -119,7 +119,7 @@ summaryLength = 24
     url = '/steve-hora/'
 
 [[menu.main]]
-    name = 'Free Vedic...'
+    name = 'Vedic Chart...'
     weight = 3
     url = '/vedic-chart/'
 
