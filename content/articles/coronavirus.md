@@ -55,7 +55,7 @@ I proceed to read the horoscope as per Parasara system and Timing using Vimshott
 
 {{< amp-image
   alt="Horoscope of first coronavirus in China"
-  src="/images/covid.png"
+  src="/images/articles/covid.png"
   width="602"
   height="851"
   layout="responsive"
@@ -78,7 +78,7 @@ Saturn sheds old ways and structures when in Sagittarius and brings great change
 
 ##### Solution
 
-Saturn and Jupiter should transit to Capricorn and Mars also. Then Mars will be locked and jailed by Saturn in its house, thereby bring a solution to this menace of mankind. After April 1st there will be relief.
+Saturn and Jupiter should transit to Capricorn and Mars also. Then Mars will be locked and jailed by Saturn in its house, thereby bring a solution to this menace of mankind. After April 1st 2021, there will be relief.
 
 Till Mars transits out of Capricorn, all precautions can be taken.
 
