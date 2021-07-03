@@ -78,7 +78,7 @@ Saturn sheds old ways and structures when in Sagittarius and brings great change
 
 ##### Solution
 
-Saturn and Jupiter should transit to Capricorn and Mars also. Then Mars will be locked and jailed by Saturn in its house, thereby bring a solution to this menace of mankind. After April 1st 2021, there will be relief.
+Saturn and Jupiter should transit to Capricorn and Mars also. Then Mars will be locked and jailed by Saturn in its house, thereby bring a solution to this menace of mankind.
 
 Till Mars transits out of Capricorn, all precautions can be taken.
 
