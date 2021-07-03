@@ -36,15 +36,15 @@ article:
 ---
 ### Vedic Astrology on Telegram Channels
 
-Join here to {{< targetblank "Learn Vedic Astrology" "https://www.t.me/LearnVedicAstrology" >}}.
+{{< targetblank "Chat with Steve Hora, Vedic Astrologer" "https://www.t.me/stevehora" >}}.
+
+{{< targetblank "Learn Vedic Astrology" "https://www.t.me/LearnVedicAstrology" >}}.
 
 For {{< targetblank "Your Astrological Question and Answers" "https://www.t.me/Q2AAstrology" >}}.
 
 To get {{< targetblank "Vedic Astrology Advice from a Jyotish" "https://www.t.me/vedic_astrology_advice" >}}.
 
 {{< targetblank "Astrologers discussion group" "https://www.t.me/VedicAstrologySpace" >}}.
-
-{{< targetblank "Chat with Steve Hora, Vedic Astrologer" "https://www.t.me/stevehora" >}}.
 
 {{< targetblank "Your Astrological Question and Answers" "https://www.t.me/Q2AAstrology" >}}.
 
