@@ -43,7 +43,7 @@ article:
 * {{< amazon asin="8120808509" affiliate="stevehora05-21" title="Three Hundred Important Combinations" >}}
 * {{< amazon asin="8185674264" affiliate="stevehora05-21" title="Graha and Bhava Balas" >}}
 
-Reach me at  **steve at stevehora dot com** .
+Reach me at  **vedicastrology123 at gmail dot com** .
 
 You can write to us to know more about Vedic Astrology and listed below
 

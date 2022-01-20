@@ -132,7 +132,7 @@ Choose proper time and place and act, even the world, you will win with ease.
 ----from Thirukural (484 couplet) by Tamil Saint ThiruValluvar (1st century BC)
 
 
-**Reach me at  steve at stevehora dot com**
+**Reach me at  vedicastrology123 at gmail dot com**
 and **[Vedic Astrology - Jyotish](https://stevehora.com)** .
 
 ##### Vedic Astrology on Telegram

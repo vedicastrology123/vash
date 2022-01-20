@@ -61,7 +61,7 @@ article:
 
 Birth chart is based on your accurate Date of Birth, Time and Place of Birth.
 
-If you want **a very detailed and professional** birth chart, reach us at  **steve at stevehora dot com**.
+If you want **a very detailed and professional** birth chart, reach us at  **vedicastrology123 at gmail dot com**.
 
 It will look like below.
 
@@ -90,7 +90,7 @@ Vedic Astrology is a vast subject with different techniques. To know more about 
 
 ##### For Marriage Compatibility
 
-For **[Marriage - Horoscope and Nakshatra matching](/articles/marriage-compatibility/)** of to be Bridegroom and to be Groom,  steve at stevehora dot com .
+For **[Marriage - Horoscope and Nakshatra matching](/articles/marriage-compatibility/)** of to be Bridegroom and to be Groom,  stevehora dot com .
 
 ##### Accurate Predictions
 

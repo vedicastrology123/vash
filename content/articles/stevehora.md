@@ -43,7 +43,7 @@ article:
 ### Steve Hora – Jyotish Guru
 **Vedic Astrologer**, Researcher and Subject Matter Expert (SME) on Vedic, Naadi and Mundane Astrology.
 
-Reach me at  steve at stevehora dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
+Reach me at  vedicastrology123 at gmail dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
 
 I am a born astrologer, as per Sri Vaithiswara Agasthiya Koushiha Nadi Grantha in Tamil.
 In my palm-leaf reading, one of my profession is mentioned as below

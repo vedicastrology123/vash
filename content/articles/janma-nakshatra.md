@@ -59,6 +59,6 @@ The Moon wanes and waxes, which is determined by its angular distance from Sun. 
 
 Tihi with Nakshatra places an important role in Hindu Calendar called Panchang.
 
-#### Reach me at  steve at stevehora dot com .
+#### Reach me at  vedicastrology123 at gmail dot com .
 
 You can write to us to know more about Vedic Astrology.

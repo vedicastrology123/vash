@@ -22,7 +22,7 @@ news_keywords:
   
 ---
 
-Reach us at  **steve at stevehora dot com**.
+Reach us at  **vedicastrology123 at gmail dot com**.
 
 ### Vedic Astrology Information
 
