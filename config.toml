@@ -119,28 +119,33 @@ summaryLength = 24
     url = '/steve-hora/'
 
 [[menu.main]]
-    name = 'Vedic Chart...'
+    name = 'Question & Answer'
     weight = 3
+    url = 'https://stevehora.000webhostapp.com/qa/?qa=questions'
+	
+[[menu.main]]
+    name = 'Vedic Chart...'
+    weight = 4
     url = '/vedic-chart/'
 
 [[menu.main]]
     name = 'Vedic Astrology Articles'
-    weight = 4
+    weight = 5
     url = '/articles/'
 	
 [[menu.main]]
     name = 'About Us'
-    weight = 5
+    weight = 6
     url = '/about/'	
 	
 [[menu.main]]
     name = 'Contact Us'
-    weight = 6
+    weight = 7
     url = '/contact/'	
 	
 [[menu.main]]
     name = 'Search'
-    weight = 7
+    weight = 8
     url = '/search/'
 
 [mediaTypes]
