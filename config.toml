@@ -121,7 +121,7 @@ summaryLength = 24
 [[menu.main]]
     name = 'Question & Answer'
     weight = 3
-    url = 'https://stevehora.000webhostapp.com/qa/?qa=questions'
+    url = 'http://vedicastrology.hyperphp.com/qa/'
 	
 [[menu.main]]
     name = 'Vedic Chart...'
