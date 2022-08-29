@@ -121,7 +121,7 @@ summaryLength = 24
 [[menu.main]]
     name = 'Blog - Vedic Astrology'
     weight = 3
-    url = '/astrology-blog/'
+    url = '/vedic-astrology-blog/'
 
 [[menu.main]]
     name = 'Vedic Astrology Articles'
