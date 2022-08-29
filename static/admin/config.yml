@@ -4,7 +4,7 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'astrology blog'
+  - name: 'astrology-blog'
     label: 'Astrology-Blog'
     folder: 'content/astrology'
     create: true
