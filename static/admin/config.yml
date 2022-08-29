@@ -5,7 +5,7 @@ media_folder: static/images
 public_folder: /images
 collections:
   - name: 'astrology-blog'
-    label: 'Astrology-Blog'
+    label: 'Vedic Astrology Blog'
     folder: 'content/astrology-blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
