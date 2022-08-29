@@ -119,35 +119,40 @@ summaryLength = 24
     url = '/steve-hora/'
 
 [[menu.main]]
-    name = 'Question & Answer'
+    name = 'Blog - Vedic Astrology'
     weight = 3
-    url = 'http://vedicastrology.hyperphp.com/qa/'
-	
-[[menu.main]]
-    name = 'Vedic Chart...'
-    weight = 4
-    url = '/vedic-chart/'
+    url = '/astrology-blog/'
 
 [[menu.main]]
     name = 'Vedic Astrology Articles'
-    weight = 5
+    weight = 4
     url = '/articles/'
-	
-[[menu.main]]
-    name = 'About Us'
-    weight = 6
-    url = '/about/'	
-	
+
 [[menu.main]]
     name = 'Contact Us'
-    weight = 7
+    weight = 5
     url = '/contact/'	
 	
 [[menu.main]]
     name = 'Search'
-    weight = 8
+    weight = 6
     url = '/search/'
-
+	
+[[menu.main]]
+    name = 'Question & Answer'
+    weight = 7
+    url = 'http://vedicastrology.hyperphp.com/qa/'
+	
+[[menu.main]]
+    name = 'Vedic Chart...'
+    weight = 8
+    url = '/vedic-chart/'
+	
+[[menu.main]]
+    name = 'About Us'
+    weight = 9
+    url = '/about/'	
+	
 [mediaTypes]
 [mediaTypes."application/opensearchdescription+xml"]
 suffixes = ["xml"]
