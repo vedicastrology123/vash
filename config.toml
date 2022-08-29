@@ -71,10 +71,10 @@ summaryLength = 24
   #RSSLink = "http://feeds.feedburner.com/..."
   facebookName = 'vedicastrology123'
   twitterName = '@AstrologyOrbit'
-  #instagramName = 'https://www.facebook.com/vedicastrology123'
+  instagramName = 'https://www.instagram.com/stevehora_vedicastrologer/?hl=en'
   #pinterestName = 'https://www.facebook.com/vedicastrology123'
   linkedinName = 'steve-hora-vedic-astrologer'
-  email = 'steve@stevehora.com'
+  email = 'vedicastrology123@gmail.com'
   
   themeColor = "#445fff" # Browser bar color
   googleanalytics = "UA-180124947-1"
