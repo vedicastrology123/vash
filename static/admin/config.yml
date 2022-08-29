@@ -4,7 +4,7 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'astrology-blog'
+  - name: 'Vedic Astrology Blog'
     label: 'Vedic Astrology Blog'
     folder: 'content/astrology-blog'
     create: true
