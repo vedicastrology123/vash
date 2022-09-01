@@ -41,7 +41,7 @@
   }
  ],
   "start_url": "/",
-  "id": "/"
+  "id": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
