@@ -97,7 +97,7 @@
 <script>
   if('serviceWorker' in navigator) {
       navigator.serviceWorker
-          .register('/static/service-worker.js', { scope: '/' })
+          .register('/service-worker.js', { scope: '/' })
           .then(function(registration) {
               //console.log('Service Worker Registered');
           });
