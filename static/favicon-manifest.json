@@ -40,9 +40,10 @@
    "density": "4.0"
   }
  ],
-  "start_url": "https://stevehora.com/",
+  "start_url": "/",
   "id": "/",
   "scope": "https://stevehora.com/",
+  "Service-Worker-Allowed": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
