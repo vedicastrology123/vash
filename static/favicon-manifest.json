@@ -4,7 +4,7 @@
  "description": "Vedic Astrology by Steve Hora",
  "start_url": "https://stevehora.com/",
  "id": "/",
- "scope": "/",
+ "scope": "https://stevehora.com/",
  "display": "standalone",
  "orientation": "portrait",
  "background_color": "#FFFFFF",
