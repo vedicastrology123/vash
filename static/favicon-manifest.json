@@ -42,7 +42,7 @@
  ],
   "start_url": "/",
   "id": "/",
-  "scope": "https://stevehora.com/",
+  "scope": "/",
   "Service-Worker-Allowed": "/",
   "display": "standalone",
   "orientation": "portrait",
