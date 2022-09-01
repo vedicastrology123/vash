@@ -3,7 +3,7 @@
  "short_name": "Vedic Astrology",
  "description": "Vedic Astrology by Steve Hora",
  "start_url": "https://stevehora.com/",
- "id": "/",
+ "id": "https://stevehora.com/",
  "scope": "https://stevehora.com/",
  "display": "standalone",
  "orientation": "portrait",
