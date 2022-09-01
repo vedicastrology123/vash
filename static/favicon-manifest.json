@@ -2,7 +2,7 @@
  "name": "Vedic Astrology",
  "short_name": "Vedic Astrology",
  "description": "Vedic Astrology by Steve Hora",
- "start_url": "/",
+ "start_url": "https://stevehora.com/",
  "id": "/",
  "scope": "/",
  "display": "standalone",
