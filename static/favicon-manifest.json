@@ -42,7 +42,7 @@
  ],
   "start_url": "/",
   "id": "/",
-  "scope": "/",
+  "scope": ".",
   "Service-Worker-Allowed": "/",
   "display": "standalone",
   "orientation": "portrait",
