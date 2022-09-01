@@ -4,7 +4,7 @@ const BASE_CACHE_FILES = [
     '/style.css',
     '/script.js',
     '/search.json',
-    '/manifest.json',
+    '/favicon-manifest.json',
     '/favicon.png',
 ];
 
