@@ -6,8 +6,8 @@
  "scope": "https://stevehora.com/",
  "display": "standalone",
  "orientation": "portrait",
- "background_color": "#FFFFFF",
- "theme_color": "#FFFFFF",
+ "background_color": "#728FCE",
+ "theme_color": "#728FCE",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
