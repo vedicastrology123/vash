@@ -1,6 +1,6 @@
-baseURL = "http://localhost:1313"
+#baseURL = "http://localhost:1313"
 #baseURL = "https://vedicastrology-amp.netlify.app/"
-#baseURL = "https://stevehora.com"
+baseURL = "https://stevehora.com"
 
 languageCode = "en-us"
 title = "Hora Vedic Astrology by Steve for Birth Chart Wealth Predictions"
