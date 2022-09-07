@@ -10,6 +10,12 @@
     </a>
  &nbsp;
 {{end}}-->
+{{ if .Site.Params.whatsappName }}
+    <a href="https://wa.me/{{ .Site.Params.whatsappName }}" title="whatsapp" target="_blank">
+        <i class="fa fa-whatsapp" style="font-size:24px; color:#7CFC00; background-color:#728FCE" aria-hidden="true"></i>
+    </a>
+&nbsp;
+{{end}}
 {{ if .Site.Params.twitterName }}
     <a href="https://twitter.com/{{ .Site.Params.twitterName }}" title="twitter" target="_blank">
         <i class="fa fa-twitter" style="font-size:24px; color:red" aria-hidden="true"></i>
@@ -40,7 +46,7 @@
     </a>
 &nbsp;
 {{end}}
-	<a href="https://mylivechat.com/chatnoscript.aspx?HCCID=68268000" title="Chat with Steve Hora" target="_blank"><i class="fa fa-comments-o" style="font-size:24px; color:red" aria-hidden="true"></i></a>
+
 <!-- {{ if .Site.Params.pinterestName }}
     <a href="https://www.pinterest.com/{{ .Site.Params.pinterestName }}" target="_blank">
         <i class="fa fa-pinterest" aria-hidden="true"></i>
