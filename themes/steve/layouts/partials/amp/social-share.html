@@ -6,9 +6,13 @@
 </amp-social-share>
 {{ end }}
 {{ with .whatsapp }}
-    <amp-social-share style="border-radius: 50%;" type="whatsapp"
+    <amp-social-share style="border-radius: 50%;" type="system"
                       width="24"
-                      height="24"></amp-social-share>
+                      height="24">
+					  data-share-endpoint="https://play.google.com/store/apps/details?id=com.stevehora.app"
+					  data-param-text="Google Play Store App"
+					  aria-label="Get Android App"
+					  </amp-social-share>
 {{ end }}
 
 <!-- {{ with .pinterest }}
