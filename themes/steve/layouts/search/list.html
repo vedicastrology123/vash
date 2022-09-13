@@ -36,6 +36,9 @@
 (a.url.toLowerCase().indexOf(event.value.toLowerCase()) != -1) ) ),
  inputValue: event.value })" placeholder="Type astrological keywords..." [value]="inputValue"><br></br>
             <h1 class="page-title">Search Results</h1>
+			<div class="social-link">
+                {{ partial "social/home.html" . }}
+            </div>
         </div>
     </div>
 </header>
