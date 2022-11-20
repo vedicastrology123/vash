@@ -19,6 +19,18 @@
     {{ partial "styles/main_cover" . | safeCSS }}
     {{ partial "styles/stylesheet" . | safeCSS }}
 
+  amp-social-share.custom-style {
+    background-color: #008080;
+    background-image: url('images/email.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+amp-social-share[type='email'] {
+  background: red;
+  background-image: url(datauri:images/email.png);
+}
 .flex-container{
     min-width: 65%;
     min-height: 50px;
