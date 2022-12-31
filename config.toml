@@ -121,30 +121,30 @@ summaryLength = 24
     url = '/steve-hora/'
 
 [[menu.main]]
-    name = 'Blog - Vedic Astrology'
+    name = 'Blog - Substack.com'
     weight = 3
+    url = 'https://stevehora.substack.com/'
+	
+[[menu.main]]
+    name = 'Topics - Vedic Astrology'
+    weight = 4
     url = '/vedic-astrology-blog/'
 
 [[menu.main]]
     name = 'Vedic Astrology Articles'
-    weight = 4
+    weight = 5
     url = '/articles/'
 
 [[menu.main]]
     name = 'Contact Us'
-    weight = 5
+    weight = 6
     url = '/contact/'	
 	
 [[menu.main]]
-    name = 'Search'
-    weight = 6
-    url = '/search/'
-	
-[[menu.main]]
-    name = 'Question & Answer'
+    name = 'Astrology Search'
     weight = 7
-    url = 'http://vedicastrology.hyperphp.com/qa/'
-	
+    url = '/search/'
+		
 [[menu.main]]
     name = 'Vedic Chart...'
     weight = 8
