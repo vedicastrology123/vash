@@ -76,7 +76,7 @@ Choose proper time and place and act, even the world, you will win with ease.
 
 Apart from Star or Nakshatra matching, matrimony matching for marriage can be done using both horoscope, and Arudha Lagna for conjugal bliss.
 
-Reach me at  vedicastrology123 at gmail dot com  and [Vedic Astrology - Jyotish](https://stevehora.com) .
+Reach me at  https://stevehora.substack.com/  and [Vedic Astrology - Jyotish](https://stevehora.com) .
 
 ##### On Telegram
 

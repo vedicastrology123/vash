@@ -57,7 +57,7 @@ Each has its own color, gem stone, grain, plant and other things assigned to it.
 
 For example, Rice is assigned to Moon, Red Coral gem to Mars and so on.
 
-#### Reach me at  vedicastrology123 at gmail dot com .
+#### Reach me at  https://stevehora.substack.com/ .
 
 You can write to us to know more about Vedic Astrology.
 

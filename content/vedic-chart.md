@@ -61,7 +61,7 @@ article:
 
 Birth chart is based on your accurate Date of Birth, Time and Place of Birth.
 
-If you want **a very detailed and professional** birth chart, reach us at  **vedicastrology123 at gmail dot com**.
+If you want **a very detailed and professional** birth chart, reach us at  **https://stevehora.substack.com/**.
 
 It will look like below.
 

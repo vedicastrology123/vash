@@ -117,7 +117,7 @@ Birth chart analysis is as per Parasara system and Timing using Vimshottari Dash
 
 If you want to explore the secrets of Vedic Astrology, read [W.D.Gann and Vedic Astrology for Stock Analysis.](/articles/gann-w-d/)
 
-[Vedic Astrology Birth Chart Predictions from Steve Hora](/steve-hora/), Vedic Astrologer or Jyotish, can be reached at  vedicastrology123 at gmail dot com  for further details.
+[Vedic Astrology Birth Chart Predictions from Steve Hora](/steve-hora/), Vedic Astrologer or Jyotish, can be reached at  https://stevehora.substack.com/  for further details.
 
 **References**
 Most Viewed Writer on Jyotish (Vedic Astrology) on Quora.
@@ -125,8 +125,8 @@ Most Viewed Writer on Jyotish (Vedic Astrology) on Quora.
 **Website**
 www dot stevehora dot com
 
-Reach me at  **vedicastrology123 at gmail dot com**.
+Reach me at  **https://stevehora.substack.com/**.
 
 **How to get Vedic Astrology Advice from us?**
 
-Please send your queries to  **vedicastrology123 at gmail dot com**.
+Please send your queries to  **https://stevehora.substack.com/**.

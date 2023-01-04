@@ -81,4 +81,4 @@ Birth chart analysis is as per Parasara system and Timing using Vimshottari Dash
 
 If you want to explore the secrets of Vedic Astrology, read [W.D.Gann and Vedic Astrology for Stock Analysis.](/articles/gann-w-d/)
 
-[Hora Vedic Astrology By Steve Hora](/steve-hora/), Vedic Astrologer or Jyotish, can be reached at  vedicastrology123 at gmail dot com  for further details.
+[Hora Vedic Astrology By Steve Hora](/steve-hora/), Vedic Astrologer or Jyotish, can be reached at  https://stevehora.substack.com/  for further details.

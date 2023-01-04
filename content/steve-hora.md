@@ -85,4 +85,4 @@ Choose proper time and place and act, even the world, you will win with ease.
 
 [www.stevehora.com](https://stevehora.com)
 
-Reach him at  **vedicastrology123 at gmail dot com**.
+Reach him at  **https://stevehora.substack.com/**.

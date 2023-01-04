@@ -40,7 +40,7 @@ Our policy discloses the privacy practices for our own web site only. Our site p
 
 #### Policy
 
-If you think, you are not satisfied with our service, you can write to us, stating clearly your reasons. Please call our customer care at 7358317516 or email us at  vedicastrology123 at gmail dot com . We will ensure to provide proper service to you.
+If you think, you are not satisfied with our service, you can write to us, stating clearly your reasons. Please call our customer care at 8610386346 thru' whatsapp . We will ensure to provide proper service to you.
 
 ##### Questions
 
