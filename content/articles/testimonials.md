@@ -22,6 +22,8 @@ keywords:
 
 ### Testimonials
 
+Testimonials from my clients are available at [stevehora.substack.com] (https://stevehora.substack.com/p/testimonial).
+
 Please know about Me and My Expertise, from [My Quora Profile](https://www.quora.com/profile/Steve-Hora) and my [Questions and My Answers](https://www.quora.com/profile/Steve-Hora) and on this [website](https://stevehora.com) .
 
 To know about my prediction accuracy, contact [Puja Kataria on Facebook](https://www.facebook.com/puja.kataria) and for my knowledge from [Rami Sivan on Quora](https://www.quora.com/profile/Rami-Sivan).
