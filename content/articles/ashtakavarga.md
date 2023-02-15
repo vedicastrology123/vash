@@ -51,7 +51,7 @@ article:
 ### Ashtakavarga system
 Deals with transit or [Gochara of Grahas](https://www.wisdomlib.org/definition/gochara) (Planets) in Bhavas (Houses). It has less significance in natal chart interpretation and Mundane Predictions and timing of events.
 
-The principle of this system is as follows
+The principle of this system is as follows :
 
 * Grahas transition in a sign.
 
