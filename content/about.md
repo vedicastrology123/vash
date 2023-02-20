@@ -54,7 +54,7 @@ Personalized Shri Chakra as per your horoscope, for meditation. Personalized man
 
 [For Marriage Horoscope and Nakshatra matching](/articles/marriage-compatibility/) of boy and girl, contact us.
 
-Reach us at  **steve@stevehora.com**
+Reach us at  **vedicastrology123@gmail.com**
 
 **Vedic Astrology Information**
 

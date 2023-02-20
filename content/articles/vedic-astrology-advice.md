@@ -39,7 +39,7 @@ article:
    width: 60
   
 
-email: "steve@stevehora.com"
+email: "vedicastrology123@gmail.com"
 social:
   - icon : "ti-star" # themify icon pack : https://themify.me/themify-icons
     link : "https://quora.com/profile/Steve-Hora"
