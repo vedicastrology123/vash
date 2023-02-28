@@ -64,11 +64,13 @@ In Vedic astrology, an expert astrologer, is known as Jyotish, uses a variety of
 
 For example : Hora is a divisional chart for predicting wealth from the birth chart. 7th house is used to forecast relationships in [Matrimony Matching](/articles/marriage-compatibility/) and also for love compatibility. [27 nakshatras](/articles/nakshatras/) are used for the compatibility test.
 
-There are 16 divisional charts which are used for prediction purposes of various life events. Famous charts like, of Dhoni, has various yogas which can be delineated from these divisional charts. e.g. Name and Fame, Wealth.
-
 [Read more on Hora for wealth predictions](/articles/hora-wealth/).
 
-{{ < rawhtml >}}
+There are 16 divisional charts which are used for prediction purposes of various life events. Famous charts like, of Dhoni, has various yogas which can be delineated from these divisional charts. e.g. Name and Fame, Wealth.
+
+Chat with Steve Hora on Discord server...
+
+{{< rawhtml >}}
 <p><widgetbot
     server="524053849544327183"
     channel="863006497054654505"
@@ -76,7 +78,7 @@ There are 16 divisional charts which are used for prediction purposes of various
     height="600"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></p>
-{{ < /rawhtml >}}
+{{< /rawhtml >}}
 
 #### Planets and Houses - Birth Chart Predictions
 
