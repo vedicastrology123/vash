@@ -68,6 +68,15 @@ There are 16 divisional charts which are used for prediction purposes of various
 
 [Read more on Hora for wealth predictions](/articles/hora-wealth/).
 
+{{ < rawhtml >}}
+<p><widgetbot
+    server="524053849544327183"
+    channel="863006497054654505"
+    width="800"
+    height="600"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></p>
+{{ < /rawhtml >}}
 
 #### Planets and Houses - Birth Chart Predictions
 
