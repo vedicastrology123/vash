@@ -48,7 +48,7 @@ article:
  
 ---
 
-### Karma and Vdic Astrology
+### Karma and Vedic Astrology
 **Question** Can you analyze my horoscope? Most of the astrologer's predictions didn't come true for me.
 
 **Answer**
