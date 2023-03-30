@@ -73,8 +73,8 @@ Chat with Steve Hora on Discord server...
 {{< rawhtml >}}
 <p><widgetbot
     server="524053849544327183"
-    channel="863006497054654505"
-    width="800"
+    channel="1078591425073119363"
+    width="100%"
     height="600"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></p>
