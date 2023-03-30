@@ -1,7 +1,13 @@
+
+<style>
+.red-color {
+    color:red;
+}
+</style>
 {{ if .Site.Params.logo }}
     <a class="blog-logo" href="{{ .Site.BaseURL | relURL }}"><amp-img style="border: 3px solid purple; border-radius: 50%;" src="{{ .Site.Params.logo | relURL }}" height="36" width="36" alt="Vedic Astrology" layout="fixed"></amp-img></a>
 {{end}}
 {{ if .Site.Menus.main }}
-    <a class="menu-button" on="tap:sidebar.toggle" role="button"><i class="fa fa-bars" aria-hidden="true"></i><span style="font-weight: bold;" class="menu-button-label">Menu</span></a>
+    <a class="menu-button" style="color:red" on="tap:sidebar.toggle" role="button"><i class="fa fa-bars red-color" aria-hidden="true"></i><span style="font-weight: bold; color:red" class="menu-button-label">Menu</span></a>
 {{else}}
 {{end}}
