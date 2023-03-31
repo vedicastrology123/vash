@@ -68,7 +68,7 @@ For example : Hora is a divisional chart for predicting wealth from the birth ch
 
 There are 16 divisional charts which are used for prediction purposes of various life events. Famous charts like, of Dhoni, has various yogas which can be delineated from these divisional charts. e.g. Name and Fame, Wealth.
 
-Chat with Steve Hora on Discord server...
+[Chat with Steve Hora on Discord server](https://discord.com/)...
 
 {{< rawhtml >}}
 <p><widgetbot
