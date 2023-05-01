@@ -68,18 +68,6 @@ For example : Hora is a divisional chart for predicting wealth from the birth ch
 
 There are 16 divisional charts which are used for prediction purposes of various life events. Famous charts like, of Dhoni, has various yogas which can be delineated from these divisional charts. e.g. Name and Fame, Wealth.
 
-[Chat with Steve Hora on Discord server](https://discord.com/)...
-
-{{< rawhtml >}}
-<p><widgetbot
-    server="524053849544327183"
-    channel="1078591425073119363"
-    width="100%"
-    height="600"
-></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></p>
-{{< /rawhtml >}}
-
 #### Planets and Houses - Birth Chart Predictions
 
 A birth chart is read in entirety of all the 12 houses or parts which govern different aspects of your life.
