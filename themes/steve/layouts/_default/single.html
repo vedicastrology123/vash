@@ -42,10 +42,10 @@
     <section class="post-content">
       {{ .Content }}
     </section>
-<!-- 	<section class="post-meta">
-		{{ partial "post_meta" .}}
-	</section>
- -->
+   	<section class="post-content">
+		  {{ partial "comments/giscus.html" .}}
+	  </section>
+ 
     <!-- {{ partial "author.html" . }} -->
 	</br>
     {{ partial "social/share.html" . }}
