@@ -38,13 +38,105 @@ article:
   
 ---
 {{< rawhtml >}}
-<script type="text/javascript" src="gform.js"></script>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vedic Astrology</title>
+ <style>
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+
+.modal-content {
+  opacity: 1.0;
+  background-color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 1% auto; /* 15% from the top and centered */
+  padding: 5px;
+  border: 1px solid #888;
+  width: 35%; /* Could be more or less, depending on screen size */
+}
+ </style>
+<script type="text/javascript">
+function openPopup(){
+//alert(" Alert inside my_code function
+var modal = document.getElementById("modal");
+  modal.style.display = "block";
+
+     document.getElementById("modal-content").innerHTML='<object type="text/html" data="gform.html" ></object>';
+	 //window.location.hash = 'openModal';
+}
+
+window.onload=openPopup;
+</script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$('#bootstrapForm').submit(function (event) {
+    event.preventDefault()
+    var extraData = {}
+    {
+        /* Parsing input date id=696506756 */
+        var dateField = $("#696506756_date").val()
+        var timeField = $("#696506756_time").val()
+        let d = new Date(dateField)
+        if (!isNaN(d.getTime())) {
+            extraData["entry.696506756_year"] = d.getFullYear()
+            extraData["entry.696506756_month"] = d.getMonth() + 1
+            extraData["entry.696506756_day"] = d.getUTCDate()
+        }
+        if (timeField && timeField.split(':').length >= 2) {
+            let values = timeField.split(':')
+            extraData["entry.696506756_hour"] = values[0]
+            extraData["entry.696506756_minute"] = values[1]
+        }
+    }
+    {
+        // Parsing input time id=5948105
+        var field = $("#5948105").val()
+        if (field) {
+            var values = field.split(':')
+            extraData["entry.5948105_hour"] = values[0]
+            extraData["entry.5948105_minute"] = values[1]
+            extraData["entry.5948105_second"] = values[2]
+        }
+    }
+    $('#bootstrapForm').ajaxSubmit({
+        data: extraData,
+        dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+        error: function () {
+            // Submit of form should be successful but JSONP callback will fail because Google Forms
+            // does not support it, so this is handled as a failure.
+            alert('Form Submitted. Thanks.')
+            // You can also redirect the user to a custom thank-you page:
+            // window.location = 'http://www.mydomain.com/thankyoupage.html'
+        }
+    })
+})
+</script>
+</head>
+<body>
+<div id="modal" class="modal">
+<div id="openModal" class="modal-content">
 <form action="https://docs.google.com/forms/d/e/1FAIpQLScEenBYOmwO_jb-QvETuyTjOBEaSyl8sRApMQFq9khTFrDRCQ/formResponse"
       target="_self"
       id="bootstrapForm"
       method="POST">
     <fieldset>
-        <h2>Free Birth Details - Input Form<br><small>Birth Details</small></h2>
+        <h2>Input Form<br><small></small></h2>
     </fieldset>
     <fieldset>
         <legend for="">Email</legend>
@@ -67,7 +159,7 @@ article:
     <fieldset>
         <legend for="2110027162">Date of Birth</legend>
         <div class="form-group">
-            <input type="date" id="696506756_date" placeholder="6/10/2023" class="form-control" required>
+            <input type="date" id="696506756_date" placeholder="6/18/2023" class="form-control" required>
         </div>
     </fieldset>
 
@@ -77,7 +169,7 @@ article:
         <legend for="498408220">Time of Birth</legend>
         <div class="form-group">
             <p class="help-block">Be clear about AM. After midnight it is AM, next day date. And PM is after mid-noon till midnight.</p>
-            <input type="time" id="5948105" placeholder="5:33:03 PM" class="form-control" required>
+            <input type="time" id="5948105" placeholder="9:04:27 AM" class="form-control" required>
         </div>
     </fieldset>
 
@@ -124,7 +216,7 @@ article:
     </fieldset>
 
     <input type="hidden" name="fvv" value="1">
-    <input type="hidden" name="fbzx" value="7748832598174503259">
+    <input type="hidden" name="fbzx" value="-6238198222619838537">
     <!--
         CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
         This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
@@ -135,4 +227,9 @@ article:
 
     <input class="btn btn-primary" type="submit" value="Submit">
 </form>
+</div>
+</div>
+</body>
+</html>
+
 {{< /rawhtml >}}
