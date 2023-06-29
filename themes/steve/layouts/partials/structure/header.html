@@ -99,8 +99,142 @@
 
 <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=xRW3iWYC"></script>
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+<style type="text/css">
+
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		text-align: left;
+		margin-top: 1rem;
+	}
+	.btn-primary{
+		transition: 0.5s ease-in-out;
+		letter-spacing: 2px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+	  bottom: 0;
+	}
+	.modal-body img {
+	  max-width: 100%;
+	  height: auto;
+	}
+
+	.modal-body button {
+	  margin-top: auto;
+	}
+</style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('RaBFqdrlRbOpMBOf2');
+        })();
+    </script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <script>
+    $(document).ready(function() {
+		// Centering the modal vertically 
+		function alignModal() {
+			var modalDialog = $(this).find(".modal-dialog");
+			modalDialog.css("margin-top", Math.max(0, 
+			($(window).height() - modalDialog.height()) / 2));
+		}
+		$(".modal").on("shown.bs.modal", alignModal);
+
+		// Resizing the modal according the screen size 
+		$(window).on("resize", function() {
+			$(".modal:visible").each(alignModal);
+		});
+		
+		$("#contact-form").validate({
+			rules: {
+				name : {
+				required: true,
+				minlength: "Name should be at least 3 characters"
+				},
+				assigneeEmail: {
+				required: true,
+				email: "The email should be in the format: abc@domain.tld"
+				}
+			}
+		});
+		
+		if(Cookies.get('vedic') != 'yes'){ 
+			$('#myModal').modal({backdrop: 'static', keyboard: false}, 'show');
+		}
+        // Close modal on button click
+		$('#contact-form').submit(function() {
+			const name = document.querySelector('#name');
+			const assigneEmail = document.querySelector('#assigneeEmail');
+
+			event.preventDefault();
+			
+			var templateParams = {
+				name: name.value,
+				email: assigneEmail.value
+			};
+			if(Cookies.get('vedic') == null) {
+				if ( name.value != "" && assigneEmail.value != "" ) {
+					Cookies.set('vedic', 'yes', { expires: 1, path: '' });
+					emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
+						.then(function() {
+							console.log('SUCCESS!');
+						}, function(error) {
+							console.log('FAILED...', error);
+					});
+					$("#myModal").modal('hide');
+				}
+			}
+			else {
+			;
+			}
+        });
+	 });
+</script>
 </head>
 <body>
+  <!-- <div class="bs-example"> -->
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+				<form name="myform" id="contact-form" class="needs-validation" novalidate >
+					<div class="modal-header">
+						<h5 class="modal-title"><p>Ask a life question with Prasna Marga - Vedic Astrology.</p></h5>
+					</div>
+					<div class="modal-body">
+					<div class="form-row">
+						<label for="name" class="form-label">Name</label>
+						<input type="text" required class="form-control form-control-lg" id="name" aria-describedby="nameHelp" placeholder="Enter your Name">
+						<div class="tooltip">Valid.</div>
+						<div class="valid-tooltip">Please fill out this field.</div>
+					</div>
+					
+					<div class="form-row">
+						<label for="assigneeEmail" class="form-label">Email address</label>
+						<input type="email" required class="form-control form-control-lg" id="assigneeEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+						<div class="tooltip">Valid.</div>
+						<div class="valid-tooltip">Please fill out this field.</div>
+					</div>
+						<p>Instructions are in the email sent.</p>
+				</div>
+                <div class="modal-footer">
+                    <button type="submit" class="submit btn btn-primary" 
+                            data-bs-dismiss="modal">Submit</button>
+                </div>
+				  </form>
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
 <span class="target">
     <a class="target-anchor" id="top"></a>
     <amp-position-observer
