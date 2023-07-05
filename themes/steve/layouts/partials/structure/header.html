@@ -175,6 +175,8 @@
 		$('#contact-form').submit(function() {
 			const name = document.querySelector('#name');
 			const assigneEmail = document.querySelector('#assigneeEmail');
+			const number = "918610386346"; //document.querySelector('#waNo');
+			const msg = "Hello%20Steve,%0A%0AI%20would%20like%20to%20avail%20of%20this%20free%20Prasna%20 Marga%20(Vedic%20Astrology),%20service.%0A%0APlease%20send%20me%20the%20details,%20to%20my%20email%20"+ assigneEmail.value +".%0A%0ARegards%0A%0A" + name.value;
 
 			event.preventDefault();
 			
@@ -185,24 +187,28 @@
 			if(Cookies.get('vedic') == null) {
 				if ( name.value != "" && assigneEmail.value != "" ) {
 					Cookies.set('vedic', 'yes', { expires: 1, path: '' });
-					emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
+let url = "https://wa.me/";
+let end_url = url + number + "?text=" + msg;
+var win = window.open(end_url, '_blank');
+
+					/*emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
 						.then(function() {
 							console.log('SUCCESS!');
 						}, function(error) {
 							console.log('FAILED...', error);
-					});
+					}); */
  
-						/* Email.send({
+						 /*Email.send({
 							Host: "smtp.elasticemail.com",
 							Username : "vedicastrology123@gmail.com",
 							Password : "D7A675F5BABD2E72EDD63050EFD14D8DD39A",
 							To : 'taj7wow@gmail.com',
-							From : vedicastrology123@gmail.com, // put a real email address that is verified
+							From : 'vedicastrology123@gmail.com', // put a real email address that is verified
 							Subject : "Code for " + document.getElementById("name").value,
 							Body : "Code: "  + document.getElementById("name").value
 							}).then(
 								message => alert("mail sent successfully")
-							); */
+							);*/  
 					$("#myModal").modal('hide');
 				}
 			}
@@ -218,7 +224,7 @@
     <div id="myModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
-				<form name="myform" id="contact-form" class="needs-validation" novalidate >
+				<form name="contact-form" id="contact-form" class="needs-validation" novalidate >
 					<div class="modal-header">
 						<h5 class="modal-title"><p>Ask a life question with Prasna Marga - Vedic Astrology.</p></h5>
 					</div>
@@ -229,19 +235,26 @@
 						<div class="tooltip">Valid.</div>
 						<div class="valid-tooltip">Please fill out this field.</div>
 					</div>
+					<!-- <div class="form-row">
+						<label for="waNo" class="form-label">Whatsapp number</label>
+						<input type="text" required class="form-control form-control-lg" id="waNo" aria-describedby="waNo" placeholder="Enter your Whatsapp number, like 17272912606 not "> <strike>+1 (727) 2912606 </strike>
+						<div class="tooltip">Valid.</div>
+						<div class="valid-tooltip">Please fill out this field.</div>
+					</div> -->
 					
 					<div class="form-row">
 						<label for="assigneeEmail" class="form-label">Email address</label>
 						<input type="email" required class="form-control form-control-lg" id="assigneeEmail" aria-describedby="emailHelp" placeholder="Enter your email">
 						<div class="tooltip">Valid.</div>
 						<div class="valid-tooltip">Please fill out this field.</div>
-					</div>
-						<p>Please check your email, for information and analysis.</p>
+					</div> 
+						<!-- <p>Please check your email, for information and analysis.</p>-->
 				</div>
                 <div class="modal-footer">
                     <button type="submit" class="submit btn btn-primary" 
                             data-bs-dismiss="modal">Submit</button>
                 </div>
+<!-- 				<p id="end_url"></p> -->
 				  </form>
             </div>
         </div>
