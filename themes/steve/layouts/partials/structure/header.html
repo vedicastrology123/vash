@@ -130,16 +130,16 @@
 	}
 </style>
 
-    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init('RaBFqdrlRbOpMBOf2');
         })();
-    </script> -->
+    </script>
 	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
 
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
   <script>
     $(document).ready(function() {
 		// Centering the modal vertically 
@@ -185,14 +185,14 @@
 			if(Cookies.get('vedic') == null) {
 				if ( name.value != "" && assigneEmail.value != "" ) {
 					Cookies.set('vedic', 'yes', { expires: 1, path: '' });
-					/*emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
+					emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
 						.then(function() {
 							console.log('SUCCESS!');
 						}, function(error) {
 							console.log('FAILED...', error);
-					});*/
+					});
  
-						Email.send({
+						/* Email.send({
 							Host: "smtp.elasticemail.com",
 							Username : "vedicastrology123@gmail.com",
 							Password : "D7A675F5BABD2E72EDD63050EFD14D8DD39A",
@@ -202,7 +202,7 @@
 							Body : "Code: "  + document.getElementById("name").value
 							}).then(
 								message => alert("mail sent successfully")
-							);
+							); */
 					$("#myModal").modal('hide');
 				}
 			}
