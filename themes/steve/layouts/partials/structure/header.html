@@ -97,18 +97,18 @@
   gtag('config', 'G-2X899B1W82');
 </script>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script> -->
 
 <style type="text/css">
 
 	p {
 		font-family: 'Roboto', sans-serif;
-		font-size: 18px;
+		font-size: 16px;
 		text-align: left;
 		margin-top: 1rem;
 	}
@@ -130,6 +130,73 @@
 	}
 </style>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+  .bs-example{
+	  margin: 100px;
+	  font-size: 18px;
+  }
+
+.modal-content {
+opacity: 2.0;
+background-color: rgb(0, 0, 0);
+font-size: 18px;
+background-color: #ffffff;
+margin: 1% auto; /* 15% from the top and centered */
+padding: 15px;
+border: 1px solid #888;
+width: 100%; /* Could be more or less, depending on screen size */
+}	
+</style>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+	  function alignModal() {
+		  var modalDialog = $(this).find(".modal-dialog");
+		  modalDialog.css("margin-top", Math.max(0, 
+		  ($(window).height() - modalDialog.height()) / 2));
+	  }
+	  $(".modal").on("shown.bs.modal", alignModal);
+
+	  // Resizing the modal according the screen size 
+	  $(window).on("resize", function() {
+		  $(".modal:visible").each(alignModal);
+	  });
+	  
+	  if(Cookies.get('vedic') != 'yes'){ 
+		  $('#myModal1').modal({backdrop: 'static', keyboard: false}, 'show');
+	  }
+	  if(Cookies.get('vedic') == null) {
+		  Cookies.set('vedic', 'yes', { expires: 1, path: '' });
+		  $("#myModal").modal('hide');
+	  }
+  });
+
+  $('#bootstrapForm').submit(function (event) {
+	  event.preventDefault();
+	  
+	  var extraData = {}
+	  $('#bootstrapForm').ajaxSubmit({
+		  data: extraData,
+		  dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+		  error: function () {
+			  // Submit of form should be successful but JSONP callback will fail because Google Forms
+			  // does not support it, so this is handled as a failure.
+			  //alert('Form Submitted. Thanks.')
+			  // You can also redirect the user to a custom thank-you page:
+			  // window.location = 'http://www.mydomain.com/thankyoupage.html'
+		  },
+		  success: function () {
+			  alert("SS");
+		  }
+	  })
+  })
+</script>
+
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
@@ -137,10 +204,10 @@
             emailjs.init('RaBFqdrlRbOpMBOf2');
         })();
     </script> -->
-	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script> -->
 
 	<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-  <script>
+  <!-- <script>
     $(document).ready(function() {
 		// Centering the modal vertically 
 		function alignModal() {
@@ -153,9 +220,9 @@
 		// Resizing the modal according the screen size 
 		$(window).on("resize", function() {
 			$(".modal:visible").each(alignModal);
-		});
+		}); 
 		
-		$("#contact-form").validate({
+		 $("#contact-form").validate({
 			rules: {
 				name : {
 				required: true,
@@ -189,20 +256,20 @@
 					Cookies.set('vedic', 'yes', { expires: 1, path: '' });
 let url = "https://wa.me/";
 let end_url = url + number + "?text=" + msg;
-var win = window.open(end_url, '_blank');
+var win = window.open(end_url, '_blank'); 
 
 					/*emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
 						.then(function() {
 							console.log('SUCCESS!');
 						}, function(error) {
 							console.log('FAILED...', error);
-					}); */
- /*const msg = "Hello Steve,
+					}); 
+ const msg = "Hello Steve,
 I would like to avail of this free Prasna  Marga (Vedic Astrology), service.
 Please send me the details, to my email "+ assigneEmail.value +".
 Regards
-" + name.value;*/
-						 /*Email.send({
+" + name.value;
+						 Email.send({
 							Host: "smtp.elasticemail.com",
 							Username : "vedicastrology123@gmail.com",
 							Password : "D7A675F5BABD2E72EDD63050EFD14D8DD39A",
@@ -212,23 +279,73 @@ Regards
 							Body : "msg"
 							}).then(
 								message => alert("mail sent successfully")
-							);*/
-					$("#myModal").modal('hide');
+							);
+					 $("#myModal").modal('hide');
 				}
 			}
 			else {
 			;
 			}
-        });
+        }); 
 	 });
-</script>
+</script>-->
 </head>
 <body>
   <!-- <div class="bs-example"> -->
-    <div id="myModal" class="modal fade" tabindex="-1">
+    <div id="myModal1" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
-				<form name="contact-form" id="contact-form" class="needs-validation" novalidate >
+
+				<form action="https://docs.google.com/forms/d/e/1FAIpQLScnAvMSr84JwDfh_JEu8o3Btva9VKs_CIwMgBVlw4_3bg5ppA/formResponse"
+				target="_self"
+				id="bootstrapForm"
+				method="POST">
+			  <fieldset>
+				  <h2>Prasna Marga (Vedic Astrology)<br><small>Current Life question can be asked for free.</small></h2>
+			  </fieldset>
+		  
+		  
+			  <!-- Field type: "short" id: "1543456816" -->
+			  <fieldset>
+				  <legend for="1543456816">Name</legend>
+				  <div class="form-group">
+					  <input id="1436516510" type="text" name="entry.1436516510" class="form-control" required>
+				  </div>
+			  </fieldset>
+		  
+		  
+			  <!-- Field type: "short" id: "466861274" -->
+			  <fieldset>
+				  <legend for="466861274">Email</legend>
+				  <div class="form-group">
+					  <input id="964231161" type="text" name="entry.964231161" class="form-control" required>
+				  </div>
+			  </fieldset>
+		  
+		  
+			  <!-- Field type: "short" id: "1705901643" -->
+			  <fieldset>
+				  <legend for="1705901643">Whatsapp phone number</legend>
+				  <div class="form-group">
+					  <input id="31311037" type="text" name="entry.31311037" class="form-control" required>
+				  </div>
+			  </fieldset>
+		  
+			  <input type="hidden" name="fvv" value="1">
+			  <input type="hidden" name="fbzx" value="7604404826722214579">
+			  <!--
+				  CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+				  This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+				  Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+				  We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+			  -->
+			  <input type="hidden" name="pageHistory" value="0">
+		  
+			  <input class="btn btn-primary" type="submit" value="Submit">
+		  </form>
+		  
+		  
+				<!-- <form name="contact-form" id="contact-form" class="needs-validation" novalidate >
 					<div class="modal-header">
 						<h5 class="modal-title"><p>Ask a life question with Prasna Marga - Vedic Astrology.</p></h5>
 					</div>
@@ -239,12 +356,12 @@ Regards
 						<div class="tooltip">Valid.</div>
 						<div class="valid-tooltip">Please fill out this field.</div>
 					</div>
-					<!-- <div class="form-row">
+					 <div class="form-row">
 						<label for="waNo" class="form-label">Whatsapp number</label>
 						<input type="text" required class="form-control form-control-lg" id="waNo" aria-describedby="waNo" placeholder="Enter your Whatsapp number, like 17272912606 not "> <strike>+1 (727) 2912606 </strike>
 						<div class="tooltip">Valid.</div>
 						<div class="valid-tooltip">Please fill out this field.</div>
-					</div> -->
+					</div> 
 					
 					<div class="form-row">
 						<label for="assigneeEmail" class="form-label">Email address</label>
@@ -252,14 +369,13 @@ Regards
 						<div class="tooltip">Valid.</div>
 						<div class="valid-tooltip">Please fill out this field.</div>
 					</div> 
-						<!-- <p>Please check your email, for information and analysis.</p>-->
+						 <p>Please check your email, for information and analysis.</p>
 				</div>
                 <div class="modal-footer">
                     <button type="submit" class="submit btn btn-primary" 
                             data-bs-dismiss="modal">Submit</button>
                 </div>
-<!-- 				<p id="end_url"></p> -->
-				  </form>
+				  </form> -->
             </div>
         </div>
     </div>
