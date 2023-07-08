@@ -167,18 +167,18 @@ width: 100%; /* Could be more or less, depending on screen size */
 		  $(".modal:visible").each(alignModal);
 	  });
 	  
-	  if(Cookies.get('vedic') != 'yes'){ 
+	  if(Cookies.get('vedic') != 'yes' || Cookies.get('vedic') == null){ 
 		  $('#myModal1').modal({backdrop: 'static', keyboard: false}, 'show');
 	  }
-	  if(Cookies.get('vedic') == null) {
-		  Cookies.set('vedic', 'yes', { expires: 1, path: '' });
-		  $("#myModal").modal('hide');
+		if(Cookies.get('vedic') != null) {
+		  
+		  $("#myModal1").modal('hide');
 	  }
-  });
 
-  $('#bootstrapForm').submit(function (event) {
-	  event.preventDefault();
-	  
+	  $('#bootstrapForm').submit(function (event) {
+	  Cookies.set('vedic', 'yes', { expires: 1, path: '' })
+	  //$("#myModal1").modal('hide')
+	  //event.preventDefault();
 	  var extraData = {}
 	  $('#bootstrapForm').ajaxSubmit({
 		  data: extraData,
@@ -194,7 +194,10 @@ width: 100%; /* Could be more or less, depending on screen size */
 			  alert("SS");
 		  }
 	  })
-  })
+  });
+  });
+
+  
 </script>
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
