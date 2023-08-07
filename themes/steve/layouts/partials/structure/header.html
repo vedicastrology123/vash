@@ -181,15 +181,11 @@ width: 100%; /* Could be more or less, depending on screen size */
 
 	  $('#bootstrapForm').submit(function (event) {
 	  Cookies.set('vedic', 'yes', { expires: 3, path: '' })
-	  //$("#myModal1").modal('hide')
-	  //event.preventDefault();
 	  var extraData = {}
 	  $('#bootstrapForm').ajaxSubmit({
 		  data: extraData,
 		  dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
 		  error: function () {
-			  // Submit of form should be successful but JSONP callback will fail because Google Forms
-			  // does not support it, so this is handled as a failure.
 			  //alert('Form Submitted. Thanks.')
 			  // You can also redirect the user to a custom thank-you page:
 			  // window.location = 'http://www.mydomain.com/thankyoupage.html'
@@ -204,98 +200,6 @@ width: 100%; /* Could be more or less, depending on screen size */
   
 </script>
 
-    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('RaBFqdrlRbOpMBOf2');
-        })();
-    </script> -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script> -->
-
-	<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-  <!-- <script>
-    $(document).ready(function() {
-		// Centering the modal vertically 
-		function alignModal() {
-			var modalDialog = $(this).find(".modal-dialog");
-			modalDialog.css("margin-top", Math.max(0, 
-			($(window).height() - modalDialog.height()) / 2));
-		}
-		$(".modal").on("shown.bs.modal", alignModal);
-
-		// Resizing the modal according the screen size 
-		$(window).on("resize", function() {
-			$(".modal:visible").each(alignModal);
-		}); 
-		
-		 $("#contact-form").validate({
-			rules: {
-				name : {
-				required: true,
-				minlength: "Name should be at least 3 characters"
-				},
-				assigneeEmail: {
-				required: true,
-				email: "The email should be in the format: abc@domain.tld"
-				}
-			}
-		});
-		
-		if(Cookies.get('vedic') != 'yes'){ 
-			$('#myModal').modal({backdrop: 'static', keyboard: false}, 'show');
-		}
-        // Close modal on button click
-		$('#contact-form').submit(function() {
-			const name = document.querySelector('#name');
-			const assigneEmail = document.querySelector('#assigneeEmail');
-			const number = "918610386346"; //document.querySelector('#waNo');
-			const msg = "Hello%20Steve,%0AI%20would%20like%20to%20avail%20of%20this%20free%20Prasna%20 Marga%20(Vedic%20Astrology),%20service.%0APlease%20send%20me%20the%20details,%20to%20my%20email%20"+ assigneEmail.value +".%0ARegards%0A" + name.value;
-
-			event.preventDefault();
-			
-			var templateParams = {
-				name: name.value,
-				email: assigneEmail.value
-			};
-			if(Cookies.get('vedic') == null) {
-				if ( name.value != "" && assigneEmail.value != "" ) {
-					Cookies.set('vedic', 'yes', { expires: 1, path: '' });
-let url = "https://wa.me/";
-let end_url = url + number + "?text=" + msg;
-var win = window.open(end_url, '_blank'); 
-
-					/*emailjs.send('service_fd7o67k', 'template_k27zs5n', templateParams, 'RaBFqdrlRbOpMBOf2')
-						.then(function() {
-							console.log('SUCCESS!');
-						}, function(error) {
-							console.log('FAILED...', error);
-					}); 
- const msg = "Hello Steve,
-I would like to avail of this free Prasna  Marga (Vedic Astrology), service.
-Please send me the details, to my email "+ assigneEmail.value +".
-Regards
-" + name.value;
-						 Email.send({
-							Host: "smtp.elasticemail.com",
-							Username : "vedicastrology123@gmail.com",
-							Password : "D7A675F5BABD2E72EDD63050EFD14D8DD39A",
-							To : 'taj7wow@gmail.com',
-							From : 'vedicastrology123@gmail.com', // put a real email address that is verified
-							Subject : "Prasna Marga (Vedic Astrology) by Steve Hora",
-							Body : "msg"
-							}).then(
-								message => alert("mail sent successfully")
-							);
-					 $("#myModal").modal('hide');
-				}
-			}
-			else {
-			;
-			}
-        }); 
-	 });
-</script>-->
 <style>
 	.div-img{
     justify-content: center;
