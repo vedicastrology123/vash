@@ -162,6 +162,10 @@ width: 100%; /* Could be more or less, depending on screen size */
 	  }
 	  $(".modal").on("shown.bs.modal", alignModal);
 
+	$('#cancel').on('click', function() {
+		$("#myModal1").modal('hide');
+    });
+	
 	  // Resizing the modal according the screen size 
 	  $(window).on("resize", function() {
 		  $(".modal:visible").each(alignModal);
@@ -324,9 +328,6 @@ img:hover{
 				target="_self"
 				id="bootstrapForm"
 				method="POST">
-			  <!-- <fieldset>
-				  <h2>Prasna Marga (Vedic Astrology)<br><small>Current decision or situation question in life can be asked.</small></h2>
-			  </fieldset></br> -->
 			  <fieldset>
 				<center><h3>Birth Chart Prediction (Vedic Astrology)</center></h3>
 			  </fieldset></br>
@@ -370,42 +371,11 @@ img:hover{
 				  We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
 			  -->
 			  <input type="hidden" name="pageHistory" value="0">
-		  
+			  <span>
 			  <input class="btn btn-primary" type="submit" value="Submit">
+			  <input class="btn btn-primary" type="submit" id="cancel" value="Cancel">
+			  </span>
 		  </form>
-		  
-		  
-				<!-- <form name="contact-form" id="contact-form" class="needs-validation" novalidate >
-					<div class="modal-header">
-						<h5 class="modal-title"><p>Ask a life question with Prasna Marga - Vedic Astrology.</p></h5>
-					</div>
-					<div class="modal-body">
-					<div class="form-row">
-						<label for="name" class="form-label">Name</label>
-						<input type="text" required class="form-control form-control-lg" id="name" aria-describedby="nameHelp" placeholder="Enter your Name">
-						<div class="tooltip">Valid.</div>
-						<div class="valid-tooltip">Please fill out this field.</div>
-					</div>
-					 <div class="form-row">
-						<label for="waNo" class="form-label">Whatsapp number</label>
-						<input type="text" required class="form-control form-control-lg" id="waNo" aria-describedby="waNo" placeholder="Enter your Whatsapp number, like 17272912606 not "> <strike>+1 (727) 2912606 </strike>
-						<div class="tooltip">Valid.</div>
-						<div class="valid-tooltip">Please fill out this field.</div>
-					</div> 
-					
-					<div class="form-row">
-						<label for="assigneeEmail" class="form-label">Email address</label>
-						<input type="email" required class="form-control form-control-lg" id="assigneeEmail" aria-describedby="emailHelp" placeholder="Enter your email">
-						<div class="tooltip">Valid.</div>
-						<div class="valid-tooltip">Please fill out this field.</div>
-					</div> 
-						 <p>Please check your email, for information and analysis.</p>
-				</div>
-                <div class="modal-footer">
-                    <button type="submit" class="submit btn btn-primary" 
-                            data-bs-dismiss="modal">Submit</button>
-                </div>
-				  </form> -->
             </div>
         </div>
     </div>
