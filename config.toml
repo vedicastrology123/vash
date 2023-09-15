@@ -32,7 +32,7 @@ summaryLength = 24
     label = "comment" # Label applied to issue by utteranc.es bot
     theme = "light" # What theme to use
     reactions_enabled = 0
-    #
+
 
     
 # Define the default author
