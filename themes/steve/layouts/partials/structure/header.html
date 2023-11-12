@@ -171,11 +171,11 @@ width: 100%; /* Could be more or less, depending on screen size */
 
 	$('#cancel').on('click', function() {
 		$("#myModal1").modal('hide');
-		if (window.confirm('For free prediction eligibility, Call me on whatsapp 918610386346 or click Ok, Cancel to Stay here.'))
+		/*if (window.confirm('For free prediction eligibility, Call me on whatsapp 918610386346 or click Ok, Cancel to Stay here.'))
 			{
 			window.open('https://wa.me/918610386346?text=Hi Steve, I request you, for an astrological consultation of my Birth Chart, if my life question is eligible for free prediction.', '_blank');
-			};
-		//alert(' );
+			};*/
+		alert("Use Submit for Horoscope predictions");
     });
 	
 	  // Resizing the modal according the screen size 
@@ -186,13 +186,13 @@ width: 100%; /* Could be more or less, depending on screen size */
 	  if(Cookies.get('vedic') != 'yes' || Cookies.get('vedic') == null){ 
 		  $('#myModal1').modal({backdrop: 'static', keyboard: false}, 'show');
 	  }
-		if(Cookies.get('vedic') != null) {
+	 else if(Cookies.get('vedic') != null || Cookies.get('vedic') == 'yes') {
 		  
 		  $("#myModal1").modal('hide');
 	  }
 
 	  $('#bootstrapForm').submit(function (event) {
-	  Cookies.set('vedic', 'yes', { expires: 3, path: '' })
+	  Cookies.set('vedic', 'yes', { expires: 1, path: '' })
 	  var extraData = {}
 	  $('#bootstrapForm').ajaxSubmit({
 		  data: extraData,
@@ -249,9 +249,11 @@ img:hover{
 				method="POST">
 			  <fieldset>
 				<center><h3>Birth Chart Prediction (Vedic Astrology)</center></h3>
+				Submit below details, Check your email, for further info.
 			  </fieldset></br>
 			  <!--<div class="div-img">
 			  <center>
+				<p>After ssubmitting the below details, Check your email, for further information.</p>
 				<a href="https://wa.me/918610386346?text=Hi Steve, Would like to do an astrological consultation" target="_blank" rel="noopener noreferrer"><img src="/images/WhatsAppButtonGreenSmall.svg" title="Steve Hora,Vedic Astrologer" alt="Steve Hora,Vedic Astrologer" style="width:250px;height:50px;"></a>
 			 </center>
 			</div>-->
