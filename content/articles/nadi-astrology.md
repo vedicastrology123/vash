@@ -4,7 +4,7 @@ descslug: "Nadi Palm Leaf Astrology"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/quu1.jpg
 author: Steve Hora
-description : "Tamil Nadi Palm Leaf"
+description : "By Steve Hora"
 type: "featured"
 categories: 
   - "Vedic Astrology"
