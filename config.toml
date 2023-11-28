@@ -3,7 +3,7 @@
 baseURL = "https://stevehora.com"
 
 languageCode = "en-us"
-title = "Free Vedic Astrology Prediction - Free Horoscope"
+title = "Free Vedic Astrology - Free Horoscope"
 theme="steve"
 paginate = 5
 canonifyurls = true
