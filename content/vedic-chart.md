@@ -15,7 +15,6 @@ path:
   - "https://stevehora.com/calculate-your-vedic-astrology-chart/"
 keywords:
   - "Vedic Astrology Birth Chart"
-  - "Free Predictions"
   - "Free Birth Chart"
   - "Love Compatibility"
   - "Marriage Compatibility"
