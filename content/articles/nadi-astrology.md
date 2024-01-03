@@ -1,6 +1,6 @@
 ---
 title: "Nadi Astrology"
-descslug: "Nadi Palm Leaf Astrology"
+descslug: "Nadi Astrology"
 date: 2020-04-07T12:52:36+06:00
 image: images/articles/quu1.jpg
 author: Steve Hora
