@@ -22,7 +22,7 @@ news_keywords:
   
 ---
 
-Reach us at  **https://stevehora.substack.com/**.
+Reach us at  **https://stevehora.com/**.
 
 ### Vedic Astrology Information
 
